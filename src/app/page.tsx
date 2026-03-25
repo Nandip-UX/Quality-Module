@@ -56,10 +56,10 @@ function Header({ setMobileOpen }: { setMobileOpen: (v: boolean) => void }) {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
-          <div id="nav-brand-icon" style={{ opacity: 0, width: 32, height: 32, transition: "opacity 0.2s ease" }}>
-            <Image src="/loader-icon.png" alt="QualityModule" width={32} height={32} className="w-8 h-8 object-contain" />
+          <div id="nav-brand-icon" style={{ opacity: 0, width: 44, height: 44, transition: "opacity 0.2s ease", flexShrink: 0 }}>
+            <Image src="/loader-icon.png" alt="QualityModule" width={44} height={44} className="w-full h-full object-contain" />
           </div>
-          <span className="font-display font-bold text-lg tracking-tight text-dark">
+          <span className="font-display font-bold text-xl tracking-tight text-dark">
             Quality<span className="text-primary">Module</span>
           </span>
         </a>

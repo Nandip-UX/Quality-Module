@@ -7,8 +7,8 @@ export default function PageLoader() {
   const [phase, setPhase] = useState<"loading" | "flying" | "done">("loading");
   const [iconStyle, setIconStyle] = useState<React.CSSProperties>({
     position: "fixed",
-    width: 110,
-    height: 110,
+    width: 120,
+    height: 120,
     zIndex: 9999,
     pointerEvents: "none",
     opacity: 0,
@@ -19,8 +19,8 @@ export default function PageLoader() {
     // Position icon at center once we have window dimensions
     setIconStyle(s => ({
       ...s,
-      left: window.innerWidth / 2 - 55,
-      top: window.innerHeight / 2 - 55,
+      left: window.innerWidth / 2 - 60,
+      top: window.innerHeight / 2 - 60,
       opacity: 1,
     }));
 
