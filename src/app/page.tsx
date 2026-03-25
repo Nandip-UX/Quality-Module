@@ -55,7 +55,7 @@ function Header({ setMobileOpen }: { setMobileOpen: (v: boolean) => void }) {
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-1.5">
+        <a href="#" className="flex items-center gap-1">
           <div id="nav-brand-icon" style={{ opacity: 0, width: 44, height: 44, transition: "opacity 0.2s ease", flexShrink: 0 }}>
             <Image src="/loader-icon.png" alt="QualityModule" width={44} height={44} className="w-full h-full object-contain" />
           </div>
