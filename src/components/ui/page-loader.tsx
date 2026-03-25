@@ -66,32 +66,19 @@ export default function PageLoader() {
             }}
           />
 
-          {/* Icon + brand */}
+          {/* Floating icon */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-            className="relative flex flex-col items-center gap-6"
+            animate={{ opacity: 1, y: [0, -8, 0] }}
+            transition={{ opacity: { duration: 0.6, ease: "easeOut", delay: 0.1 }, y: { duration: 2.8, repeat: Infinity, ease: "easeInOut", delay: 0.1 } }}
           >
-            {/* Floating icon */}
-            <motion.div
-              animate={{ y: [0, -8, 0] }}
-              transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <Image
-                src="/loader-icon.png"
-                alt="QualityModule"
-                width={100}
-                height={100}
-                priority
-              />
-            </motion.div>
-
-            {/* Brand text */}
-            <div className="text-center">
-              <p className="text-stone-800 font-bold text-xl tracking-tight">QualityModule</p>
-              <p className="text-stone-400 text-xs mt-1 tracking-widest uppercase">by VisiLean</p>
-            </div>
+            <Image
+              src="/loader-icon.png"
+              alt="QualityModule"
+              width={110}
+              height={110}
+              priority
+            />
           </motion.div>
 
           {/* Progress bar — bottom */}
