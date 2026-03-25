@@ -48,20 +48,17 @@ function Header({ setMobileOpen }: { setMobileOpen: (v: boolean) => void }) {
 
   return (
     <motion.header
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.4, delay: 0.2 }}
       className="border-b border-stone-200/60"
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              <rect x="3" y="3" width="18" height="18" rx="4" stroke="white" strokeWidth="2" />
-            </svg>
-          </div>
+          <motion.div layoutId="brand-icon" style={{ width: 32, height: 32 }} transition={{ type: "spring", stiffness: 180, damping: 22 }}>
+            <Image src="/loader-icon.png" alt="QualityModule" width={32} height={32} className="w-8 h-8 object-contain" />
+          </motion.div>
           <span className="font-display font-bold text-lg tracking-tight text-dark">
             Quality<span className="text-primary">Module</span>
           </span>

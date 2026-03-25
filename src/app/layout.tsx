@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import PageLoader from "@/components/ui/page-loader";
+import LayoutGroupWrapper from "@/components/ui/layout-group-wrapper";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,8 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-white text-stone-900 antialiased font-[family-name:var(--font-inter)]">
-        <PageLoader />
-        {children}
+        <LayoutGroupWrapper>
+          <PageLoader />
+          {children}
+        </LayoutGroupWrapper>
       </body>
     </html>
   );

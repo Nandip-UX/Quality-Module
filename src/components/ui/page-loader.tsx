@@ -8,7 +8,7 @@ export default function PageLoader() {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const MIN_DURATION = 2600; // minimum 2.6s on screen
+    const MIN_DURATION = 2600;
     const startedAt = Date.now();
 
     let current = 0;
@@ -22,7 +22,6 @@ export default function PageLoader() {
       clearInterval(tick);
       const elapsed = Date.now() - startedAt;
       const remaining = Math.max(0, MIN_DURATION - elapsed);
-
       setTimeout(() => {
         setProgress(100);
         setTimeout(() => setVisible(false), 700);
@@ -45,10 +44,10 @@ export default function PageLoader() {
     <AnimatePresence>
       {visible && (
         <motion.div
-          key="loader"
+          key="loader-overlay"
           initial={{ opacity: 1 }}
-          exit={{ opacity: 0, scale: 1.02 }}
-          transition={{ duration: 0.9, ease: [0.4, 0, 0.2, 1] }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.7, ease: "easeInOut" }}
           className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-white"
           style={{
             backgroundImage: `
@@ -58,7 +57,7 @@ export default function PageLoader() {
             backgroundSize: "48px 48px",
           }}
         >
-          {/* Soft radial glow behind icon */}
+          {/* Soft radial glow */}
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
@@ -66,11 +65,17 @@ export default function PageLoader() {
             }}
           />
 
-          {/* Floating icon */}
+          {/* Icon — layoutId ties it to the nav logo */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: [0, -8, 0] }}
-            transition={{ opacity: { duration: 0.6, ease: "easeOut", delay: 0.1 }, y: { duration: 2.8, repeat: Infinity, ease: "easeInOut", delay: 0.1 } }}
+            layoutId="brand-icon"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1, y: [0, -8, 0] }}
+            transition={{
+              opacity: { duration: 0.4, ease: "easeOut" },
+              scale: { duration: 0.4, ease: "easeOut" },
+              y: { duration: 2.8, repeat: Infinity, ease: "easeInOut", delay: 0.4 },
+            }}
+            style={{ width: 110, height: 110 }}
           >
             <Image
               src="/loader-icon.png"
@@ -81,7 +86,7 @@ export default function PageLoader() {
             />
           </motion.div>
 
-          {/* Progress bar — bottom */}
+          {/* Progress bar */}
           <div className="absolute bottom-0 left-0 w-full h-[3px] bg-stone-100">
             <motion.div
               className="h-full bg-gradient-to-r from-primary-dark via-primary to-primary-light rounded-full"
