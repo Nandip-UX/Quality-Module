@@ -19,6 +19,7 @@ import { Textarea } from "@/components/ui/textarea";
 import ShinyButton from "@/components/ui/shiny-button";
 import { PhoneInput } from "@/components/ui/phone-input";
 import { QualityModuleFooter } from "@/components/ui/flickering-footer";
+import { FeaturesSection } from "@/components/ui/features-section";
 import SmoothScrollHero from "@/components/ui/smooth-scroll-hero";
 import {
   BlurReveal,
@@ -40,6 +41,7 @@ import {
 const navLinks = [
   { href: "#problem", label: "Problem" },
   { href: "#how-it-works", label: "How It Works" },
+  { href: "#features", label: "Features" },
   { href: "#impact", label: "Impact" },
   { href: "#faq", label: "FAQ" },
 ];
@@ -923,6 +925,7 @@ export default function Home() {
         </div>
       </section>
       <HowItWorksTimeline />
+      <FeaturesSection />
       <ProblemSection />
       <ImpactSection />
       <FAQSection />
