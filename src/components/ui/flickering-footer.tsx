@@ -2,6 +2,7 @@
 
 import * as Color from "color-bits";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Mail } from "lucide-react";
@@ -301,13 +302,8 @@ export const QualityModuleFooter = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between px-6 py-14 gap-10">
         {/* Left: brand + description + social */}
         <div className="flex flex-col items-start max-w-xs shrink-0">
-          <div className="flex items-center gap-2 mb-4">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center flex-shrink-0">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                <rect x="3" y="3" width="18" height="18" rx="4" stroke="white" strokeWidth="2" />
-              </svg>
-            </div>
+          <div className="flex items-center gap-1 mb-4">
+            <Image src="/loader-icon.png" alt="QualityModule" width={44} height={44} className="w-11 h-11 object-contain flex-shrink-0" />
             <span className="font-display font-bold text-xl text-dark">
               Quality<span className="text-primary">Module</span>
             </span>
