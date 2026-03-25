@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QualityModule — Landing Page
+
+Marketing landing page for **QualityModule**, an enterprise-grade digital checklist and inspection workflow platform built on top of VisiLean.
+
+## Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Deployment**: Netlify (via `@netlify/plugin-nextjs`)
+- **Language**: TypeScript
+
+## Highlights
+
+- Responsive design — mobile (iPhone 14 Pro Max mockup), tablet (iPad Pro mockup), desktop (monitor mockup)
+- Scroll-driven 3D device animation in hero section
+- Infinite logo marquee trust bar
+- Animated scroll timeline (How It Works)
+- Feature bento grid
+- Impact stats section
+- FAQ accordion (single-open)
+- Contact form with custom inline validation
+- Mobile slide-in drawer navigation with backdrop blur
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deployed on Netlify. Configuration in `netlify.toml`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+quality-landing/
+├── public/              # Static assets (logos, dashboard images)
+├── src/
+│   ├── app/
+│   │   ├── page.tsx     # Main landing page
+│   │   ├── layout.tsx   # Root layout
+│   │   └── globals.css  # Global styles & animations
+│   ├── components/
+│   │   └── ui/          # Reusable UI components
+│   └── lib/             # Utility functions
+├── netlify.toml
+└── next.config.ts
+```
 
-## Deploy on Vercel
+## Powered By
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[VisiLean](https://visilean.com) — The Construction Management Platform
