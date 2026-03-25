@@ -682,7 +682,7 @@ function FinalCTA() {
                 value: "1307, Shilp Epitome, Rajpath Rangoli Road, Behind Rajpath Club, Near Infostretch, Bodakdev, Ahmedabad, India. 380054",
                 phone: "+91 9099 777 001",
                 email: "info@visilean.com",
-                bgImage: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
+                bgImage: "/india-red-fort.jpg",
               },
             ]}
           >
