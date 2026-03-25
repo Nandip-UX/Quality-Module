@@ -63,11 +63,17 @@ export default function PageLoader() {
               transition: "left 0.65s cubic-bezier(0.4,0,0.2,1), top 0.65s cubic-bezier(0.4,0,0.2,1), width 0.65s cubic-bezier(0.4,0,0.2,1), height 0.65s cubic-bezier(0.4,0,0.2,1)",
             });
 
-            // After fly completes, reveal real nav logo and remove loader
+            // After fly completes: show nav logo and crossfade flying icon out
             setTimeout(() => {
               const navEl2 = document.getElementById("nav-brand-icon");
               if (navEl2) navEl2.style.opacity = "1";
-              setPhase("done");
+              // Fade flying icon out while nav logo fades in — no blink gap
+              setIconStyle(s => ({
+                ...s,
+                opacity: 0,
+                transition: "opacity 0.2s ease",
+              }));
+              setTimeout(() => setPhase("done"), 220);
             }, 700);
           } else {
             setPhase("done");
