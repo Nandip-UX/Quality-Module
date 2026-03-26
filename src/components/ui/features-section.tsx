@@ -9,8 +9,8 @@ function VisualPDF() {
     <div className="relative mt-4 -mx-6">
       <div className="absolute inset-x-0 top-0 h-10 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none" />
       <Image
-        src="/PDF.png"
-        alt="PDF Audit Report preview"
+        src="/dashboard.png"
+        alt="QualityModule dashboard preview"
         width={900}
         height={600}
         className="w-full h-auto object-cover object-top"
