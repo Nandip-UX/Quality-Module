@@ -1,24 +1,22 @@
 "use client";
+import Image from "next/image";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { FileText, AlertOctagon, GitBranch, LayoutTemplate } from "lucide-react";
 import { useLanguage } from "@/i18n/context";
 
 function VisualPDF() {
-  const { t } = useLanguage();
   return (
-    <div className="relative mt-6 h-36 overflow-hidden pl-6">
-      <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent z-10" />
-      <div className="flex flex-col gap-2">
-        {t.features.visual.pdfLabels.map((label, i) => (
-          <div key={i} className="flex items-center gap-3 rounded-lg border border-stone-200 bg-stone-50 px-4 py-2.5">
-            <div className="w-6 h-6 rounded bg-primary/10 flex items-center justify-center flex-shrink-0">
-              <FileText className="w-3 h-3 text-primary" />
-            </div>
-            <span className="text-xs text-stone-600 font-medium">{label}</span>
-            <span className="ml-auto text-[10px] font-semibold text-primary bg-primary/10 px-2 py-0.5 rounded-full">PDF</span>
-          </div>
-        ))}
-      </div>
+    <div className="relative mt-4 -mx-6">
+      {/* Fade from white at the top so it blends into the card */}
+      <div className="absolute inset-x-0 top-0 h-10 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none" />
+      <Image
+        src="/PDF.png"
+        alt="PDF Audit Report preview"
+        width={900}
+        height={600}
+        className="w-full h-auto object-cover object-top"
+        draggable={false}
+      />
     </div>
   );
 }
@@ -112,7 +110,7 @@ export function FeaturesSection() {
               </div>
               <p className="text-stone-500 text-sm max-w-sm">{features[0].description}</p>
             </CardHeader>
-            <CardContent className="px-6 pb-0">
+            <CardContent className="px-6 pb-0 overflow-hidden">
               <VisualPDF />
             </CardContent>
           </Card>
