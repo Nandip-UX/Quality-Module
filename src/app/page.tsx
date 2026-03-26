@@ -34,19 +34,26 @@ import {
   GlowCard,
   Typewriter,
 } from "@/components/animations";
+import { useLanguage } from "@/i18n/context";
+import { LanguageSwitcher } from "@/components/ui/language-switcher";
 
 /* ════════════════════════════════════════════════════════
    SECTION 1 — HEADER / NAV
    ════════════════════════════════════════════════════════ */
-const navLinks = [
-  { href: "#problem", label: "Problem" },
-  { href: "#how-it-works", label: "How It Works" },
-  { href: "#features", label: "Features" },
-  { href: "#impact", label: "Impact" },
-  { href: "#faq", label: "FAQ" },
-];
+function useNavLinks() {
+  const { t } = useLanguage();
+  return [
+    { href: "#problem",     label: t.nav.problem },
+    { href: "#how-it-works", label: t.nav.howItWorks },
+    { href: "#features",    label: t.nav.features },
+    { href: "#impact",      label: t.nav.impact },
+    { href: "#faq",         label: t.nav.faq },
+  ];
+}
 
 function Header({ setMobileOpen }: { setMobileOpen: (v: boolean) => void }) {
+  const { t } = useLanguage();
+  const navLinks = useNavLinks();
 
   return (
     <motion.header
@@ -74,9 +81,10 @@ function Header({ setMobileOpen }: { setMobileOpen: (v: boolean) => void }) {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden md:flex items-center">
+        <div className="hidden md:flex items-center gap-2">
+          <LanguageSwitcher variant="desktop" />
           <a href="#demo">
-            <ShinyButton className="h-10 px-6 text-sm">Request Demo</ShinyButton>
+            <ShinyButton className="h-10 px-6 text-sm">{t.nav.requestDemo}</ShinyButton>
           </a>
         </div>
 
@@ -97,6 +105,9 @@ function Header({ setMobileOpen }: { setMobileOpen: (v: boolean) => void }) {
 
 /* Drawer + backdrop — rendered outside the transformed nav wrapper in Home */
 function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const { t } = useLanguage();
+  const navLinks = useNavLinks();
+
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
@@ -168,9 +179,10 @@ function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void })
             </nav>
 
             {/* CTA at bottom */}
-            <div className="px-6 pb-8 pt-4 border-t border-stone-100">
+            <div className="px-6 pb-8 pt-4 border-t border-stone-100 flex flex-col gap-3">
+              <LanguageSwitcher variant="mobile" />
               <a href="#demo" onClick={onClose}>
-                <ShinyButton className="w-full text-sm">Request Demo</ShinyButton>
+                <ShinyButton className="w-full text-sm">{t.nav.requestDemo}</ShinyButton>
               </a>
             </div>
           </motion.div>
@@ -184,6 +196,8 @@ function MobileDrawer({ open, onClose }: { open: boolean; onClose: () => void })
    SECTION 2 — HERO (Container Scroll Animation)
    ════════════════════════════════════════════════════════ */
 function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative overflow-hidden pt-24 md:pt-28">
       {/* Background mesh orbs */}
@@ -212,16 +226,16 @@ function Hero() {
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
                 </span>
                 <span className="text-sm font-body font-semibold text-primary-dark">
-                  Enterprise Quality Platform
+                  {t.hero.badge}
                 </span>
               </motion.div>
 
               {/* Main headline */}
               <h1 className="font-display font-extrabold text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[0.95] mb-6 text-stone-900">
-                <CharStagger text="Zero Unchecked" delay={0.4} />
+                <CharStagger text={t.hero.headline1} delay={0.4} />
                 <br />
                 <span className="text-primary">
-                  <CharStagger text="Inspections." delay={0.9} />
+                  <CharStagger text={t.hero.headline2} delay={0.9} />
                 </span>
               </h1>
 
@@ -229,15 +243,9 @@ function Hero() {
               <div className="max-w-2xl mx-auto mb-4">
                 <BlurReveal delay={1.2}>
                   <p className="font-body text-lg md:text-xl text-stone-600 leading-relaxed">
-                    Replace paper checklists with a structured, multi-role digital
-                    approval workflow. Built for{" "}
+                    {t.hero.subtext}{" "}
                     <Typewriter
-                      words={[
-                        "construction teams.",
-                        "manufacturing teams.",
-                        "QC managers.",
-                        "field inspectors.",
-                      ]}
+                      words={t.hero.typewriter}
                       className="text-primary font-semibold"
                     />
                   </p>
@@ -249,7 +257,7 @@ function Hero() {
                 <div className="flex items-center justify-center mt-10">
                   <a href="#demo">
                     <ShinyButton className="h-12 px-10 text-base">
-                      Request a Demo
+                      {t.hero.cta}
                     </ShinyButton>
                   </a>
                 </div>
@@ -335,50 +343,26 @@ function TrustBar() {
    SECTION 4 — PROBLEM (Grid Feature Cards)
    ════════════════════════════════════════════════════════ */
 function ProblemSection() {
-  const problems = [
-    {
-      title: "Paper Checklists",
-      icon: ClipboardCheck,
-      description: "No timestamps, no ownership, no traceability. Evidence vanishes the moment paper gets filed away.",
-      stat: "73%",
-      statLabel: "of field errors go unrecorded",
-    },
-    {
-      title: "Construction Failures",
-      icon: AlertTriangle,
-      description: "Unverified reinforcement, alignment, or material leads to legal risk — or structural collapse.",
-      stat: "2.4x",
-      statLabel: "higher risk without digital QC",
-    },
-    {
-      title: "Manufacturing Defects",
-      icon: Factory,
-      description: "Batch failure with no audit trail equals zero accountability. Recalls cost millions.",
-      stat: "$4.2M",
-      statLabel: "avg. cost per quality failure",
-    },
-    {
-      title: "Reactive Quality",
-      icon: Clock,
-      description: "Problems discovered after the fact instead of prevented at the gate. By then, the damage is done.",
-      stat: "5x",
-      statLabel: "more expensive to fix later",
-    },
-  ];
+  const { t } = useLanguage();
+
+  const problems = t.problem.items.map((item, i) => ({
+    ...item,
+    icon: [ClipboardCheck, AlertTriangle, Factory, Clock][i],
+  }));
 
   return (
     <section id="problem" className="py-24 md:py-32">
       <div className="mx-auto w-full max-w-6xl space-y-8 px-4">
         <AnimatedContainer className="mx-auto max-w-3xl text-center">
           <span className="inline-block text-sm font-bold uppercase tracking-widest text-primary mb-4">
-            The Problem
+            {t.problem.label}
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-balance md:text-4xl lg:text-5xl xl:font-extrabold text-stone-900">
-            Quality failures cost{" "}
-            <span className="text-primary">more than money.</span>
+            {t.problem.heading}{" "}
+            <span className="text-primary">{t.problem.headingHighlight}</span>
           </h2>
           <p className="text-stone-500 mt-4 text-sm tracking-wide text-balance md:text-base">
-            Every unchecked inspection is a liability waiting to happen.
+            {t.problem.subtext}
           </p>
         </AnimatedContainer>
 
@@ -421,27 +405,25 @@ function AnimatedContainer({
    SECTION 5+6 — HOW IT WORKS + ROLES (Timeline)
    ════════════════════════════════════════════════════════ */
 function HowItWorksTimeline() {
+  const { t } = useLanguage();
+
   const shadowClass =
     "shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]";
 
   const data = [
     {
-      title: "Creator",
+      title: t.timeline.creator.title,
       content: (
         <div>
           <p className="text-stone-300 text-xs md:text-sm font-normal mb-4">
-            The <span className="text-primary-light font-semibold">Creator</span> builds the checklist, configures approval chains, assigns roles, and activates.
+            The <span className="text-primary-light font-semibold">{t.timeline.creator.roleLabel}</span> {t.timeline.creator.description}
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Build from scratch or templates
-            </div>
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Configure L1 → L2 → L3 approval chain
-            </div>
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Assign Fillers & Approvers, then activate
-            </div>
+            {t.timeline.creator.points.map((point, i) => (
+              <div key={i} className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
+                <span className="text-primary-light">&#10003;</span> {point}
+              </div>
+            ))}
           </div>
           <Image
             src="/Creator.png"
@@ -454,22 +436,18 @@ function HowItWorksTimeline() {
       ),
     },
     {
-      title: "Fill & Submit",
+      title: t.timeline.filler.title,
       content: (
         <div>
           <p className="text-stone-300 text-xs md:text-sm font-normal mb-4">
-            The <span className="text-primary-light font-semibold">Filler</span> opens assigned checklists, fills each item with evidence, and submits for approval.
+            The <span className="text-primary-light font-semibold">{t.timeline.filler.roleLabel}</span> {t.timeline.filler.description}
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Fill checklist items with photo, GPS & notes
-            </div>
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Track status: Draft, In Progress, Approved, Rejected
-            </div>
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Submit responses on web or mobile app
-            </div>
+            {t.timeline.filler.points.map((point, i) => (
+              <div key={i} className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
+                <span className="text-primary-light">&#10003;</span> {point}
+              </div>
+            ))}
           </div>
           <Image
             src="/Filler.png"
@@ -482,22 +460,18 @@ function HowItWorksTimeline() {
       ),
     },
     {
-      title: "Approve & Reject",
+      title: t.timeline.approver.title,
       content: (
         <div>
           <p className="text-stone-300 text-xs md:text-sm font-normal mb-4">
-            The <span className="text-primary-light font-semibold">Approver</span> reviews submissions, signs off or rejects with reason, and raises snags for issues.
+            The <span className="text-primary-light font-semibold">{t.timeline.approver.roleLabel}</span> {t.timeline.approver.description}
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Approve with signature or reject with notes
-            </div>
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Raise snags for minor issues without full rejection
-            </div>
-            <div className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
-              <span className="text-primary-light">&#10003;</span> Multi-level sign-off with timestamped audit trail
-            </div>
+            {t.timeline.approver.points.map((point, i) => (
+              <div key={i} className="flex gap-2 items-center text-stone-400 text-xs md:text-sm py-1">
+                <span className="text-primary-light">&#10003;</span> {point}
+              </div>
+            ))}
           </div>
           <Image
             src="/Approver.png"
@@ -557,11 +531,13 @@ function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
 }
 
 function ImpactSection() {
+  const { t } = useLanguage();
+
   const stats = [
-    { target: 85, suffix: "%", label: "Reduction in field errors", colors: ["#008344", "#00a856", "#00c853"], delay: 0.2 },
-    { target: 3, suffix: "x", label: "Faster inspection speed", colors: ["#00a856", "#008344", "#006633"], delay: 0.4 },
-    { target: 100, suffix: "%", label: "Action accountability", colors: ["#006633", "#00c853", "#008344"], delay: 0.6 },
-    { target: 0, suffix: "", label: "Untraced approvals", colors: ["#008344", "#006633", "#00a856"], delay: 0.8 },
+    { target: 85,  suffix: "%", label: t.impact.stats[0].label, colors: ["#008344", "#00a856", "#00c853"], delay: 0.2 },
+    { target: 3,   suffix: "x", label: t.impact.stats[1].label, colors: ["#00a856", "#008344", "#006633"], delay: 0.4 },
+    { target: 100, suffix: "%", label: t.impact.stats[2].label, colors: ["#006633", "#00c853", "#008344"], delay: 0.6 },
+    { target: 0,   suffix: "",  label: t.impact.stats[3].label, colors: ["#008344", "#006633", "#00a856"], delay: 0.8 },
   ];
 
   return (
@@ -576,11 +552,11 @@ function ImpactSection() {
         <div className="max-w-7xl mx-auto px-6 text-white w-full">
           <div className="text-center mb-16">
             <span className="inline-block font-body text-sm font-bold uppercase tracking-widest text-primary-light mb-4">
-              Measurable Impact
+              {t.impact.label}
             </span>
             <h2 className="font-display font-extrabold text-3xl md:text-4xl lg:text-5xl tracking-tight">
-              Numbers that{" "}
-              <span className="text-primary-light">speak.</span>
+              {t.impact.heading1}{" "}
+              <span className="text-primary-light">{t.impact.heading2}</span>
             </h2>
           </div>
 
@@ -632,17 +608,18 @@ function FieldError({ message }: { message?: string }) {
 }
 
 function FinalCTA() {
+  const { t } = useLanguage();
   const [fields, setFields] = React.useState({ name: "", email: "", phone: "", message: "" });
   const [errors, setErrors] = React.useState<Record<string, string>>({});
   const [submitted, setSubmitted] = React.useState(false);
 
   const validate = () => {
     const e: Record<string, string> = {};
-    if (!fields.name.trim()) e.name = "Name is required";
-    if (!fields.email.trim()) e.email = "Email is required";
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) e.email = "Enter a valid email address";
-    if (!fields.phone.trim()) e.phone = "Phone number is required";
-    if (!fields.message.trim()) e.message = "Message is required";
+    if (!fields.name.trim()) e.name = t.demo.form.nameRequired;
+    if (!fields.email.trim()) e.email = t.demo.form.emailRequired;
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) e.email = t.demo.form.emailInvalid;
+    if (!fields.phone.trim()) e.phone = t.demo.form.phoneRequired;
+    if (!fields.message.trim()) e.message = t.demo.form.messageRequired;
     return e;
   };
 
@@ -661,8 +638,8 @@ function FinalCTA() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScaleUp>
           <ContactCard
-            title="Get in touch"
-            description="Have questions about QualityModule? Need a demo for your team? Fill out the form and we'll get back to you within 1 business day. QualityModule is powered by VisiLean."
+            title={t.demo.title}
+            description={t.demo.description}
             contactInfo={[
               {
                 flag: "🇫🇮",
@@ -699,16 +676,16 @@ function FinalCTA() {
                     <path d="M5 13l4 4L19 7" stroke="#00a856" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
-                <p className="text-white font-semibold text-lg">Message sent!</p>
-                <p className="text-stone-400 text-sm">We'll get back to you within 1 business day.</p>
+                <p className="text-white font-semibold text-lg">{t.demo.success.title}</p>
+                <p className="text-stone-400 text-sm">{t.demo.success.text}</p>
               </motion.div>
             ) : (
               <form className="w-full space-y-4" noValidate onSubmit={handleSubmit}>
                 <div className="flex flex-col gap-1">
-                  <Label className="text-stone-300">Name <span className="text-red-400">*</span></Label>
+                  <Label className="text-stone-300">{t.demo.form.name} <span className="text-red-400">*</span></Label>
                   <Input
                     type="text"
-                    placeholder="Your name"
+                    placeholder={t.demo.form.namePlaceholder}
                     value={fields.name}
                     onChange={(e) => { setFields(f => ({ ...f, name: e.target.value })); setErrors(er => ({ ...er, name: "" })); }}
                     className={fieldClass("name")}
@@ -716,10 +693,10 @@ function FinalCTA() {
                   <FieldError message={errors.name} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <Label className="text-stone-300">Email <span className="text-red-400">*</span></Label>
+                  <Label className="text-stone-300">{t.demo.form.email} <span className="text-red-400">*</span></Label>
                   <Input
                     type="email"
-                    placeholder="you@company.com"
+                    placeholder={t.demo.form.emailPlaceholder}
                     value={fields.email}
                     onChange={(e) => { setFields(f => ({ ...f, email: e.target.value })); setErrors(er => ({ ...er, email: "" })); }}
                     className={fieldClass("email")}
@@ -727,9 +704,9 @@ function FinalCTA() {
                   <FieldError message={errors.email} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <Label className="text-stone-300">Phone <span className="text-red-400">*</span></Label>
+                  <Label className="text-stone-300">{t.demo.form.phone} <span className="text-red-400">*</span></Label>
                   <PhoneInput
-                    placeholder="00000 00000"
+                    placeholder={t.demo.form.phonePlaceholder}
                     value={fields.phone}
                     onChange={(e) => { setFields(f => ({ ...f, phone: (e.target as HTMLInputElement).value })); setErrors(er => ({ ...er, phone: "" })); }}
                     className={fieldClass("phone")}
@@ -737,9 +714,9 @@ function FinalCTA() {
                   <FieldError message={errors.phone} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <Label className="text-stone-300">Message <span className="text-red-400">*</span></Label>
+                  <Label className="text-stone-300">{t.demo.form.message} <span className="text-red-400">*</span></Label>
                   <Textarea
-                    placeholder="Tell us about your quality workflow needs..."
+                    placeholder={t.demo.form.messagePlaceholder}
                     value={fields.message}
                     onChange={(e) => { setFields(f => ({ ...f, message: e.target.value })); setErrors(er => ({ ...er, message: "" })); }}
                     className={fieldClass("message")}
@@ -747,7 +724,7 @@ function FinalCTA() {
                   <FieldError message={errors.message} />
                 </div>
                 <ShinyButton className="w-full" type="submit">
-                  Request a Demo
+                  {t.demo.form.submit}
                 </ShinyButton>
               </form>
             )}
@@ -761,87 +738,26 @@ function FinalCTA() {
 /* ════════════════════════════════════════════════════════
    SECTION 12 — FAQ (Tabbed by role)
    ════════════════════════════════════════════════════════ */
-const faqCategories: Record<string, string> = {
-  creator: "Creator",
-  filler: "Filler",
-  approver: "Approver",
-};
-
-const faqData: Record<string, { question: string; answer: string }[]> = {
-  creator: [
-    {
-      question: "What can a Creator do in QualityModule?",
-      answer:
-        "The Creator (QC Manager / Supervisor) builds checklists from scratch or templates, configures L1→L2→L3 approval chains, assigns Fillers and Approvers, sets trades and task tags, and activates the checklist — instantly notifying the assigned team.",
-    },
-    {
-      question: "Can we use our own checklist templates?",
-      answer:
-        "Absolutely. Build checklists from scratch or import your existing ones. Configure custom fields, trades, tasks, and approval chains to match your exact workflow. Templates can be reused across projects and sites.",
-    },
-    {
-      question: "How do I assign roles and approval levels?",
-      answer:
-        "During checklist creation, you select team members for the Filler and Approver roles. You configure up to 3 approval levels — each level must explicitly sign off before the checklist progresses to the next.",
-    },
-    {
-      question: "What industries is QualityModule designed for?",
-      answer:
-        "Primarily construction and manufacturing, but any industry with field inspections — infrastructure, energy, oil & gas, pharma — benefits from structured quality workflows.",
-    },
-  ],
-  filler: [
-    {
-      question: "What evidence is required for submissions?",
-      answer:
-        "Every submission mandates a photo, GPS location, and detailed notes. The system won't accept submissions without this evidence — zero exceptions. This ensures complete traceability for every checklist item.",
-    },
-    {
-      question: "Does QualityModule work offline on mobile?",
-      answer:
-        "Yes. The mobile app is designed for harsh field conditions with limited connectivity. You can capture evidence and fill checklists offline — everything syncs automatically when connection is restored.",
-    },
-    {
-      question: "Can multiple Fillers work on the same checklist?",
-      answer:
-        "Each checklist item is assigned to a single Filler for clear accountability. However, different items within the same checklist can be assigned to different team members based on their trade or task.",
-    },
-    {
-      question: "What happens after I submit a checklist?",
-      answer:
-        "Once submitted, the checklist moves to the approval queue. The assigned L1 Approver is notified instantly. You can track the approval status in real-time from your Filler dashboard.",
-    },
-  ],
-  approver: [
-    {
-      question: "How does the multi-level approval work?",
-      answer:
-        "You configure up to 3 approval levels (L1, L2, L3). Each level must explicitly approve or reject before the checklist progresses. Every action is timestamped with the approver's identity — building a complete audit trail.",
-    },
-    {
-      question: "What is the Snag system?",
-      answer:
-        "Approvers can raise Snags — minor issues that don't warrant full rejection. Each snag is tracked with a description, supporting media, and resolution status. Snags let you flag problems without blocking the entire workflow.",
-    },
-    {
-      question: "What's included in the PDF audit export?",
-      answer:
-        "Full checklist with all responses, the complete L1/L2/L3 approval chain with timestamps, rejection reasons, snag logs, and media references — a single document ready for clients and auditors.",
-    },
-    {
-      question: "How is QualityModule licensed?",
-      answer:
-        "We offer license-based enterprise pricing — not per-user SaaS. Contact our sales team for a custom quote based on your team size and deployment needs.",
-    },
-  ],
-};
-
 function FAQSection() {
+  const { t } = useLanguage();
+
+  const faqCategories: Record<string, string> = {
+    creator:  t.faq.categories.creator,
+    filler:   t.faq.categories.filler,
+    approver: t.faq.categories.approver,
+  };
+
+  const faqData: Record<string, { question: string; answer: string }[]> = {
+    creator:  t.faq.creator,
+    filler:   t.faq.filler,
+    approver: t.faq.approver,
+  };
+
   return (
     <div id="faq">
       <FAQ
-        title="Got questions?"
-        subtitle="FAQ"
+        title={t.faq.title}
+        subtitle={t.faq.subtitle}
         categories={faqCategories}
         faqData={faqData}
       />
@@ -860,6 +776,7 @@ function Footer() {
    PAGE ASSEMBLY
    ════════════════════════════════════════════════════════ */
 export default function Home() {
+  const { t } = useLanguage();
   const [showBanner, setShowBanner] = useState(true);
   const [navVisible, setNavVisible] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -893,14 +810,9 @@ export default function Home() {
               show={showBanner}
               onHide={() => setShowBanner(false)}
               icon={<FileText className="m-px h-4 w-4 text-green-800" />}
-              title={
-                <>
-                  <span className="font-semibold">PDF Audit Export</span> is now live
-                  — share your complete approval trail with one click.
-                </>
-              }
+              title={<>{t.banner.text}</>}
               action={{
-                label: "Book a Demo",
+                label: t.banner.cta,
                 onClick: () => {
                   document.getElementById("demo")?.scrollIntoView({ behavior: "smooth" });
                 },
@@ -917,7 +829,7 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <TextGradientScroll
-            text="Built for industries where a single missed check costs more than the entire project. QualityModule puts accountability at every step — not just at the end."
+            text={t.quote.text}
             type="letter"
             textOpacity="medium"
             className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-snug lg:leading-tight text-stone-900"

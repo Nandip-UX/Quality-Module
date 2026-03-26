@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "How It Works",
+    "features": "Features",
+    "impact": "Impact",
+    "faq": "FAQ",
+    "requestDemo": "Request Demo"
+  },
+  "banner": {
+    "text": "PDF Audit Export is now live — send clients a signed inspection report in one click.",
+    "cta": "Book a Demo"
+  },
+  "hero": {
+    "badge": "Built for Construction & Manufacturing",
+    "headline1": "Zero Unchecked",
+    "headline2": "Inspections.",
+    "subtext": "Mandatory evidence. Multi-level sign-off. Complete audit trail. Built for",
+    "typewriter": ["construction teams.", "manufacturing teams.", "QC managers.", "field inspectors."],
+    "cta": "Request a Demo"
+  },
+  "quote": {
+    "text": "In industries where one missed check can cost more than the entire project — accountability can't be an afterthought."
+  },
+  "problem": {
+    "label": "The Problem",
+    "heading": "Quality failures cost ",
+    "headingHighlight": "more than money.",
+    "subtext": "The cost isn't just financial — it's structural, legal, and reputational.",
+    "items": [
+      { "title": "Paper Checklists", "description": "No timestamps. No ownership. No traceability. Evidence disappears the moment it's filed.", "stat": "73%", "statLabel": "of field errors go unrecorded" },
+      { "title": "Construction Failures", "description": "Unverified materials or alignment create legal exposure — and in the worst cases, structural failure.", "stat": "2.4x", "statLabel": "higher risk without digital QC" },
+      { "title": "Manufacturing Defects", "description": "One unchecked batch. No trail. Zero accountability. Recalls start exactly like this.", "stat": "$4.2M", "statLabel": "avg. cost per quality failure" },
+      { "title": "Reactive Quality", "description": "Catching failures after they happen costs 5x more. Prevention has to happen before the job is done.", "stat": "5x", "statLabel": "more expensive to fix later" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Creator", "roleLabel": "Creator", "description": "builds the checklist, configures approval chains, assigns roles, and activates.", "points": ["Build from scratch or templates", "Configure L1 → L2 → L3 approval chain", "Assign Fillers & Approvers, then activate"] },
+    "filler": { "title": "Fill & Submit", "roleLabel": "Filler", "description": "opens assigned checklists, fills each item with evidence, and submits for approval.", "points": ["Fill checklist items with photo, GPS & notes", "Track status: Draft, In Progress, Approved, Rejected", "Submit responses on web or mobile app"] },
+    "approver": { "title": "Approve & Reject", "roleLabel": "Approver", "description": "reviews submissions, signs off or rejects with reason, and raises snags for issues.", "points": ["Approve with signature or reject with notes", "Raise snags for minor issues without full rejection", "Multi-level sign-off with timestamped audit trail"] }
+  },
+  "features": {
+    "label": "Platform Capabilities",
+    "heading1": "From first inspection",
+    "heading2": "to final sign-off.",
+    "subtext": "Template to audit trail — every step of the inspection lifecycle tracked, enforced, and ready to export.",
+    "pdf": { "title": "PDF Export & Full Audit Trail", "description": "Export any checklist as a structured PDF — all responses, sign-offs, snag logs, and a timestamped audit trail in one document." },
+    "snag": { "title": "Snag-to-Checklist Workflow", "description": "Raise, assign, and resolve defects without leaving the checklist. Every snag stays linked to the inspection it came from." },
+    "rules": { "title": "Rule-Based Checklists", "description": "Set rules at creation time. Tasks auto-assign by trade, zone, or schedule — no manual delegation, no missed assignments." },
+    "template": { "title": "Template Library", "description": "Build once, deploy everywhere. Reusable templates with custom fields and approval chains — ready to launch across any site in seconds." },
+    "visual": {
+      "pdfLabels": ["Site Inspection — Block A", "Electrical Sign-off", "Concrete Pour Check"],
+      "snagItems": [{ "label": "Ceiling crack — Level 3", "status": "Open" }, { "label": "Door misaligned — Block B", "status": "Resolved" }, { "label": "Tile gap — Bathroom 2", "status": "Reopened" }],
+      "rulesItems": [{ "trigger": "Zone: Block A", "action": "Assign → Civil Team" }, { "trigger": "Trade: Electrical", "action": "Link → Gantt Task #42" }, { "trigger": "Stage: Handover", "action": "Require L2 Approval" }],
+      "templateItems": ["Structural Inspection", "MEP Checklist", "Handover QC", "Safety Audit", "Concrete Pour", "Fire Safety"]
+    }
+  },
+  "impact": {
+    "label": "Measurable Impact",
+    "heading1": "Results teams",
+    "heading2": "actually measure.",
+    "stats": [{ "label": "Reduction in field errors" }, { "label": "Faster inspection cycles" }, { "label": "Team accountability" }, { "label": "Missed checklists" }]
+  },
+  "demo": {
+    "title": "Book a Demo",
+    "description": "See QualityModule in action. Fill in your details and we'll set up a live walkthrough for your team. Powered by VisiLean.",
+    "success": { "title": "Message sent!", "text": "Our team will reach out within 1 business day." },
+    "form": {
+      "name": "Name", "namePlaceholder": "Your name", "nameRequired": "Name is required",
+      "email": "Email", "emailPlaceholder": "you@company.com", "emailRequired": "Email is required", "emailInvalid": "Enter a valid email address",
+      "phone": "Phone", "phonePlaceholder": "00000 00000", "phoneRequired": "Phone number is required",
+      "message": "Message", "messagePlaceholder": "Describe your team, site locations, and current inspection process...", "messageRequired": "Message is required",
+      "submit": "Request a Demo"
+    }
+  },
+  "faq": {
+    "title": "Questions, answered.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Creator", "filler": "Filler", "approver": "Approver" },
+    "creator": [
+      { "question": "What does the Creator role control?", "answer": "The Creator (QC Manager / Supervisor) builds checklists from scratch or templates, configures L1→L2→L3 approval chains, assigns Fillers and Approvers, sets trades and task tags, and activates the checklist — instantly notifying the assigned team." },
+      { "question": "Can we use our own checklist templates?", "answer": "Absolutely. Build checklists from scratch or import your existing ones. Configure custom fields, trades, tasks, and approval chains to match your exact workflow. Templates can be reused across projects and sites." },
+      { "question": "How do I assign roles and approval levels?", "answer": "During checklist creation, you select team members for the Filler and Approver roles. You configure up to 3 approval levels — each level must explicitly sign off before the checklist progresses to the next." },
+      { "question": "Which industries use QualityModule?", "answer": "Primarily construction and manufacturing, but any industry with field inspections — infrastructure, energy, oil & gas, pharma — benefits from structured quality workflows." }
+    ],
+    "filler": [
+      { "question": "What evidence is required for submissions?", "answer": "Every submission mandates a photo, GPS location, and detailed notes. The system won't accept submissions without this evidence — zero exceptions. This ensures complete traceability for every checklist item." },
+      { "question": "Does QualityModule work offline on mobile?", "answer": "Yes. The mobile app is designed for harsh field conditions with limited connectivity. You can capture evidence and fill checklists offline — everything syncs automatically when connection is restored." },
+      { "question": "Can multiple Fillers work on the same checklist?", "answer": "Each checklist item is assigned to a single Filler for clear accountability. However, different items within the same checklist can be assigned to different team members based on their trade or task." },
+      { "question": "What happens after I submit a checklist?", "answer": "Once submitted, the checklist moves to the approval queue. The assigned L1 Approver is notified instantly. You can track the approval status in real-time from your Filler dashboard." }
+    ],
+    "approver": [
+      { "question": "How does multi-level approval prevent errors?", "answer": "You configure up to 3 approval levels (L1, L2, L3). Each level must explicitly approve or reject before the checklist progresses. Every action is timestamped with the approver's identity — building a complete audit trail." },
+      { "question": "How does snag tracking work?", "answer": "Approvers can raise Snags — minor issues that don't warrant full rejection. Each snag is tracked with a description, supporting media, and resolution status. Snags let you flag problems without blocking the entire workflow." },
+      { "question": "What's included in the PDF audit export?", "answer": "Full checklist with all responses, the complete L1/L2/L3 approval chain with timestamps, rejection reasons, snag logs, and media references — a single document ready for clients and auditors." },
+      { "question": "How is QualityModule licensed?", "answer": "We offer licence-based enterprise pricing — not per-user SaaS. Contact our sales team for a custom quote based on your team size and deployment needs." }
+    ]
+  },
+  "footer": {
+    "description": "Built for field teams where a missed inspection has real consequences.",
+    "product": { "title": "Product", "links": { "features": "Features", "howItWorks": "How It Works", "impact": "Impact", "faq": "FAQ" } },
+    "legal": { "title": "Legal", "links": { "privacy": "Privacy Policy", "terms": "Terms & Conditions" } },
+    "copyright": "All rights reserved.",
+    "tagline": "Built for industries where quality isn't optional."
+  }
+}

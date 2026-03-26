@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problém",
+    "howItWorks": "Jak to funguje",
+    "features": "Funkce",
+    "impact": "Dopad",
+    "faq": "FAQ",
+    "requestDemo": "Vyžádat demo"
+  },
+  "banner": {
+    "text": "PDF export auditu je nyní k dispozici — pošlete klientům podepsaný inspekční protokol jedním kliknutím.",
+    "cta": "Objednat demo"
+  },
+  "hero": {
+    "badge": "Vytvořeno pro stavebnictví a výrobu",
+    "headline1": "Nula nekontrolovaných",
+    "headline2": "inspekcí.",
+    "subtext": "Povinné důkazy. Víceúrovňové schvalování. Kompletní auditní stopa. Vytvořeno pro",
+    "typewriter": ["stavební týmy.", "výrobní týmy.", "QC manažery.", "terénní inspektory."],
+    "cta": "Vyžádat demo"
+  },
+  "quote": {
+    "text": "V odvětvích, kde jedna opomenutá kontrola může stát více než celý projekt — odpovědnost nemůže být dodatečným nápadem."
+  },
+  "problem": {
+    "label": "Problém",
+    "heading": "Selhání kvality stojí ",
+    "headingHighlight": "více než peníze.",
+    "subtext": "Náklady nejsou jen finanční — jsou strukturální, právní a reputační.",
+    "items": [
+      { "title": "Papírové kontrolní seznamy", "description": "Žádná časová razítka. Žádné vlastnictví. Žádná sledovatelnost. Důkazy zmizí v okamžiku, kdy jsou založeny.", "stat": "73%", "statLabel": "terénních chyb zůstane nezaznamenáno" },
+      { "title": "Stavební selhání", "description": "Neověřené materiály nebo zarovnání vytvářejí právní riziko — a v nejhorších případech strukturální selhání.", "stat": "2.4x", "statLabel": "vyšší riziko bez digitální QC" },
+      { "title": "Výrobní vady", "description": "Jedna nekontrolovaná dávka. Žádná stopa. Nulová odpovědnost. Stahování z trhu začíná přesně takto.", "stat": "$4.2M", "statLabel": "prům. náklady na selhání kvality" },
+      { "title": "Reaktivní kvalita", "description": "Oprava selhání poté, co nastanou, stojí 5x více. Prevence musí nastat před dokončením práce.", "stat": "5x", "statLabel": "dražší opravit dodatečně" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Tvůrce", "roleLabel": "Tvůrce", "description": "vytváří kontrolní seznam, konfiguruje schvalovací řetězce, přiděluje role a aktivuje.", "points": ["Vytvořit od nuly nebo ze šablon", "Konfigurovat schvalovací řetězec L1 → L2 → L3", "Přidělit vyplňovatele a schvalovatele, poté aktivovat"] },
+    "filler": { "title": "Vyplnit a odeslat", "roleLabel": "Vyplňovatel", "description": "otevírá přidělené kontrolní seznamy, vyplňuje každou položku důkazy a odesílá ke schválení.", "points": ["Vyplnit položky kontrolního seznamu fotografií, GPS a poznámkami", "Sledovat stav: Koncept, Probíhá, Schváleno, Zamítnuto", "Odesílat odpovědi přes web nebo mobilní aplikaci"] },
+    "approver": { "title": "Schválit a zamítnout", "roleLabel": "Schvalovatel", "description": "kontroluje odeslání, schvaluje nebo zamítá s odůvodněním a hlásí neshody.", "points": ["Schválit podpisem nebo zamítnout s poznámkami", "Hlásit drobné neshody bez úplného zamítnutí", "Víceúrovňové schvalování s auditní stopou s časovými razítky"] }
+  },
+  "features": {
+    "label": "Schopnosti platformy",
+    "heading1": "Od první inspekce",
+    "heading2": "po konečné schválení.",
+    "subtext": "Od šablony po auditní stopu — každý krok inspekčního cyklu sledován, vynucován a připraven k exportu.",
+    "pdf": { "title": "PDF export a kompletní auditní stopa", "description": "Exportujte jakýkoli kontrolní seznam jako strukturované PDF — všechny odpovědi, schválení, záznamy neshod a auditní stopa s časovými razítky v jednom dokumentu." },
+    "snag": { "title": "Workflow neshoda-ke-kontrolnímu-seznamu", "description": "Hlásit, přidělit a řešit vady bez opuštění kontrolního seznamu. Každá neshoda zůstává propojena s inspekcí, ze které pochází." },
+    "rules": { "title": "Kontrolní seznamy založené na pravidlech", "description": "Nastavte pravidla při vytváření. Úkoly se automaticky přidělují podle oboru, zóny nebo rozvrhu — žádné manuální delegování, žádná opomenutá přidělení." },
+    "template": { "title": "Knihovna šablon", "description": "Vytvořte jednou, nasaďte všude. Znovu použitelné šablony s vlastními poli a schvalovacími řetězci — připravené k spuštění na jakémkoli stavebním místě během sekund." },
+    "visual": {
+      "pdfLabels": ["Inspekce staveniště — Blok A", "Elektrické schválení", "Kontrola betonáže"],
+      "snagItems": [{ "label": "Prasklina ve stropě — Úroveň 3", "status": "Otevřeno" }, { "label": "Dveře nevyrovnané — Blok B", "status": "Vyřešeno" }, { "label": "Mezera v obkladech — Koupelna 2", "status": "Znovu otevřeno" }],
+      "rulesItems": [{ "trigger": "Zóna: Blok A", "action": "Přidělit → Stavební tým" }, { "trigger": "Obor: Elektro", "action": "Propojit → Gantt úkol #42" }, { "trigger": "Fáze: Předání", "action": "Vyžadovat schválení L2" }],
+      "templateItems": ["Strukturální inspekce", "MEP kontrolní seznam", "QC předání", "Bezpečnostní audit", "Betonáž", "Požární bezpečnost"]
+    }
+  },
+  "impact": {
+    "label": "Měřitelný dopad",
+    "heading1": "Výsledky, které týmy",
+    "heading2": "skutečně měří.",
+    "stats": [{ "label": "Snížení terénních chyb" }, { "label": "Rychlejší inspekční cykly" }, { "label": "Odpovědnost týmu" }, { "label": "Opomenuté kontrolní seznamy" }]
+  },
+  "demo": {
+    "title": "Objednat demo",
+    "description": "Podívejte se na QualityModule v akci. Vyplňte své údaje a zorganizujeme živou ukázku pro váš tým. Powered by VisiLean.",
+    "success": { "title": "Zpráva odeslána!", "text": "Náš tým se vám ozve do 1 pracovního dne." },
+    "form": {
+      "name": "Jméno", "namePlaceholder": "Vaše jméno", "nameRequired": "Jméno je povinné",
+      "email": "E-mail", "emailPlaceholder": "vy@firma.cz", "emailRequired": "E-mail je povinný", "emailInvalid": "Zadejte platnou e-mailovou adresu",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefonní číslo je povinné",
+      "message": "Zpráva", "messagePlaceholder": "Popište svůj tým, lokality stavenišť a aktuální inspekční proces...", "messageRequired": "Zpráva je povinná",
+      "submit": "Vyžádat demo"
+    }
+  },
+  "faq": {
+    "title": "Otázky, zodpovězené.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Tvůrce", "filler": "Vyplňovatel", "approver": "Schvalovatel" },
+    "creator": [
+      { "question": "Co kontroluje role Tvůrce?", "answer": "Tvůrce (QC manažer / Supervizor) vytváří kontrolní seznamy od nuly nebo ze šablon, konfiguruje schvalovací řetězce L1→L2→L3, přiděluje vyplňovatele a schvalovatele, nastavuje obory a štítky úkolů a aktivuje kontrolní seznam — přidělený tým je okamžitě upozorněn." },
+      { "question": "Můžeme používat vlastní šablony kontrolních seznamů?", "answer": "Samozřejmě. Vytvořte kontrolní seznamy od nuly nebo importujte své stávající. Konfigurujte vlastní pole, obory, úkoly a schvalovací řetězce přesně podle vašeho pracovního postupu. Šablony lze opětovně používat napříč projekty a stavbami." },
+      { "question": "Jak přiděluji role a úrovně schvalování?", "answer": "Při vytváření kontrolního seznamu vybíráte členy týmu pro role Vyplňovatele a Schvalovatele. Nakonfigurujete až 3 úrovně schvalování — každá úroveň musí výslovně schválit, než kontrolní seznam postoupí k další." },
+      { "question": "Jaká odvětví používají QualityModule?", "answer": "Především stavebnictví a výroba, ale jakékoli odvětví s terénními inspekcemi — infrastruktura, energetika, ropa a plyn, farmacie — těží ze strukturovaných pracovních postupů kvality." }
+    ],
+    "filler": [
+      { "question": "Jaké důkazy jsou požadovány pro odeslání?", "answer": "Každé odeslání vyžaduje fotografii, GPS polohu a podrobné poznámky. Systém nepřijme odeslání bez těchto důkazů — žádné výjimky. To zajišťuje úplnou sledovatelnost pro každou položku kontrolního seznamu." },
+      { "question": "Funguje QualityModule offline na mobilu?", "answer": "Ano. Mobilní aplikace je navržena pro náročné terénní podmínky s omezeným připojením. Můžete sbírat důkazy a vyplňovat kontrolní seznamy offline — vše se automaticky synchronizuje po obnovení připojení." },
+      { "question": "Může na stejném kontrolním seznamu pracovat více vyplňovatelů?", "answer": "Každá položka kontrolního seznamu je přidělena jednomu vyplňovateli pro jasnou odpovědnost. Různé položky v rámci jednoho kontrolního seznamu však mohou být přiděleny různým členům týmu podle oboru nebo úkolu." },
+      { "question": "Co se stane po odeslání kontrolního seznamu?", "answer": "Po odeslání se kontrolní seznam přesune do fronty schvalování. Přidělený schvalovatel L1 je okamžitě upozorněn. Stav schválení můžete sledovat v reálném čase z vašeho dashboardu vyplňovatele." }
+    ],
+    "approver": [
+      { "question": "Jak víceúrovňové schvalování zabraňuje chybám?", "answer": "Nakonfigurujete až 3 úrovně schvalování (L1, L2, L3). Každá úroveň musí výslovně schválit nebo zamítnout, než kontrolní seznam postoupí dál. Každá akce je opatřena časovým razítkem s identitou schvalovatele — buduje se kompletní auditní stopa." },
+      { "question": "Jak funguje sledování neshod?", "answer": "Schvalovatelé mohou hlásit neshody — drobné problémy, které neopravňují úplné zamítnutí. Každá neshoda je sledována s popisem, podpůrnými médii a stavem řešení. Neshody vám umožňují označit problémy bez blokování celého pracovního postupu." },
+      { "question": "Co obsahuje PDF export auditu?", "answer": "Kompletní kontrolní seznam se všemi odpověďmi, úplný schvalovací řetězec L1/L2/L3 s časovými razítky, důvody zamítnutí, záznamy neshod a odkazy na média — jeden dokument připravený pro klienty a auditory." },
+      { "question": "Jak je QualityModule licencován?", "answer": "Nabízíme podnikové ceny na bázi licencí — ne SaaS na uživatele. Kontaktujte náš obchodní tým pro individuální nabídku na základě velikosti vašeho týmu a potřeb nasazení." }
+    ]
+  },
+  "footer": {
+    "description": "Vytvořeno pro terénní týmy, kde opomenutá inspekce má skutečné důsledky.",
+    "product": { "title": "Produkt", "links": { "features": "Funkce", "howItWorks": "Jak to funguje", "impact": "Dopad", "faq": "FAQ" } },
+    "legal": { "title": "Právní", "links": { "privacy": "Zásady ochrany osobních údajů", "terms": "Obchodní podmínky" } },
+    "copyright": "Všechna práva vyhrazena.",
+    "tagline": "Vytvořeno pro odvětví, kde kvalita není volitelná."
+  }
+}

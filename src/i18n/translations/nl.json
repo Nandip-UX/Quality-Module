@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Probleem",
+    "howItWorks": "Hoe het werkt",
+    "features": "Functies",
+    "impact": "Impact",
+    "faq": "FAQ",
+    "requestDemo": "Demo aanvragen"
+  },
+  "banner": {
+    "text": "PDF-auditexport is nu beschikbaar — stuur klanten een ondertekend inspectierapport met één klik.",
+    "cta": "Demo boeken"
+  },
+  "hero": {
+    "badge": "Gebouwd voor bouw & productie",
+    "headline1": "Nul ongecontroleerde",
+    "headline2": "inspecties.",
+    "subtext": "Verplicht bewijs. Meervoudige goedkeuring. Compleet auditspoor. Gebouwd voor",
+    "typewriter": ["bouwteams.", "productieteams.", "QC-managers.", "veldinspecteurs."],
+    "cta": "Demo aanvragen"
+  },
+  "quote": {
+    "text": "In sectoren waar één gemiste controle meer kan kosten dan het hele project — kan verantwoordelijkheid geen bijzaak zijn."
+  },
+  "problem": {
+    "label": "Het probleem",
+    "heading": "Kwaliteitsfouten kosten ",
+    "headingHighlight": "meer dan geld.",
+    "subtext": "De kosten zijn niet alleen financieel — ze zijn structureel, juridisch en reputatieschadend.",
+    "items": [
+      { "title": "Papieren checklists", "description": "Geen tijdstempels. Geen eigenaarschap. Geen traceerbaarheid. Bewijs verdwijnt zodra het wordt gearchiveerd.", "stat": "73%", "statLabel": "van veldfouten wordt niet geregistreerd" },
+      { "title": "Bouwfouten", "description": "Niet-geverifieerde materialen of uitlijning creëren juridische blootstelling — en in het ergste geval structureel falen.", "stat": "2.4x", "statLabel": "hoger risico zonder digitale QC" },
+      { "title": "Productiedefecten", "description": "Eén ongecontroleerde partij. Geen spoor. Nul verantwoordelijkheid. Terugroepacties beginnen precies zo.", "stat": "$4.2M", "statLabel": "gem. kosten per kwaliteitsfout" },
+      { "title": "Reactieve kwaliteit", "description": "Fouten herstellen nadat ze zijn opgetreden kost 5x meer. Preventie moet plaatsvinden voordat het werk is afgerond.", "stat": "5x", "statLabel": "duurder om achteraf te herstellen" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Opsteller", "roleLabel": "Opsteller", "description": "bouwt de checklist, configureert goedkeuringsketens, wijst rollen toe en activeert.", "points": ["Vanaf nul of uit sjablonen opbouwen", "L1 → L2 → L3 goedkeuringsketen configureren", "Invullers & goedkeurders toewijzen, dan activeren"] },
+    "filler": { "title": "Invullen & indienen", "roleLabel": "Invuller", "description": "opent toegewezen checklists, vult elk item in met bewijs en dient in ter goedkeuring.", "points": ["Checklistitems invullen met foto, GPS & notities", "Status volgen: Concept, In uitvoering, Goedgekeurd, Afgewezen", "Antwoorden indienen via web of mobiele app"] },
+    "approver": { "title": "Goedkeuren & afwijzen", "roleLabel": "Goedkeurder", "description": "beoordeelt inzendingen, keurt goed of wijst af met reden, en registreert gebreken bij problemen.", "points": ["Goedkeuren met handtekening of afwijzen met notities", "Gebreken melden voor kleine problemen zonder volledige afwijzing", "Meervoudige goedkeuring met getijdstempeld auditspoor"] }
+  },
+  "features": {
+    "label": "Platformmogelijkheden",
+    "heading1": "Van eerste inspectie",
+    "heading2": "tot finale goedkeuring.",
+    "subtext": "Van sjabloon tot auditspoor — elke stap van de inspectiecyclus gevolgd, afgedwongen en klaar voor export.",
+    "pdf": { "title": "PDF-export & volledig auditspoor", "description": "Exporteer elke checklist als gestructureerde PDF — alle antwoorden, goedkeuringen, gebrekenlogboeken en een getijdstempeld auditspoor in één document." },
+    "snag": { "title": "Gebrek-naar-checklist workflow", "description": "Meld, wijs toe en los gebreken op zonder de checklist te verlaten. Elk gebrek blijft gekoppeld aan de oorspronkelijke inspectie." },
+    "rules": { "title": "Regelgebaseerde checklists", "description": "Stel regels in bij het aanmaken. Taken worden automatisch toegewezen op basis van vak, zone of planning — geen handmatige delegatie, geen gemiste toewijzingen." },
+    "template": { "title": "Sjabloonbibliotheek", "description": "Eenmaal opbouwen, overal inzetten. Herbruikbare sjablonen met aangepaste velden en goedkeuringsketens — klaar om te lanceren op elke locatie in seconden." },
+    "visual": {
+      "pdfLabels": ["Locatie-inspectie — Blok A", "Elektrische goedkeuring", "Betoncontrole"],
+      "snagItems": [{ "label": "Plafondscheur — Niveau 3", "status": "Open" }, { "label": "Deur niet uitgelijnd — Blok B", "status": "Opgelost" }, { "label": "Tegelvoeg — Badkamer 2", "status": "Heropend" }],
+      "rulesItems": [{ "trigger": "Zone: Blok A", "action": "Toewijzen → Civiel team" }, { "trigger": "Vak: Elektra", "action": "Koppelen → Gantt-taak #42" }, { "trigger": "Fase: Oplevering", "action": "L2-goedkeuring vereist" }],
+      "templateItems": ["Structurele inspectie", "MEP-checklist", "Oplever-QC", "Veiligheidsaudit", "Betonstort", "Brandveiligheid"]
+    }
+  },
+  "impact": {
+    "label": "Meetbare impact",
+    "heading1": "Resultaten die teams",
+    "heading2": "daadwerkelijk meten.",
+    "stats": [{ "label": "Reductie van veldfouten" }, { "label": "Snellere inspectiecycli" }, { "label": "Teamverantwoordelijkheid" }, { "label": "Gemiste checklists" }]
+  },
+  "demo": {
+    "title": "Demo boeken",
+    "description": "Bekijk QualityModule in actie. Vul uw gegevens in en wij regelen een live demonstratie voor uw team. Powered by VisiLean.",
+    "success": { "title": "Bericht verzonden!", "text": "Ons team neemt binnen 1 werkdag contact met u op." },
+    "form": {
+      "name": "Naam", "namePlaceholder": "Uw naam", "nameRequired": "Naam is verplicht",
+      "email": "E-mail", "emailPlaceholder": "u@bedrijf.com", "emailRequired": "E-mail is verplicht", "emailInvalid": "Voer een geldig e-mailadres in",
+      "phone": "Telefoon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefoonnummer is verplicht",
+      "message": "Bericht", "messagePlaceholder": "Beschrijf uw team, locaties en huidige inspectieproces...", "messageRequired": "Bericht is verplicht",
+      "submit": "Demo aanvragen"
+    }
+  },
+  "faq": {
+    "title": "Vragen, beantwoord.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Opsteller", "filler": "Invuller", "approver": "Goedkeurder" },
+    "creator": [
+      { "question": "Wat beheert de rol van Opsteller?", "answer": "De Opsteller (QC-manager / Supervisor) bouwt checklists vanaf nul of uit sjablonen, configureert L1→L2→L3-goedkeuringsketens, wijst invullers en goedkeurders toe, stelt vakken en taaktags in en activeert de checklist — het toegewezen team wordt direct op de hoogte gesteld." },
+      { "question": "Kunnen we onze eigen checklistsjablonen gebruiken?", "answer": "Absoluut. Bouw checklists vanaf nul of importeer uw bestaande. Configureer aangepaste velden, vakken, taken en goedkeuringsketens die passen bij uw exacte workflow. Sjablonen zijn herbruikbaar tussen projecten en locaties." },
+      { "question": "Hoe wijs ik rollen en goedkeuringsniveaus toe?", "answer": "Tijdens het aanmaken van de checklist selecteert u teamleden voor de rollen van Invuller en Goedkeurder. U configureert tot 3 goedkeuringsniveaus — elk niveau moet expliciet goedkeuren voordat de checklist doorgaat naar het volgende." },
+      { "question": "Welke sectoren gebruiken QualityModule?", "answer": "Voornamelijk bouw en productie, maar elke sector met veldinspecties — infrastructuur, energie, olie & gas, farma — profiteert van gestructureerde kwaliteitsworkflows." }
+    ],
+    "filler": [
+      { "question": "Welk bewijs is vereist voor inzendingen?", "answer": "Elke inzending vereist een foto, GPS-locatie en gedetailleerde notities. Het systeem accepteert geen inzendingen zonder dit bewijs — geen uitzonderingen. Dit garandeert volledige traceerbaarheid voor elk checklistitem." },
+      { "question": "Werkt QualityModule offline op mobiel?", "answer": "Ja. De mobiele app is ontworpen voor zware veldomstandigheden met beperkte connectiviteit. U kunt bewijs vastleggen en checklists offline invullen — alles synchroniseert automatisch wanneer de verbinding wordt hersteld." },
+      { "question": "Kunnen meerdere invullers aan dezelfde checklist werken?", "answer": "Elk checklistitem is toegewezen aan één invuller voor duidelijke verantwoordelijkheid. Echter, verschillende items binnen dezelfde checklist kunnen aan verschillende teamleden worden toegewezen op basis van hun vak of taak." },
+      { "question": "Wat gebeurt er na het indienen van een checklist?", "answer": "Na indiening gaat de checklist naar de goedkeuringswachtrij. De toegewezen L1-goedkeurder wordt direct op de hoogte gesteld. U kunt de goedkeuringsstatus in realtime volgen vanuit uw invuller-dashboard." }
+    ],
+    "approver": [
+      { "question": "Hoe voorkomt meervoudige goedkeuring fouten?", "answer": "U configureert tot 3 goedkeuringsniveaus (L1, L2, L3). Elk niveau moet expliciet goedkeuren of afwijzen voordat de checklist doorgaat. Elke actie wordt getijdstempeld met de identiteit van de goedkeurder — voor een volledig auditspoor." },
+      { "question": "Hoe werkt gebreken bijhouden?", "answer": "Goedkeurders kunnen gebreken melden — kleine problemen die geen volledige afwijzing rechtvaardigen. Elk gebrek wordt bijgehouden met beschrijving, ondersteunende media en oplossingsstatus. Gebreken laten u problemen markeren zonder de hele workflow te blokkeren." },
+      { "question": "Wat bevat de PDF-auditexport?", "answer": "Volledige checklist met alle antwoorden, de complete L1/L2/L3-goedkeuringsketen met tijdstempels, afwijzingsredenen, gebrekenlogboeken en mediareferenties — één document klaar voor klanten en auditors." },
+      { "question": "Hoe wordt QualityModule gelicentieerd?", "answer": "Wij bieden licentiegebaseerde enterprise-prijzen — geen per-gebruiker SaaS. Neem contact op met ons verkoopteam voor een offerte op maat op basis van uw teamgrootte en implementatiebehoeften." }
+    ]
+  },
+  "footer": {
+    "description": "Gebouwd voor veldteams waar een gemiste inspectie echte gevolgen heeft.",
+    "product": { "title": "Product", "links": { "features": "Functies", "howItWorks": "Hoe het werkt", "impact": "Impact", "faq": "FAQ" } },
+    "legal": { "title": "Juridisch", "links": { "privacy": "Privacybeleid", "terms": "Algemene voorwaarden" } },
+    "copyright": "Alle rechten voorbehouden.",
+    "tagline": "Gebouwd voor sectoren waar kwaliteit niet optioneel is."
+  }
+}

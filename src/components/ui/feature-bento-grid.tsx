@@ -324,7 +324,7 @@ export function QualityFeaturesBentoGrid() {
     {
       title: "Multi-Level Approval Workflow",
       description:
-        "Configure L1 → L2 → L3 approval chains. Each level requires explicit sign-off before the checklist progresses. Every action is timestamped.",
+        "Configure L1 → L2 → L3 chains. Each level must explicitly sign off before work advances — no skipping, no assumptions.",
       skeleton: <SkeletonApprovals />,
       className:
         "col-span-1 md:col-span-4 lg:col-span-4 border-b md:border-r border-stone-200",
@@ -341,7 +341,7 @@ export function QualityFeaturesBentoGrid() {
     {
       title: "One-Click PDF Audit Export",
       description:
-        "Full checklist with responses, approval chain with timestamps, rejection reasons, and snag logs — all in a single document ready for clients and auditors.",
+        "One click. Full report — responses, approvals, rejection reasons, snag logs. Ready for clients and auditors instantly.",
       skeleton: <SkeletonPDF />,
       className:
         "col-span-1 md:col-span-3 lg:col-span-3 border-b md:border-r border-stone-200",
@@ -350,7 +350,7 @@ export function QualityFeaturesBentoGrid() {
     {
       title: "Deployed Across Global Sites",
       description:
-        "From Mumbai to London, Dubai to Sydney — QualityModule works on every site, every device, every time. Web + Mobile with full offline support.",
+        "Active across 6 continents. Web and mobile with full offline support — works in remote sites and low-connectivity environments.",
       skeleton: <SkeletonGlobe />,
       className: "col-span-1 md:col-span-3 lg:col-span-3 border-b md:border-none",
       icon: <IconTags className="h-6 w-6 text-primary" />,
@@ -365,8 +365,7 @@ export function QualityFeaturesBentoGrid() {
           <span className="text-primary">demand proof.</span>
         </h4>
         <p className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-stone-500 text-center font-normal">
-          Six core capabilities that replace paper checklists with enforceable,
-          auditable digital workflows across your entire operation.
+          Every capability is designed to enforce accountability — not just enable it.
         </p>
       </div>
 

@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "Slik fungerer det",
+    "features": "Funksjoner",
+    "impact": "Effekt",
+    "faq": "FAQ",
+    "requestDemo": "Be om demo"
+  },
+  "banner": {
+    "text": "PDF-revisjonseksport er nå tilgjengelig — send kunder en signert inspeksjonsrapport med ett klikk.",
+    "cta": "Bestill en demo"
+  },
+  "hero": {
+    "badge": "Bygget for bygg og produksjon",
+    "headline1": "Null ukontrollerte",
+    "headline2": "inspeksjoner.",
+    "subtext": "Obligatorisk dokumentasjon. Flernivågodkjenning. Komplett revisjonsspor. Bygget for",
+    "typewriter": ["byggeteam.", "produksjonsteam.", "QC-ledere.", "feltinspektører."],
+    "cta": "Be om en demo"
+  },
+  "quote": {
+    "text": "I bransjer der én oversett kontroll kan koste mer enn hele prosjektet — kan ansvarlighet ikke være en ettertanke."
+  },
+  "problem": {
+    "label": "Problemet",
+    "heading": "Kvalitetssvikt koster ",
+    "headingHighlight": "mer enn penger.",
+    "subtext": "Kostnaden er ikke bare økonomisk — den er strukturell, juridisk og omdømmemessig.",
+    "items": [
+      { "title": "Papirsjekklister", "description": "Ingen tidsstempler. Intet eierskap. Ingen sporbarhet. Dokumentasjon forsvinner i det øyeblikket den arkiveres.", "stat": "73%", "statLabel": "av feltfeil registreres ikke" },
+      { "title": "Byggefeil", "description": "Uverifiserte materialer eller justering skaper juridisk eksponering — og i verste fall strukturell svikt.", "stat": "2.4x", "statLabel": "høyere risiko uten digital QC" },
+      { "title": "Produksjonsdefekter", "description": "Ett ukontrollert parti. Ingen spor. Null ansvarlighet. Tilbakekallinger starter nøyaktig slik.", "stat": "$4.2M", "statLabel": "gj.sn. kostnad per kvalitetssvikt" },
+      { "title": "Reaktiv kvalitet", "description": "Å rette feil etter at de har skjedd koster 5 ganger mer. Forebygging må skje før arbeidet er ferdig.", "stat": "5x", "statLabel": "dyrere å rette i etterkant" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Oppretter", "roleLabel": "Oppretter", "description": "bygger sjekklisten, konfigurerer godkjenningskjeder, tildeler roller og aktiverer.", "points": ["Bygg fra bunnen eller fra maler", "Konfigurer L1 → L2 → L3 godkjenningskjede", "Tildel utfyllere og godkjennere, deretter aktiver"] },
+    "filler": { "title": "Fyll ut og send inn", "roleLabel": "Utfyller", "description": "åpner tildelte sjekklister, fyller ut hvert punkt med dokumentasjon og sender inn for godkjenning.", "points": ["Fyll ut sjekklistepunkter med foto, GPS og notater", "Spor status: Utkast, Pågår, Godkjent, Avvist", "Send inn svar via web eller mobilapp"] },
+    "approver": { "title": "Godkjenn og avvis", "roleLabel": "Godkjenner", "description": "gjennomgår innleveringer, godkjenner eller avviser med begrunnelse og registrerer avvik.", "points": ["Godkjenn med signatur eller avvis med notater", "Registrer mindre avvik uten full avvisning", "Flernivågodkjenning med tidsstemplet revisjonsspor"] }
+  },
+  "features": {
+    "label": "Plattformfunksjoner",
+    "heading1": "Fra første inspeksjon",
+    "heading2": "til endelig godkjenning.",
+    "subtext": "Fra mal til revisjonsspor — hvert steg i inspeksjonssyklusen sporet, håndhevet og klar for eksport.",
+    "pdf": { "title": "PDF-eksport og komplett revisjonsspor", "description": "Eksporter enhver sjekkliste som strukturert PDF — alle svar, godkjenninger, avvikslogger og et tidsstemplet revisjonsspor i ett dokument." },
+    "snag": { "title": "Avvik-til-sjekkliste-arbeidsflyt", "description": "Registrer, tildel og løs defekter uten å forlate sjekklisten. Hvert avvik forblir knyttet til inspeksjonen det stammer fra." },
+    "rules": { "title": "Regelbaserte sjekklister", "description": "Sett regler ved opprettelse. Oppgaver autotildeles etter fag, sone eller tidsplan — ingen manuell delegering, ingen glemte tildelinger." },
+    "template": { "title": "Malbibliotek", "description": "Bygg én gang, distribuer overalt. Gjenbrukbare maler med egendefinerte felter og godkjenningskjeder — klar til lansering på ethvert byggested på sekunder." },
+    "visual": {
+      "pdfLabels": ["Byggeplasinspeksjon — Blokk A", "Elektrisk godkjenning", "Betongstøpkontroll"],
+      "snagItems": [{ "label": "Taksprekk — Nivå 3", "status": "Åpen" }, { "label": "Dør feiljustert — Blokk B", "status": "Løst" }, { "label": "Flismellemrom — Bad 2", "status": "Gjenåpnet" }],
+      "rulesItems": [{ "trigger": "Sone: Blokk A", "action": "Tildel → Byggeteam" }, { "trigger": "Fag: Elektro", "action": "Koble → Gantt-oppgave #42" }, { "trigger": "Fase: Overlevering", "action": "Krev L2-godkjenning" }],
+      "templateItems": ["Strukturinspeksjon", "MEP-sjekkliste", "Overleverlings-QC", "Sikkerhetsrevisjon", "Betongstøp", "Brannsikkerhet"]
+    }
+  },
+  "impact": {
+    "label": "Målbar effekt",
+    "heading1": "Resultater som team",
+    "heading2": "faktisk måler.",
+    "stats": [{ "label": "Reduksjon av feltfeil" }, { "label": "Raskere inspeksjonssykluser" }, { "label": "Teamansvarlighet" }, { "label": "Glemte sjekklister" }]
+  },
+  "demo": {
+    "title": "Bestill en demo",
+    "description": "Se QualityModule i aksjon. Fyll inn dine opplysninger, og vi ordner en live-demonstrasjon for teamet ditt. Powered by VisiLean.",
+    "success": { "title": "Melding sendt!", "text": "Teamet vårt kontakter deg innen 1 virkedag." },
+    "form": {
+      "name": "Navn", "namePlaceholder": "Ditt navn", "nameRequired": "Navn er påkrevd",
+      "email": "E-post", "emailPlaceholder": "du@firma.no", "emailRequired": "E-post er påkrevd", "emailInvalid": "Oppgi en gyldig e-postadresse",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefonnummer er påkrevd",
+      "message": "Melding", "messagePlaceholder": "Beskriv teamet ditt, byggeplasser og nåværende inspeksjonsprosess...", "messageRequired": "Melding er påkrevd",
+      "submit": "Be om en demo"
+    }
+  },
+  "faq": {
+    "title": "Spørsmål, besvart.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Oppretter", "filler": "Utfyller", "approver": "Godkjenner" },
+    "creator": [
+      { "question": "Hva styrer Oppretter-rollen?", "answer": "Oppretteren (QC-leder / Supervisor) bygger sjekklister fra bunnen eller fra maler, konfigurerer L1→L2→L3-godkjenningskjeder, tildeler utfyllere og godkjennere, setter fag og oppgavetagger og aktiverer sjekklisten — det tildelte teamet varsles øyeblikkelig." },
+      { "question": "Kan vi bruke våre egne sjekkliste-maler?", "answer": "Absolutt. Bygg sjekklister fra bunnen eller importer dine eksisterende. Konfigurer egendefinerte felter, fag, oppgaver og godkjenningskjeder som matcher din eksakte arbeidsflyt. Maler kan gjenbrukes på tvers av prosjekter og byggeplasser." },
+      { "question": "Hvordan tildeler jeg roller og godkjenningsnivåer?", "answer": "Under opprettelsen av sjekklisten velger du teammedlemmer for rollene Utfyller og Godkjenner. Du konfigurerer opp til 3 godkjenningsnivåer — hvert nivå må eksplisitt godkjenne før sjekklisten går videre til neste." },
+      { "question": "Hvilke bransjer bruker QualityModule?", "answer": "Primært bygg og produksjon, men enhver bransje med feltinspeksjoner — infrastruktur, energi, olje og gass, farma — drar nytte av strukturerte kvalitetsarbeidsflyter." }
+    ],
+    "filler": [
+      { "question": "Hvilken dokumentasjon kreves for innleveringer?", "answer": "Hver innlevering krever et foto, GPS-posisjon og detaljerte notater. Systemet aksepterer ikke innleveringer uten denne dokumentasjonen — ingen unntak. Dette sikrer komplett sporbarhet for hvert sjekklistepunkt." },
+      { "question": "Fungerer QualityModule offline på mobilen?", "answer": "Ja. Mobilappen er designet for tøffe feltforhold med begrenset tilkobling. Du kan samle dokumentasjon og fylle ut sjekklister offline — alt synkroniseres automatisk når tilkoblingen gjenopprettes." },
+      { "question": "Kan flere utfyllere jobbe på den samme sjekklisten?", "answer": "Hvert sjekklistepunkt tildeles en enkelt utfyller for tydelig ansvarlighet. Men forskjellige punkter innenfor den samme sjekklisten kan tildeles forskjellige teammedlemmer basert på fag eller oppgave." },
+      { "question": "Hva skjer etter at jeg sender inn en sjekkliste?", "answer": "Etter innsending flyttes sjekklisten til godkjenningskøen. Den tildelte L1-godkjenneren varsles øyeblikkelig. Du kan spore godkjenningsstatusen i sanntid fra utfyller-dashboardet ditt." }
+    ],
+    "approver": [
+      { "question": "Hvordan forhindrer flernivågodkjenning feil?", "answer": "Du konfigurerer opp til 3 godkjenningsnivåer (L1, L2, L3). Hvert nivå må eksplisitt godkjenne eller avvise før sjekklisten går videre. Hver handling tidsstemples med godkjennerens identitet — og bygger et komplett revisjonsspor." },
+      { "question": "Hvordan fungerer avvikssporing?", "answer": "Godkjennere kan registrere avvik — mindre problemer som ikke berettiger full avvisning. Hvert avvik spores med beskrivelse, støttende medier og løsningsstatus. Avvik lar deg markere problemer uten å blokkere hele arbeidsflyten." },
+      { "question": "Hva inneholder PDF-revisjonseksporten?", "answer": "Komplett sjekkliste med alle svar, den fullstendige L1/L2/L3-godkjenningskjeden med tidsstempler, avvisningsgrunner, avvikslogger og mediereferanser — ett enkelt dokument klart for kunder og revisorer." },
+      { "question": "Hvordan lisensieres QualityModule?", "answer": "Vi tilbyr lisensbasert bedriftsprising — ikke per-bruker SaaS. Kontakt salgsteamet vårt for et tilpasset tilbud basert på teamstørrelse og utrullingsbehov." }
+    ]
+  },
+  "footer": {
+    "description": "Bygget for feltteam der en oversett inspeksjon har reelle konsekvenser.",
+    "product": { "title": "Produkt", "links": { "features": "Funksjoner", "howItWorks": "Slik fungerer det", "impact": "Effekt", "faq": "FAQ" } },
+    "legal": { "title": "Juridisk", "links": { "privacy": "Personvernregler", "terms": "Vilkår og betingelser" } },
+    "copyright": "Alle rettigheter forbeholdt.",
+    "tagline": "Bygget for bransjer der kvalitet ikke er valgfritt."
+  }
+}

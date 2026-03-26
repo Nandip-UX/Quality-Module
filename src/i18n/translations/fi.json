@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Ongelma",
+    "howItWorks": "Miten se toimii",
+    "features": "Ominaisuudet",
+    "impact": "Vaikutus",
+    "faq": "UKK",
+    "requestDemo": "Pyydä demo"
+  },
+  "banner": {
+    "text": "PDF-auditointiraportin vienti on nyt käytettävissä — lähetä asiakkaille allekirjoitettu tarkastusraportti yhdellä napsautuksella.",
+    "cta": "Varaa demo"
+  },
+  "hero": {
+    "badge": "Rakennettu rakentamiseen ja valmistukseen",
+    "headline1": "Nolla tarkistamatonta",
+    "headline2": "tarkastusta.",
+    "subtext": "Pakolliset todisteet. Monitasoinen hyväksyntä. Täydellinen tarkastuspolku. Rakennettu",
+    "typewriter": ["rakennustiimeille.", "valmistustiimeille.", "QC-päälliköille.", "kenttätarkastajille."],
+    "cta": "Pyydä demo"
+  },
+  "quote": {
+    "text": "Aloilla, joilla yksi unohtunut tarkistus voi maksaa enemmän kuin koko hanke — vastuullisuus ei voi olla jälkiajatus."
+  },
+  "problem": {
+    "label": "Ongelma",
+    "heading": "Laatuvirheet maksavat ",
+    "headingHighlight": "enemmän kuin rahaa.",
+    "subtext": "Kustannukset eivät ole vain taloudellisia — ne ovat rakenteellisia, oikeudellisia ja maineeseen liittyviä.",
+    "items": [
+      { "title": "Paperitarkistuslistat", "description": "Ei aikaleimoja. Ei omistajuutta. Ei jäljitettävyyttä. Todisteet katoavat heti arkistoinnin jälkeen.", "stat": "73%", "statLabel": "kenttävirheistä jää kirjaamatta" },
+      { "title": "Rakennusvirheet", "description": "Tarkistamattomat materiaalit tai kohdistus luovat oikeudellista altistumista — ja pahimmissa tapauksissa rakenteellisen vikaantumisen.", "stat": "2.4x", "statLabel": "suurempi riski ilman digitaalista QC:tä" },
+      { "title": "Valmistusvirheet", "description": "Yksi tarkistamaton erä. Ei jälkeä. Nolla vastuullisuutta. Takaisinvedot alkavat juuri näin.", "stat": "$4.2M", "statLabel": "keskimääräinen kustannus laatuvirheestä" },
+      { "title": "Reaktiivinen laatu", "description": "Virheiden korjaaminen niiden tapahtumisen jälkeen maksaa 5 kertaa enemmän. Ennaltaehkäisy on tapahduttava ennen työn valmistumista.", "stat": "5x", "statLabel": "kalliimpaa korjata jälkikäteen" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Luoja", "roleLabel": "Luoja", "description": "rakentaa tarkistuslistan, määrittää hyväksyntäketjut, jakaa roolit ja aktivoi.", "points": ["Rakenna tyhjästä tai malleista", "Määritä L1 → L2 → L3 hyväksyntäketju", "Nimeä täyttäjät ja hyväksyjät, sitten aktivoi"] },
+    "filler": { "title": "Täytä ja lähetä", "roleLabel": "Täyttäjä", "description": "avaa nimetyt tarkistuslistat, täyttää jokaisen kohdan todisteilla ja lähettää hyväksyttäväksi.", "points": ["Täytä tarkistuslistan kohdat valokuvalla, GPS:llä ja muistiinpanoilla", "Seuraa tilaa: Luonnos, Käynnissä, Hyväksytty, Hylätty", "Lähetä vastaukset verkon tai mobiilisovelluksen kautta"] },
+    "approver": { "title": "Hyväksy ja hylkää", "roleLabel": "Hyväksyjä", "description": "tarkistaa lähetykset, hyväksyy tai hylkää perustellusti ja kirjaa poikkeamat.", "points": ["Hyväksy allekirjoituksella tai hylkää muistiinpanoilla", "Kirjaa pieniä poikkeamia ilman täydellistä hylkäystä", "Monitasoinen hyväksyntä aikaleimatulla tarkastuspolulla"] }
+  },
+  "features": {
+    "label": "Alustan ominaisuudet",
+    "heading1": "Ensimmäisestä tarkastuksesta",
+    "heading2": "lopulliseen hyväksyntään.",
+    "subtext": "Mallista tarkastuspolkuun — jokainen tarkastussyklin vaihe seurattu, toimeenpantu ja valmis vientiin.",
+    "pdf": { "title": "PDF-vienti ja täydellinen tarkastuspolku", "description": "Vie mikä tahansa tarkistuslista rakenteellisena PDF-tiedostona — kaikki vastaukset, hyväksynnät, poikkeamalokit ja aikaleimattu tarkastuspolku yhdessä dokumentissa." },
+    "snag": { "title": "Poikkeama-tarkistuslistalle-työnkulku", "description": "Kirjaa, nimeä ja ratkaise puutteet poistumatta tarkistuslistalta. Jokainen poikkeama pysyy linkitettynä alkuperäiseen tarkastukseen." },
+    "rules": { "title": "Sääntöpohjaiset tarkistuslistat", "description": "Aseta säännöt luontivaiheessa. Tehtävät automaattisesti nimetään ammattialan, vyöhykkeen tai aikataulun mukaan — ei manuaalista delegointia, ei unohdettuja nimeämisiä." },
+    "template": { "title": "Mallikirjasto", "description": "Rakenna kerran, ota käyttöön kaikkialla. Uudelleenkäytettävät mallit mukautetuilla kentillä ja hyväksyntäketjuilla — valmiina käynnistettäväksi millä tahansa työmaalla sekunneissa." },
+    "visual": {
+      "pdfLabels": ["Työmaan tarkastus — Lohko A", "Sähköinen hyväksyntä", "Betonivalun tarkastus"],
+      "snagItems": [{ "label": "Kattohalkeama — Taso 3", "status": "Avoin" }, { "label": "Ovi vinossa — Lohko B", "status": "Ratkaistu" }, { "label": "Laattaväli — Kylpyhuone 2", "status": "Uudelleenavatttu" }],
+      "rulesItems": [{ "trigger": "Vyöhyke: Lohko A", "action": "Nimeä → Rakennustiimi" }, { "trigger": "Ammatti: Sähkö", "action": "Linkitä → Gantt-tehtävä #42" }, { "trigger": "Vaihe: Luovutus", "action": "Vaadi L2-hyväksyntä" }],
+      "templateItems": ["Rakennetarkastus", "MEP-tarkistuslista", "Luovutus-QC", "Turvallisuusauditointi", "Betonivalu", "Paloturvallisuus"]
+    }
+  },
+  "impact": {
+    "label": "Mitattava vaikutus",
+    "heading1": "Tuloksia, joita tiimit",
+    "heading2": "todella mittaavat.",
+    "stats": [{ "label": "Kenttävirheiden väheneminen" }, { "label": "Nopeammat tarkastussyklit" }, { "label": "Tiimivastuullisuus" }, { "label": "Unohdetut tarkistuslistat" }]
+  },
+  "demo": {
+    "title": "Varaa demo",
+    "description": "Näe QualityModule toiminnassa. Täytä tietosi ja järjestämme live-esittelyn tiimillesi. Powered by VisiLean.",
+    "success": { "title": "Viesti lähetetty!", "text": "Tiimimme ottaa yhteyttä 1 arkipäivän kuluessa." },
+    "form": {
+      "name": "Nimi", "namePlaceholder": "Nimesi", "nameRequired": "Nimi on pakollinen",
+      "email": "Sähköposti", "emailPlaceholder": "sinä@yritys.fi", "emailRequired": "Sähköposti on pakollinen", "emailInvalid": "Syötä kelvollinen sähköpostiosoite",
+      "phone": "Puhelin", "phonePlaceholder": "00000 00000", "phoneRequired": "Puhelinnumero on pakollinen",
+      "message": "Viesti", "messagePlaceholder": "Kuvaile tiimiäsi, työmaapaikkoja ja nykyistä tarkastusprosessiasi...", "messageRequired": "Viesti on pakollinen",
+      "submit": "Pyydä demo"
+    }
+  },
+  "faq": {
+    "title": "Kysymyksiä, vastattuja.",
+    "subtitle": "UKK",
+    "categories": { "creator": "Luoja", "filler": "Täyttäjä", "approver": "Hyväksyjä" },
+    "creator": [
+      { "question": "Mitä Luoja-rooli hallitsee?", "answer": "Luoja (QC-päällikkö / Työnjohtaja) rakentaa tarkistuslistat tyhjästä tai malleista, määrittää L1→L2→L3-hyväksyntäketjut, nimeää täyttäjät ja hyväksyjät, asettaa ammattiala- ja tehtävämerkinnät ja aktivoi tarkistuslistan — nimetty tiimi saa heti ilmoituksen." },
+      { "question": "Voimmeko käyttää omia tarkistuslistamalleja?", "answer": "Ehdottomasti. Rakenna tarkistuslistat tyhjästä tai tuo olemassa olevat. Määritä mukautetut kentät, ammattialat, tehtävät ja hyväksyntäketjut työnkulkuusi sopiviksi. Malleja voi käyttää uudelleen projektien ja työmaiden välillä." },
+      { "question": "Kuinka nimeän roolit ja hyväksyntätasot?", "answer": "Tarkistuslistan luonnin aikana valitset tiimin jäsenet Täyttäjä- ja Hyväksyjä-rooleihin. Määrität enintään 3 hyväksyntätasoa — jokaisen tason on nimenomaisesti hyväksyttävä ennen kuin tarkistuslista etenee seuraavalle." },
+      { "question": "Mitkä toimialat käyttävät QualityModule-ratkaisua?", "answer": "Pääasiassa rakennus ja valmistus, mutta mikä tahansa ala kenttätarkastuksilla — infrastruktuuri, energia, öljy ja kaasu, lääketeollisuus — hyötyy strukturoiduista laatutyönkuluista." }
+    ],
+    "filler": [
+      { "question": "Mitä todisteita vaaditaan lähetyksiin?", "answer": "Jokainen lähetys vaatii valokuvan, GPS-sijainnin ja yksityiskohtaiset muistiinpanot. Järjestelmä ei hyväksy lähetyksiä ilman näitä todisteita — ei poikkeuksia. Tämä varmistaa täydellisen jäljitettävyyden jokaiselle tarkistuslistan kohdalle." },
+      { "question": "Toimiiko QualityModule offline mobiilissa?", "answer": "Kyllä. Mobiilisovellus on suunniteltu vaativiin kenttäolosuhteisiin rajallisella yhteydellä. Voit kerätä todisteita ja täyttää tarkistuslistoja offline — kaikki synkronoituu automaattisesti yhteyden palautuessa." },
+      { "question": "Voiko useampi täyttäjä työskennellä samalla tarkistuslistalla?", "answer": "Jokainen tarkistuslistan kohta on nimetty yhdelle täyttäjälle selkeän vastuullisuuden vuoksi. Kuitenkin saman tarkistuslistan eri kohdat voidaan nimetä eri tiimin jäsenille ammattialan tai tehtävän perusteella." },
+      { "question": "Mitä tapahtuu tarkistuslistan lähettämisen jälkeen?", "answer": "Lähettämisen jälkeen tarkistuslista siirtyy hyväksyntäjonoon. Nimetty L1-hyväksyjä saa ilmoituksen heti. Voit seurata hyväksyntätilaa reaaliajassa täyttäjän hallintapaneelista." }
+    ],
+    "approver": [
+      { "question": "Miten monitasoinen hyväksyntä estää virheitä?", "answer": "Määrität enintään 3 hyväksyntätasoa (L1, L2, L3). Jokaisen tason on nimenomaisesti hyväksyttävä tai hylättävä ennen kuin tarkistuslista etenee. Jokainen toimenpide aikaleimataan hyväksyjän identiteetillä — muodostaen täydellisen tarkastuspolun." },
+      { "question": "Miten poikkeamien seuranta toimii?", "answer": "Hyväksyjät voivat kirjata poikkeamia — pieniä ongelmia, jotka eivät oikeuta täydellistä hylkäystä. Jokainen poikkeama seurataan kuvauksella, tukimedialla ja ratkaisutilalla. Poikkeamat mahdollistavat ongelmien merkitsemisen estämättä koko työnkulkua." },
+      { "question": "Mitä PDF-auditointiraportin vienti sisältää?", "answer": "Täydellinen tarkistuslista kaikilla vastauksilla, täydellinen L1/L2/L3-hyväksyntäketju aikaleimoineen, hylkäyssyyt, poikkeamalokit ja mediaviittaukset — yksi dokumentti valmiina asiakkaille ja auditoijille." },
+      { "question": "Miten QualityModule lisensoidaan?", "answer": "Tarjoamme lisenssipohjaista yrityshinnoittelua — ei käyttäjäkohtaista SaaS:ia. Ota yhteyttä myyntitiimiin räätälöityä tarjousta varten tiimikokosi ja käyttöönottotarpeidesi perusteella." }
+    ]
+  },
+  "footer": {
+    "description": "Rakennettu kenttätiimeille, joissa unohtunut tarkastus aiheuttaa todellisia seurauksia.",
+    "product": { "title": "Tuote", "links": { "features": "Ominaisuudet", "howItWorks": "Miten se toimii", "impact": "Vaikutus", "faq": "UKK" } },
+    "legal": { "title": "Oikeudellinen", "links": { "privacy": "Tietosuojakäytäntö", "terms": "Käyttöehdot" } },
+    "copyright": "Kaikki oikeudet pidätetään.",
+    "tagline": "Rakennettu aloille, joilla laatu ei ole valinnaista."
+  }
+}

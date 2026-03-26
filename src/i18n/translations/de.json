@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "So funktioniert's",
+    "features": "Funktionen",
+    "impact": "Wirkung",
+    "faq": "FAQ",
+    "requestDemo": "Demo anfordern"
+  },
+  "banner": {
+    "text": "PDF-Audit-Export ist jetzt verfügbar — senden Sie Kunden einen signierten Prüfbericht mit einem Klick.",
+    "cta": "Demo buchen"
+  },
+  "hero": {
+    "badge": "Entwickelt für Bau & Fertigung",
+    "headline1": "Null ungeprüfte",
+    "headline2": "Inspektionen.",
+    "subtext": "Obligatorische Nachweise. Mehrstufige Freigabe. Lückenloser Audit-Trail. Entwickelt für",
+    "typewriter": ["Bauteams.", "Fertigungsteams.", "QS-Manager.", "Feldinspektoren."],
+    "cta": "Demo anfordern"
+  },
+  "quote": {
+    "text": "In Branchen, in denen eine versäumte Prüfung mehr kosten kann als das gesamte Projekt — darf Verantwortlichkeit kein Nachgedanke sein."
+  },
+  "problem": {
+    "label": "Das Problem",
+    "heading": "Qualitätsfehler kosten ",
+    "headingHighlight": "mehr als Geld.",
+    "subtext": "Die Kosten sind nicht nur finanziell — sie sind strukturell, rechtlich und reputationsschädigend.",
+    "items": [
+      { "title": "Papier-Checklisten", "description": "Keine Zeitstempel. Keine Zuordnung. Keine Rückverfolgbarkeit. Nachweise verschwinden, sobald sie abgelegt werden.", "stat": "73%", "statLabel": "der Feldfehler werden nicht erfasst" },
+      { "title": "Baufehler", "description": "Ungeprüfte Materialien oder Ausrichtung schaffen rechtliche Risiken — und im schlimmsten Fall strukturelles Versagen.", "stat": "2.4x", "statLabel": "höheres Risiko ohne digitale QS" },
+      { "title": "Fertigungsmängel", "description": "Eine ungeprüfte Charge. Keine Spur. Null Verantwortlichkeit. Rückrufe beginnen genau so.", "stat": "$4.2M", "statLabel": "durchschn. Kosten pro Qualitätsfehler" },
+      { "title": "Reaktive Qualität", "description": "Fehler nach ihrem Auftreten zu beheben kostet 5x mehr. Prävention muss vor Abschluss der Arbeit erfolgen.", "stat": "5x", "statLabel": "teurer nachträglich zu beheben" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Ersteller", "roleLabel": "Ersteller", "description": "erstellt die Checkliste, konfiguriert Freigabeketten, weist Rollen zu und aktiviert.", "points": ["Von Grund auf oder aus Vorlagen erstellen", "L1 → L2 → L3 Freigabekette konfigurieren", "Ausfüller & Genehmiger zuweisen, dann aktivieren"] },
+    "filler": { "title": "Ausfüllen & Einreichen", "roleLabel": "Ausfüller", "description": "öffnet zugewiesene Checklisten, füllt jeden Punkt mit Nachweisen aus und reicht zur Genehmigung ein.", "points": ["Checklisten-Punkte mit Foto, GPS & Notizen ausfüllen", "Status verfolgen: Entwurf, In Bearbeitung, Genehmigt, Abgelehnt", "Antworten über Web oder Mobile-App einreichen"] },
+    "approver": { "title": "Genehmigen & Ablehnen", "roleLabel": "Genehmiger", "description": "prüft Einreichungen, zeichnet ab oder lehnt mit Begründung ab und erstellt Mängelanzeigen bei Problemen.", "points": ["Mit Unterschrift genehmigen oder mit Notizen ablehnen", "Mängelanzeigen für kleinere Probleme ohne vollständige Ablehnung erstellen", "Mehrstufige Freigabe mit zeitgestempeltem Audit-Trail"] }
+  },
+  "features": {
+    "label": "Plattformfunktionen",
+    "heading1": "Von der ersten Inspektion",
+    "heading2": "bis zur finalen Freigabe.",
+    "subtext": "Von der Vorlage bis zum Audit-Trail — jeder Schritt des Inspektionslebenszyklus erfasst, durchgesetzt und exportbereit.",
+    "pdf": { "title": "PDF-Export & vollständiger Audit-Trail", "description": "Exportieren Sie jede Checkliste als strukturiertes PDF — alle Antworten, Freigaben, Mängelprotokolle und ein zeitgestempelter Audit-Trail in einem Dokument." },
+    "snag": { "title": "Mängel-zu-Checkliste-Workflow", "description": "Mängel erstellen, zuweisen und beheben, ohne die Checkliste zu verlassen. Jede Mängelanzeige bleibt mit der zugehörigen Inspektion verknüpft." },
+    "rules": { "title": "Regelbasierte Checklisten", "description": "Regeln bei der Erstellung festlegen. Aufgaben werden automatisch nach Gewerk, Zone oder Zeitplan zugewiesen — keine manuelle Delegation, keine versäumten Zuweisungen." },
+    "template": { "title": "Vorlagenbibliothek", "description": "Einmal erstellen, überall einsetzen. Wiederverwendbare Vorlagen mit benutzerdefinierten Feldern und Freigabeketten — in Sekunden auf jeder Baustelle einsatzbereit." },
+    "visual": {
+      "pdfLabels": ["Baustelleninspektion — Block A", "Elektrische Freigabe", "Betonierprüfung"],
+      "snagItems": [{ "label": "Deckenriss — Ebene 3", "status": "Offen" }, { "label": "Tür dejustiert — Block B", "status": "Behoben" }, { "label": "Fliesenlücke — Badezimmer 2", "status": "Wiedereröffnet" }],
+      "rulesItems": [{ "trigger": "Zone: Block A", "action": "Zuweisen → Bauteam" }, { "trigger": "Gewerk: Elektrik", "action": "Verknüpfen → Gantt-Aufgabe #42" }, { "trigger": "Phase: Übergabe", "action": "L2-Genehmigung erforderlich" }],
+      "templateItems": ["Strukturinspektion", "MEP-Checkliste", "Übergabe-QS", "Sicherheitsaudit", "Betonierung", "Brandschutz"]
+    }
+  },
+  "impact": {
+    "label": "Messbare Wirkung",
+    "heading1": "Ergebnisse, die Teams",
+    "heading2": "tatsächlich messen.",
+    "stats": [{ "label": "Reduktion von Feldfehlern" }, { "label": "Schnellere Inspektionszyklen" }, { "label": "Teamverantwortlichkeit" }, { "label": "Versäumte Checklisten" }]
+  },
+  "demo": {
+    "title": "Demo buchen",
+    "description": "Erleben Sie QualityModule in Aktion. Geben Sie Ihre Daten ein und wir organisieren eine Live-Vorführung für Ihr Team. Powered by VisiLean.",
+    "success": { "title": "Nachricht gesendet!", "text": "Unser Team meldet sich innerhalb eines Werktages bei Ihnen." },
+    "form": {
+      "name": "Name", "namePlaceholder": "Ihr Name", "nameRequired": "Name ist erforderlich",
+      "email": "E-Mail", "emailPlaceholder": "sie@unternehmen.com", "emailRequired": "E-Mail ist erforderlich", "emailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefonnummer ist erforderlich",
+      "message": "Nachricht", "messagePlaceholder": "Beschreiben Sie Ihr Team, Ihre Standorte und Ihren aktuellen Inspektionsprozess...", "messageRequired": "Nachricht ist erforderlich",
+      "submit": "Demo anfordern"
+    }
+  },
+  "faq": {
+    "title": "Fragen, beantwortet.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Ersteller", "filler": "Ausfüller", "approver": "Genehmiger" },
+    "creator": [
+      { "question": "Was steuert die Ersteller-Rolle?", "answer": "Der Ersteller (QS-Manager / Supervisor) erstellt Checklisten von Grund auf oder aus Vorlagen, konfiguriert L1→L2→L3-Freigabeketten, weist Ausfüller und Genehmiger zu, legt Gewerke und Aufgaben-Tags fest und aktiviert die Checkliste — das zugewiesene Team wird sofort benachrichtigt." },
+      { "question": "Können wir unsere eigenen Checklisten-Vorlagen verwenden?", "answer": "Absolut. Erstellen Sie Checklisten von Grund auf oder importieren Sie bestehende. Konfigurieren Sie benutzerdefinierte Felder, Gewerke, Aufgaben und Freigabeketten passend zu Ihrem Workflow. Vorlagen können projekt- und standortübergreifend wiederverwendet werden." },
+      { "question": "Wie weise ich Rollen und Genehmigungsstufen zu?", "answer": "Bei der Checklisten-Erstellung wählen Sie Teammitglieder für die Ausfüller- und Genehmiger-Rollen aus. Sie konfigurieren bis zu 3 Genehmigungsstufen — jede Stufe muss explizit abzeichnen, bevor die Checkliste zur nächsten weitergeht." },
+      { "question": "Welche Branchen nutzen QualityModule?", "answer": "Hauptsächlich Bau und Fertigung, aber jede Branche mit Feldinspektionen — Infrastruktur, Energie, Öl & Gas, Pharma — profitiert von strukturierten Qualitätsworkflows." }
+    ],
+    "filler": [
+      { "question": "Welche Nachweise sind für Einreichungen erforderlich?", "answer": "Jede Einreichung erfordert ein Foto, einen GPS-Standort und detaillierte Notizen. Das System akzeptiert keine Einreichungen ohne diese Nachweise — keine Ausnahmen. Dies gewährleistet vollständige Rückverfolgbarkeit für jeden Checklisten-Punkt." },
+      { "question": "Funktioniert QualityModule offline auf dem Mobilgerät?", "answer": "Ja. Die Mobile-App ist für raue Feldbedingungen mit eingeschränkter Konnektivität konzipiert. Sie können Nachweise erfassen und Checklisten offline ausfüllen — alles synchronisiert sich automatisch, wenn die Verbindung wiederhergestellt ist." },
+      { "question": "Können mehrere Ausfüller an derselben Checkliste arbeiten?", "answer": "Jeder Checklisten-Punkt ist einem einzelnen Ausfüller für klare Verantwortlichkeit zugewiesen. Allerdings können verschiedene Punkte innerhalb derselben Checkliste unterschiedlichen Teammitgliedern je nach Gewerk oder Aufgabe zugewiesen werden." },
+      { "question": "Was passiert nach dem Einreichen einer Checkliste?", "answer": "Nach der Einreichung wird die Checkliste in die Genehmigungswarteschlange verschoben. Der zugewiesene L1-Genehmiger wird sofort benachrichtigt. Sie können den Genehmigungsstatus in Echtzeit über Ihr Ausfüller-Dashboard verfolgen." }
+    ],
+    "approver": [
+      { "question": "Wie verhindert die mehrstufige Genehmigung Fehler?", "answer": "Sie konfigurieren bis zu 3 Genehmigungsstufen (L1, L2, L3). Jede Stufe muss explizit genehmigen oder ablehnen, bevor die Checkliste weitergeht. Jede Aktion wird mit der Identität des Genehmigers zeitgestempelt — für einen lückenlosen Audit-Trail." },
+      { "question": "Wie funktioniert die Mängelverfolgung?", "answer": "Genehmiger können Mängelanzeigen erstellen — kleinere Probleme, die keine vollständige Ablehnung rechtfertigen. Jede Mängelanzeige wird mit Beschreibung, unterstützenden Medien und Behebungsstatus erfasst. So können Sie Probleme markieren, ohne den gesamten Workflow zu blockieren." },
+      { "question": "Was enthält der PDF-Audit-Export?", "answer": "Vollständige Checkliste mit allen Antworten, die komplette L1/L2/L3-Freigabekette mit Zeitstempeln, Ablehnungsgründe, Mängelprotokolle und Medienreferenzen — ein einziges Dokument für Kunden und Prüfer." },
+      { "question": "Wie wird QualityModule lizenziert?", "answer": "Wir bieten lizenzbasierte Unternehmenspreise — kein nutzerbezogenes SaaS. Kontaktieren Sie unser Vertriebsteam für ein individuelles Angebot basierend auf Ihrer Teamgröße und Ihren Bereitstellungsanforderungen." }
+    ]
+  },
+  "footer": {
+    "description": "Entwickelt für Feldteams, bei denen eine versäumte Inspektion echte Konsequenzen hat.",
+    "product": { "title": "Produkt", "links": { "features": "Funktionen", "howItWorks": "So funktioniert's", "impact": "Wirkung", "faq": "FAQ" } },
+    "legal": { "title": "Rechtliches", "links": { "privacy": "Datenschutzrichtlinie", "terms": "Allgemeine Geschäftsbedingungen" } },
+    "copyright": "Alle Rechte vorbehalten.",
+    "tagline": "Entwickelt für Branchen, in denen Qualität nicht optional ist."
+  }
+}

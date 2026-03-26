@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "Sådan fungerer det",
+    "features": "Funktioner",
+    "impact": "Effekt",
+    "faq": "FAQ",
+    "requestDemo": "Anmod om demo"
+  },
+  "banner": {
+    "text": "PDF-revisionseksport er nu tilgængelig — send kunder en underskrevet inspektionsrapport med ét klik.",
+    "cta": "Book en demo"
+  },
+  "hero": {
+    "badge": "Bygget til byggeri og produktion",
+    "headline1": "Nul ukontrollerede",
+    "headline2": "inspektioner.",
+    "subtext": "Obligatorisk dokumentation. Flerniveaugodkendelse. Komplet revisionsspor. Bygget til",
+    "typewriter": ["byggehold.", "produktionshold.", "QC-chefer.", "feltinspektører."],
+    "cta": "Anmod om en demo"
+  },
+  "quote": {
+    "text": "I brancher hvor én overset kontrol kan koste mere end hele projektet — kan ansvarlighed ikke være en eftertanke."
+  },
+  "problem": {
+    "label": "Problemet",
+    "heading": "Kvalitetsfejl koster ",
+    "headingHighlight": "mere end penge.",
+    "subtext": "Omkostningerne er ikke kun økonomiske — de er strukturelle, juridiske og omdømmemæssige.",
+    "items": [
+      { "title": "Papirchecklister", "description": "Ingen tidsstempler. Intet ejerskab. Ingen sporbarhed. Dokumentation forsvinder i det øjeblik, den arkiveres.", "stat": "73%", "statLabel": "af feltfejl registreres ikke" },
+      { "title": "Byggefejl", "description": "Uverificerede materialer eller justering skaber juridisk eksponering — og i værste fald strukturel svigt.", "stat": "2.4x", "statLabel": "højere risiko uden digital QC" },
+      { "title": "Produktionsdefekter", "description": "Ét ukontrolleret parti. Ingen spor. Nul ansvarlighed. Tilbagekaldelser starter præcis sådan.", "stat": "$4.2M", "statLabel": "gns. omkostning pr. kvalitetsfejl" },
+      { "title": "Reaktiv kvalitet", "description": "At rette fejl efter de er sket koster 5 gange mere. Forebyggelse skal ske før arbejdet er færdigt.", "stat": "5x", "statLabel": "dyrere at rette bagefter" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Opretter", "roleLabel": "Opretter", "description": "bygger checklisten, konfigurerer godkendelseskæder, tildeler roller og aktiverer.", "points": ["Byg fra bunden eller fra skabeloner", "Konfigurer L1 → L2 → L3 godkendelseskæde", "Tildel udfyldere og godkendere, derefter aktiver"] },
+    "filler": { "title": "Udfyld og indsend", "roleLabel": "Udfylder", "description": "åbner tildelte checklister, udfylder hvert punkt med dokumentation og indsender til godkendelse.", "points": ["Udfyld checklistpunkter med foto, GPS og noter", "Spor status: Kladde, I gang, Godkendt, Afvist", "Indsend svar via web eller mobilapp"] },
+    "approver": { "title": "Godkend og afvis", "roleLabel": "Godkender", "description": "gennemgår indleveringer, godkender eller afviser med begrundelse og registrerer afvigelser.", "points": ["Godkend med underskrift eller afvis med noter", "Registrer mindre afvigelser uden fuld afvisning", "Flerniveaugodkendelse med tidsstemplet revisionsspor"] }
+  },
+  "features": {
+    "label": "Platformsfunktioner",
+    "heading1": "Fra første inspektion",
+    "heading2": "til endelig godkendelse.",
+    "subtext": "Fra skabelon til revisionsspor — hvert trin i inspektionscyklussen sporet, håndhævet og klar til eksport.",
+    "pdf": { "title": "PDF-eksport og komplet revisionsspor", "description": "Eksporter enhver checkliste som struktureret PDF — alle svar, godkendelser, afvigelseslogger og et tidsstemplet revisionsspor i ét dokument." },
+    "snag": { "title": "Afvigelse-til-checkliste-workflow", "description": "Registrer, tildel og løs defekter uden at forlade checklisten. Hver afvigelse forbliver knyttet til den inspektion, den stammer fra." },
+    "rules": { "title": "Regelbaserede checklister", "description": "Sæt regler ved oprettelse. Opgaver autotildeles efter fag, zone eller tidsplan — ingen manuel delegering, ingen glemte tildelinger." },
+    "template": { "title": "Skabelonbibliotek", "description": "Byg én gang, udbred overalt. Genanvendelige skabeloner med brugerdefinerede felter og godkendelseskæder — klar til lancering på ethvert byggeri på sekunder." },
+    "visual": {
+      "pdfLabels": ["Pladsinspektion — Blok A", "Elektrisk godkendelse", "Betonstøbningskontrol"],
+      "snagItems": [{ "label": "Loftsrevne — Niveau 3", "status": "Åben" }, { "label": "Dør fejljusteret — Blok B", "status": "Løst" }, { "label": "Flisemellemrum — Badeværelse 2", "status": "Genåbnet" }],
+      "rulesItems": [{ "trigger": "Zone: Blok A", "action": "Tildel → Byggehold" }, { "trigger": "Fag: El", "action": "Link → Gantt-opgave #42" }, { "trigger": "Fase: Aflevering", "action": "Kræv L2-godkendelse" }],
+      "templateItems": ["Strukturinspektion", "MEP-checkliste", "Afleverlings-QC", "Sikkerhedsrevision", "Betonstøbning", "Brandsikkerhed"]
+    }
+  },
+  "impact": {
+    "label": "Målbar effekt",
+    "heading1": "Resultater som hold",
+    "heading2": "faktisk måler.",
+    "stats": [{ "label": "Reduktion af feltfejl" }, { "label": "Hurtigere inspektionscyklusser" }, { "label": "Holdansvarlighed" }, { "label": "Glemte checklister" }]
+  },
+  "demo": {
+    "title": "Book en demo",
+    "description": "Se QualityModule i aktion. Udfyld dine oplysninger, og vi arrangerer en live-demonstration for dit hold. Powered by VisiLean.",
+    "success": { "title": "Besked sendt!", "text": "Vores hold kontakter dig inden for 1 arbejdsdag." },
+    "form": {
+      "name": "Navn", "namePlaceholder": "Dit navn", "nameRequired": "Navn er påkrævet",
+      "email": "E-mail", "emailPlaceholder": "du@virksomhed.dk", "emailRequired": "E-mail er påkrævet", "emailInvalid": "Indtast en gyldig e-mailadresse",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefonnummer er påkrævet",
+      "message": "Besked", "messagePlaceholder": "Beskriv dit hold, byggepladser og nuværende inspektionsproces...", "messageRequired": "Besked er påkrævet",
+      "submit": "Anmod om en demo"
+    }
+  },
+  "faq": {
+    "title": "Spørgsmål, besvaret.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Opretter", "filler": "Udfylder", "approver": "Godkender" },
+    "creator": [
+      { "question": "Hvad styrer Opretter-rollen?", "answer": "Opretteren (QC-chef / Supervisor) bygger checklister fra bunden eller fra skabeloner, konfigurerer L1→L2→L3-godkendelseskæder, tildeler udfyldere og godkendere, sætter fag og opgavetags og aktiverer checklisten — det tildelte hold underrettes øjeblikkeligt." },
+      { "question": "Kan vi bruge vores egne checklisteskabeloner?", "answer": "Absolut. Byg checklister fra bunden eller importer dine eksisterende. Konfigurer brugerdefinerede felter, fag, opgaver og godkendelseskæder, der matcher dit nøjagtige workflow. Skabeloner kan genbruges på tværs af projekter og byggepladser." },
+      { "question": "Hvordan tildeler jeg roller og godkendelsesniveauer?", "answer": "Under oprettelsen af checklisten vælger du holdmedlemmer til rollerne Udfylder og Godkender. Du konfigurerer op til 3 godkendelsesniveauer — hvert niveau skal eksplicit godkende, før checklisten går videre til det næste." },
+      { "question": "Hvilke brancher bruger QualityModule?", "answer": "Primært byggeri og produktion, men enhver branche med feltinspektioner — infrastruktur, energi, olie og gas, pharma — drager fordel af strukturerede kvalitetsworkflows." }
+    ],
+    "filler": [
+      { "question": "Hvilken dokumentation kræves ved indsendelse?", "answer": "Hver indsendelse kræver et foto, GPS-position og detaljerede noter. Systemet accepterer ikke indsendelser uden denne dokumentation — ingen undtagelser. Dette sikrer komplet sporbarhed for hvert checklistpunkt." },
+      { "question": "Fungerer QualityModule offline på mobilen?", "answer": "Ja. Mobilappen er designet til barske feltforhold med begrænset forbindelse. Du kan indsamle dokumentation og udfylde checklister offline — alt synkroniseres automatisk, når forbindelsen genoprettes." },
+      { "question": "Kan flere udfyldere arbejde på den samme checkliste?", "answer": "Hvert checklistpunkt tildeles en enkelt udfylder for klar ansvarlighed. Dog kan forskellige punkter inden for den samme checkliste tildeles forskellige holdmedlemmer baseret på deres fag eller opgave." },
+      { "question": "Hvad sker der efter jeg indsender en checkliste?", "answer": "Efter indsendelse flyttes checklisten til godkendelseskøen. Den tildelte L1-godkender underrettes øjeblikkeligt. Du kan spore godkendelsesstatus i realtid fra dit udfylder-dashboard." }
+    ],
+    "approver": [
+      { "question": "Hvordan forhindrer flerniveaugodkendelse fejl?", "answer": "Du konfigurerer op til 3 godkendelsesniveauer (L1, L2, L3). Hvert niveau skal eksplicit godkende eller afvise, før checklisten går videre. Hver handling tidsstemples med godkenderens identitet — og bygger et komplet revisionsspor." },
+      { "question": "Hvordan fungerer afvigelsesporing?", "answer": "Godkendere kan registrere afvigelser — mindre problemer, der ikke berettiger fuld afvisning. Hver afvigelse spores med beskrivelse, understøttende medier og løsningsstatus. Afvigelser lader dig markere problemer uden at blokere hele workflowet." },
+      { "question": "Hvad indeholder PDF-revisionseksporten?", "answer": "Komplet checkliste med alle svar, den fulde L1/L2/L3-godkendelseskæde med tidsstempler, afvisningsgrunde, afvigelseslogger og mediereferencer — ét enkelt dokument klar til kunder og revisorer." },
+      { "question": "Hvordan licenseres QualityModule?", "answer": "Vi tilbyder licensbaseret virksomhedsprissætning — ikke per-bruger SaaS. Kontakt vores salgsteam for et tilpasset tilbud baseret på din holdstørrelse og udrulningsbehov." }
+    ]
+  },
+  "footer": {
+    "description": "Bygget til felthold, hvor en overset inspektion har reelle konsekvenser.",
+    "product": { "title": "Produkt", "links": { "features": "Funktioner", "howItWorks": "Sådan fungerer det", "impact": "Effekt", "faq": "FAQ" } },
+    "legal": { "title": "Juridisk", "links": { "privacy": "Privatlivspolitik", "terms": "Vilkår og betingelser" } },
+    "copyright": "Alle rettigheder forbeholdes.",
+    "tagline": "Bygget til brancher, hvor kvalitet ikke er valgfrit."
+  }
+}

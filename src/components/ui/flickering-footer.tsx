@@ -6,6 +6,7 @@ import Image from "next/image";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Mail } from "lucide-react";
+import { useLanguage } from "@/i18n/context";
 
 // Helper function to convert any CSS color to rgba
 const getRGBA = (
@@ -274,27 +275,28 @@ const socialLinks = [
   },
 ];
 
-const footerColumns = [
-  {
-    title: "Product",
-    links: [
-      { label: "Features", href: "#features" },
-      { label: "How It Works", href: "#how-it-works" },
-      { label: "Impact", href: "#impact" },
-      { label: "FAQ", href: "#faq" },
-    ],
-  },
-{
-    title: "Legal",
-    links: [
-      { label: "Privacy Policy", href: "#" },
-      { label: "Terms & Conditions", href: "#" },
-    ],
-  },
-];
-
 export const QualityModuleFooter = () => {
+  const { t } = useLanguage();
   const tablet = useMediaQuery("(max-width: 1024px)");
+
+  const footerColumns = [
+    {
+      title: t.footer.product.title,
+      links: [
+        { label: t.footer.product.links.features,   href: "#features" },
+        { label: t.footer.product.links.howItWorks, href: "#how-it-works" },
+        { label: t.footer.product.links.impact,     href: "#impact" },
+        { label: t.footer.product.links.faq,        href: "#faq" },
+      ],
+    },
+    {
+      title: t.footer.legal.title,
+      links: [
+        { label: t.footer.legal.links.privacy, href: "#" },
+        { label: t.footer.legal.links.terms,   href: "#" },
+      ],
+    },
+  ];
 
   return (
     <footer id="footer" className="w-full bg-white border-t border-stone-200 pb-0 overflow-hidden">
@@ -310,7 +312,7 @@ export const QualityModuleFooter = () => {
           </div>
 
           <p className="text-stone-500 font-medium text-sm leading-relaxed mb-6">
-            The digital quality enforcement system for field teams who can&apos;t afford a single unchecked inspection.
+            {t.footer.description}
           </p>
 
           {/* Social icons */}
@@ -376,10 +378,10 @@ export const QualityModuleFooter = () => {
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto flex flex-col gap-2 md:flex-row items-center justify-between px-6 py-5">
         <p className="text-xs text-stone-400">
-          &copy;{new Date().getFullYear()} QualityModule. All rights reserved.
+          &copy;{new Date().getFullYear()} QualityModule. {t.footer.copyright}
         </p>
         <p className="text-xs text-stone-400">
-          Built for teams who build things.
+          {t.footer.tagline}
         </p>
       </div>
     </footer>

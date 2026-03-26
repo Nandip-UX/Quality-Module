@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problema",
+    "howItWorks": "Come funziona",
+    "features": "Funzionalità",
+    "impact": "Impatto",
+    "faq": "FAQ",
+    "requestDemo": "Richiedi una demo"
+  },
+  "banner": {
+    "text": "L'esportazione PDF di audit è ora disponibile — inviate ai clienti un rapporto di ispezione firmato con un clic.",
+    "cta": "Prenota una demo"
+  },
+  "hero": {
+    "badge": "Progettato per edilizia e manifattura",
+    "headline1": "Zero ispezioni",
+    "headline2": "non verificate.",
+    "subtext": "Evidenze obbligatorie. Approvazione multilivello. Traccia di audit completa. Progettato per",
+    "typewriter": ["team di cantiere.", "team di produzione.", "responsabili QC.", "ispettori sul campo."],
+    "cta": "Richiedi una demo"
+  },
+  "quote": {
+    "text": "Nelle industrie dove un controllo mancato può costare più dell'intero progetto — la responsabilità non può essere un ripensamento."
+  },
+  "problem": {
+    "label": "Il problema",
+    "heading": "I difetti di qualità costano ",
+    "headingHighlight": "più del denaro.",
+    "subtext": "Il costo non è solo finanziario — è strutturale, legale e reputazionale.",
+    "items": [
+      { "title": "Checklist cartacee", "description": "Nessun timestamp. Nessun responsabile. Nessuna tracciabilità. Le evidenze scompaiono nel momento in cui vengono archiviate.", "stat": "73%", "statLabel": "degli errori sul campo non registrati" },
+      { "title": "Cedimenti strutturali", "description": "Materiali o allineamenti non verificati creano esposizione legale — e nei casi peggiori, cedimento strutturale.", "stat": "2.4x", "statLabel": "rischio maggiore senza QC digitale" },
+      { "title": "Difetti di produzione", "description": "Un lotto non verificato. Nessuna traccia. Zero responsabilità. I richiami iniziano esattamente così.", "stat": "$4.2M", "statLabel": "costo medio per difetto di qualità" },
+      { "title": "Qualità reattiva", "description": "Correggere i difetti dopo che si verificano costa 5 volte di più. La prevenzione deve avvenire prima che il lavoro sia completato.", "stat": "5x", "statLabel": "più costoso correggere dopo" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Creatore", "roleLabel": "Creatore", "description": "costruisce la checklist, configura le catene di approvazione, assegna i ruoli e attiva.", "points": ["Creare da zero o da modelli", "Configurare la catena di approvazione L1 → L2 → L3", "Assegnare compilatori e approvatori, quindi attivare"] },
+    "filler": { "title": "Compilare e inviare", "roleLabel": "Compilatore", "description": "apre le checklist assegnate, compila ogni elemento con evidenze e invia per l'approvazione.", "points": ["Compilare gli elementi con foto, GPS e note", "Monitorare lo stato: Bozza, In corso, Approvato, Rifiutato", "Inviare le risposte tramite web o app mobile"] },
+    "approver": { "title": "Approvare e rifiutare", "roleLabel": "Approvatore", "description": "esamina le sottomissioni, approva o rifiuta con motivazione e segnala le non conformità.", "points": ["Approvare con firma o rifiutare con note", "Segnalare problemi minori senza rifiuto completo", "Approvazione multilivello con traccia di audit con timestamp"] }
+  },
+  "features": {
+    "label": "Capacità della piattaforma",
+    "heading1": "Dalla prima ispezione",
+    "heading2": "all'approvazione finale.",
+    "subtext": "Dal modello alla traccia di audit — ogni fase del ciclo di ispezione tracciata, applicata e pronta per l'esportazione.",
+    "pdf": { "title": "Esportazione PDF e traccia di audit completa", "description": "Esportate qualsiasi checklist come PDF strutturato — tutte le risposte, approvazioni, registri delle non conformità e una traccia di audit con timestamp in un unico documento." },
+    "snag": { "title": "Flusso non conformità-checklist", "description": "Segnalare, assegnare e risolvere difetti senza uscire dalla checklist. Ogni non conformità rimane collegata all'ispezione di origine." },
+    "rules": { "title": "Checklist basate su regole", "description": "Impostate le regole alla creazione. Le attività si autoassegnano per mestiere, zona o programma — nessuna delega manuale, nessuna assegnazione mancata." },
+    "template": { "title": "Libreria di modelli", "description": "Creare una volta, distribuire ovunque. Modelli riutilizzabili con campi personalizzati e catene di approvazione — pronti per il lancio su qualsiasi cantiere in pochi secondi." },
+    "visual": {
+      "pdfLabels": ["Ispezione cantiere — Blocco A", "Approvazione elettrica", "Controllo getto calcestruzzo"],
+      "snagItems": [{ "label": "Crepa nel soffitto — Livello 3", "status": "Aperto" }, { "label": "Porta disallineata — Blocco B", "status": "Risolto" }, { "label": "Giunto piastrelle — Bagno 2", "status": "Riaperto" }],
+      "rulesItems": [{ "trigger": "Zona: Blocco A", "action": "Assegnare → Team civile" }, { "trigger": "Mestiere: Elettrico", "action": "Collegare → Attività Gantt #42" }, { "trigger": "Fase: Consegna", "action": "Richiedere approvazione L2" }],
+      "templateItems": ["Ispezione strutturale", "Checklist MEP", "QC di consegna", "Audit di sicurezza", "Getto calcestruzzo", "Sicurezza antincendio"]
+    }
+  },
+  "impact": {
+    "label": "Impatto misurabile",
+    "heading1": "Risultati che i team",
+    "heading2": "misurano davvero.",
+    "stats": [{ "label": "Riduzione degli errori sul campo" }, { "label": "Cicli di ispezione più rapidi" }, { "label": "Responsabilità del team" }, { "label": "Checklist mancate" }]
+  },
+  "demo": {
+    "title": "Prenota una demo",
+    "description": "Scoprite QualityModule in azione. Inserite i vostri dati e organizzeremo una dimostrazione dal vivo per il vostro team. Powered by VisiLean.",
+    "success": { "title": "Messaggio inviato!", "text": "Il nostro team vi contatterà entro 1 giorno lavorativo." },
+    "form": {
+      "name": "Nome", "namePlaceholder": "Il vostro nome", "nameRequired": "Il nome è obbligatorio",
+      "email": "E-mail", "emailPlaceholder": "voi@azienda.com", "emailRequired": "L'e-mail è obbligatoria", "emailInvalid": "Inserite un indirizzo e-mail valido",
+      "phone": "Telefono", "phonePlaceholder": "00000 00000", "phoneRequired": "Il numero di telefono è obbligatorio",
+      "message": "Messaggio", "messagePlaceholder": "Descrivete il vostro team, le sedi dei cantieri e il vostro attuale processo di ispezione...", "messageRequired": "Il messaggio è obbligatorio",
+      "submit": "Richiedi una demo"
+    }
+  },
+  "faq": {
+    "title": "Domande, risposte.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Creatore", "filler": "Compilatore", "approver": "Approvatore" },
+    "creator": [
+      { "question": "Cosa controlla il ruolo di Creatore?", "answer": "Il Creatore (Responsabile QC / Supervisore) costruisce checklist da zero o da modelli, configura catene di approvazione L1→L2→L3, assegna compilatori e approvatori, definisce mestieri e tag delle attività e attiva la checklist — il team assegnato viene notificato immediatamente." },
+      { "question": "Possiamo usare i nostri modelli di checklist?", "answer": "Assolutamente. Create checklist da zero o importate le vostre. Configurate campi personalizzati, mestieri, attività e catene di approvazione per adattarli al vostro flusso di lavoro. I modelli sono riutilizzabili tra progetti e cantieri." },
+      { "question": "Come assegno ruoli e livelli di approvazione?", "answer": "Durante la creazione della checklist, selezionate i membri del team per i ruoli di Compilatore e Approvatore. Configurate fino a 3 livelli di approvazione — ogni livello deve approvare esplicitamente prima che la checklist passi al successivo." },
+      { "question": "Quali settori utilizzano QualityModule?", "answer": "Principalmente edilizia e manifattura, ma qualsiasi settore con ispezioni sul campo — infrastrutture, energia, petrolio e gas, farmaceutico — beneficia di flussi di lavoro di qualità strutturati." }
+    ],
+    "filler": [
+      { "question": "Quali evidenze sono richieste per le sottomissioni?", "answer": "Ogni sottomissione richiede una foto, posizione GPS e note dettagliate. Il sistema non accetta sottomissioni senza queste evidenze — nessuna eccezione. Questo garantisce la completa tracciabilità per ogni elemento della checklist." },
+      { "question": "QualityModule funziona offline su mobile?", "answer": "Sì. L'app mobile è progettata per condizioni di campo difficili con connettività limitata. Potete raccogliere evidenze e compilare checklist offline — tutto si sincronizza automaticamente quando la connessione viene ripristinata." },
+      { "question": "Più compilatori possono lavorare sulla stessa checklist?", "answer": "Ogni elemento della checklist è assegnato a un singolo compilatore per una chiara responsabilità. Tuttavia, elementi diversi all'interno della stessa checklist possono essere assegnati a diversi membri del team in base al mestiere o all'attività." },
+      { "question": "Cosa succede dopo aver inviato una checklist?", "answer": "Una volta inviata, la checklist passa alla coda di approvazione. L'approvatore L1 assegnato viene notificato immediatamente. Potete monitorare lo stato dell'approvazione in tempo reale dalla vostra dashboard di compilatore." }
+    ],
+    "approver": [
+      { "question": "Come previene gli errori l'approvazione multilivello?", "answer": "Configurate fino a 3 livelli di approvazione (L1, L2, L3). Ogni livello deve esplicitamente approvare o rifiutare prima che la checklist avanzi. Ogni azione viene registrata con timestamp e identità dell'approvatore — costruendo una traccia di audit completa." },
+      { "question": "Come funziona il monitoraggio delle non conformità?", "answer": "Gli approvatori possono segnalare non conformità — problemi minori che non giustificano un rifiuto completo. Ogni non conformità viene tracciata con descrizione, media di supporto e stato di risoluzione. Le non conformità consentono di segnalare problemi senza bloccare l'intero flusso di lavoro." },
+      { "question": "Cosa include l'esportazione PDF di audit?", "answer": "Checklist completa con tutte le risposte, la catena di approvazione L1/L2/L3 completa con timestamp, motivi di rifiuto, registri delle non conformità e riferimenti ai media — un unico documento pronto per clienti e revisori." },
+      { "question": "Come viene licenziato QualityModule?", "answer": "Offriamo prezzi enterprise basati su licenza — non SaaS per utente. Contattate il nostro team commerciale per un preventivo personalizzato in base alla dimensione del vostro team e alle esigenze di implementazione." }
+    ]
+  },
+  "footer": {
+    "description": "Progettato per team sul campo dove un'ispezione mancata ha conseguenze reali.",
+    "product": { "title": "Prodotto", "links": { "features": "Funzionalità", "howItWorks": "Come funziona", "impact": "Impatto", "faq": "FAQ" } },
+    "legal": { "title": "Legale", "links": { "privacy": "Informativa sulla privacy", "terms": "Termini e condizioni" } },
+    "copyright": "Tutti i diritti riservati.",
+    "tagline": "Progettato per industrie dove la qualità non è opzionale."
+  }
+}

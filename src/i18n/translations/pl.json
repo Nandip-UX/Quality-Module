@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "Jak to działa",
+    "features": "Funkcje",
+    "impact": "Wpływ",
+    "faq": "FAQ",
+    "requestDemo": "Zamów demo"
+  },
+  "banner": {
+    "text": "Eksport PDF audytu jest już dostępny — wyślij klientom podpisany raport inspekcji jednym kliknięciem.",
+    "cta": "Zarezerwuj demo"
+  },
+  "hero": {
+    "badge": "Stworzone dla budownictwa i produkcji",
+    "headline1": "Zero niesprawdzonych",
+    "headline2": "inspekcji.",
+    "subtext": "Obowiązkowe dowody. Wielopoziomowe zatwierdzanie. Kompletna ścieżka audytu. Stworzone dla",
+    "typewriter": ["zespołów budowlanych.", "zespołów produkcyjnych.", "menedżerów QC.", "inspektorów terenowych."],
+    "cta": "Zamów demo"
+  },
+  "quote": {
+    "text": "W branżach, gdzie jedna pominięta kontrola może kosztować więcej niż cały projekt — odpowiedzialność nie może być kwestią wtórną."
+  },
+  "problem": {
+    "label": "Problem",
+    "heading": "Awarie jakościowe kosztują ",
+    "headingHighlight": "więcej niż pieniądze.",
+    "subtext": "Koszt nie jest tylko finansowy — jest strukturalny, prawny i reputacyjny.",
+    "items": [
+      { "title": "Papierowe listy kontrolne", "description": "Brak znaczników czasu. Brak przypisania. Brak identyfikowalności. Dowody znikają w momencie archiwizacji.", "stat": "73%", "statLabel": "błędów terenowych niezarejestrowanych" },
+      { "title": "Awarie budowlane", "description": "Niezweryfikowane materiały lub wyrównanie tworzą ryzyko prawne — a w najgorszych przypadkach awarię strukturalną.", "stat": "2.4x", "statLabel": "wyższe ryzyko bez cyfrowej kontroli jakości" },
+      { "title": "Wady produkcyjne", "description": "Jedna niesprawdzona partia. Brak śladu. Zero odpowiedzialności. Wycofania produktów zaczynają się dokładnie tak.", "stat": "$4.2M", "statLabel": "śr. koszt na awarię jakościową" },
+      { "title": "Reaktywna jakość", "description": "Naprawianie awarii po ich wystąpieniu kosztuje 5x więcej. Zapobieganie musi nastąpić przed zakończeniem pracy.", "stat": "5x", "statLabel": "drożej naprawić później" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Twórca", "roleLabel": "Twórca", "description": "tworzy listę kontrolną, konfiguruje łańcuchy zatwierdzeń, przypisuje role i aktywuje.", "points": ["Tworzenie od zera lub z szablonów", "Konfiguracja łańcucha zatwierdzania L1 → L2 → L3", "Przypisanie wypełniających i zatwierdzających, następnie aktywacja"] },
+    "filler": { "title": "Wypełnij i prześlij", "roleLabel": "Wypełniający", "description": "otwiera przypisane listy kontrolne, wypełnia każdy punkt dowodami i przesyła do zatwierdzenia.", "points": ["Wypełnianie punktów ze zdjęciem, GPS i notatkami", "Śledzenie statusu: Szkic, W trakcie, Zatwierdzone, Odrzucone", "Przesyłanie odpowiedzi przez stronę lub aplikację mobilną"] },
+    "approver": { "title": "Zatwierdź i odrzuć", "roleLabel": "Zatwierdzający", "description": "sprawdza przesyłki, zatwierdza lub odrzuca z uzasadnieniem i zgłasza usterki.", "points": ["Zatwierdzanie podpisem lub odrzucanie z notatkami", "Zgłaszanie drobnych usterek bez pełnego odrzucenia", "Wielopoziomowe zatwierdzanie ze ścieżką audytu ze znacznikami czasu"] }
+  },
+  "features": {
+    "label": "Możliwości platformy",
+    "heading1": "Od pierwszej inspekcji",
+    "heading2": "do finalnego zatwierdzenia.",
+    "subtext": "Od szablonu do ścieżki audytu — każdy krok cyklu inspekcji śledzony, egzekwowany i gotowy do eksportu.",
+    "pdf": { "title": "Eksport PDF i pełna ścieżka audytu", "description": "Eksportuj dowolną listę kontrolną jako ustrukturyzowany PDF — wszystkie odpowiedzi, zatwierdzenia, dzienniki usterek i ścieżka audytu ze znacznikami czasu w jednym dokumencie." },
+    "snag": { "title": "Przepływ usterka-do-listy kontrolnej", "description": "Zgłaszaj, przypisuj i rozwiązuj wady bez opuszczania listy kontrolnej. Każda usterka pozostaje powiązana z inspekcją źródłową." },
+    "rules": { "title": "Listy kontrolne oparte na regułach", "description": "Ustaw reguły przy tworzeniu. Zadania autoprzypisują się według branży, strefy lub harmonogramu — bez ręcznego delegowania, bez pominiętych przypisań." },
+    "template": { "title": "Biblioteka szablonów", "description": "Utwórz raz, wdrażaj wszędzie. Wielokrotnego użytku szablony z polami niestandardowymi i łańcuchami zatwierdzeń — gotowe do uruchomienia na dowolnej budowie w sekundy." },
+    "visual": {
+      "pdfLabels": ["Inspekcja budowy — Blok A", "Zatwierdzenie elektryczne", "Kontrola wylewu betonu"],
+      "snagItems": [{ "label": "Pęknięcie sufitu — Poziom 3", "status": "Otwarty" }, { "label": "Drzwi nierówno — Blok B", "status": "Rozwiązany" }, { "label": "Szczelina w kafelkach — Łazienka 2", "status": "Ponownie otwarty" }],
+      "rulesItems": [{ "trigger": "Strefa: Blok A", "action": "Przypisz → Zespół budowlany" }, { "trigger": "Branża: Elektryczna", "action": "Połącz → Zadanie Gantt #42" }, { "trigger": "Etap: Przekazanie", "action": "Wymagaj zatwierdzenia L2" }],
+      "templateItems": ["Inspekcja strukturalna", "Lista kontrolna MEP", "QC przekazania", "Audyt bezpieczeństwa", "Wylew betonu", "Bezpieczeństwo pożarowe"]
+    }
+  },
+  "impact": {
+    "label": "Mierzalny wpływ",
+    "heading1": "Wyniki, które zespoły",
+    "heading2": "naprawdę mierzą.",
+    "stats": [{ "label": "Redukcja błędów terenowych" }, { "label": "Szybsze cykle inspekcji" }, { "label": "Odpowiedzialność zespołu" }, { "label": "Pominięte listy kontrolne" }]
+  },
+  "demo": {
+    "title": "Zarezerwuj demo",
+    "description": "Zobacz QualityModule w działaniu. Podaj swoje dane, a zorganizujemy prezentację na żywo dla Twojego zespołu. Powered by VisiLean.",
+    "success": { "title": "Wiadomość wysłana!", "text": "Nasz zespół skontaktuje się w ciągu 1 dnia roboczego." },
+    "form": {
+      "name": "Imię", "namePlaceholder": "Twoje imię", "nameRequired": "Imię jest wymagane",
+      "email": "E-mail", "emailPlaceholder": "ty@firma.com", "emailRequired": "E-mail jest wymagany", "emailInvalid": "Wprowadź prawidłowy adres e-mail",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Numer telefonu jest wymagany",
+      "message": "Wiadomość", "messagePlaceholder": "Opisz swój zespół, lokalizacje budów i obecny proces inspekcji...", "messageRequired": "Wiadomość jest wymagana",
+      "submit": "Zamów demo"
+    }
+  },
+  "faq": {
+    "title": "Pytania i odpowiedzi.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Twórca", "filler": "Wypełniający", "approver": "Zatwierdzający" },
+    "creator": [
+      { "question": "Co kontroluje rola Twórcy?", "answer": "Twórca (Menedżer QC / Supervisor) tworzy listy kontrolne od zera lub z szablonów, konfiguruje łańcuchy zatwierdzania L1→L2→L3, przypisuje wypełniających i zatwierdzających, ustawia branże i tagi zadań i aktywuje listę kontrolną — przypisany zespół jest natychmiast powiadamiany." },
+      { "question": "Czy możemy używać własnych szablonów list kontrolnych?", "answer": "Oczywiście. Twórz listy kontrolne od zera lub importuj istniejące. Konfiguruj pola niestandardowe, branże, zadania i łańcuchy zatwierdzania dostosowane do Twojego przepływu pracy. Szablony mogą być wielokrotnie używane w różnych projektach i budowach." },
+      { "question": "Jak przypisuję role i poziomy zatwierdzania?", "answer": "Podczas tworzenia listy kontrolnej wybierasz członków zespołu do ról Wypełniającego i Zatwierdzającego. Konfigurujesz do 3 poziomów zatwierdzania — każdy poziom musi wyraźnie zatwierdzić przed przejściem listy kontrolnej do następnego." },
+      { "question": "Jakie branże korzystają z QualityModule?", "answer": "Głównie budownictwo i produkcja, ale każda branża z inspekcjami terenowymi — infrastruktura, energetyka, ropa i gaz, farmacja — korzysta ze strukturyzowanych przepływów pracy jakościowej." }
+    ],
+    "filler": [
+      { "question": "Jakie dowody są wymagane przy przesyłaniu?", "answer": "Każde przesłanie wymaga zdjęcia, lokalizacji GPS i szczegółowych notatek. System nie akceptuje przesłań bez tych dowodów — zero wyjątków. Zapewnia to pełną identyfikowalność każdego punktu listy kontrolnej." },
+      { "question": "Czy QualityModule działa offline na urządzeniach mobilnych?", "answer": "Tak. Aplikacja mobilna jest zaprojektowana na trudne warunki terenowe z ograniczoną łącznością. Można zbierać dowody i wypełniać listy kontrolne offline — wszystko synchronizuje się automatycznie po przywróceniu połączenia." },
+      { "question": "Czy wielu wypełniających może pracować na tej samej liście kontrolnej?", "answer": "Każdy punkt listy kontrolnej jest przypisany do jednego wypełniającego dla jasnej odpowiedzialności. Jednak różne punkty w ramach tej samej listy kontrolnej mogą być przypisane do różnych członków zespołu w zależności od branży lub zadania." },
+      { "question": "Co dzieje się po przesłaniu listy kontrolnej?", "answer": "Po przesłaniu lista kontrolna trafia do kolejki zatwierdzania. Przypisany zatwierdzający L1 jest natychmiast powiadamiany. Możesz śledzić status zatwierdzenia w czasie rzeczywistym z panelu wypełniającego." }
+    ],
+    "approver": [
+      { "question": "Jak wielopoziomowe zatwierdzanie zapobiega błędom?", "answer": "Konfigurujesz do 3 poziomów zatwierdzania (L1, L2, L3). Każdy poziom musi wyraźnie zatwierdzić lub odrzucić przed przejściem listy kontrolnej dalej. Każda akcja ma znacznik czasu z tożsamością zatwierdzającego — tworząc kompletną ścieżkę audytu." },
+      { "question": "Jak działa śledzenie usterek?", "answer": "Zatwierdzający mogą zgłaszać usterki — drobne problemy, które nie uzasadniają pełnego odrzucenia. Każda usterka jest śledzona z opisem, mediami wspierającymi i statusem rozwiązania. Usterki pozwalają oznaczać problemy bez blokowania całego przepływu pracy." },
+      { "question": "Co zawiera eksport PDF audytu?", "answer": "Pełna lista kontrolna ze wszystkimi odpowiedziami, kompletny łańcuch zatwierdzania L1/L2/L3 ze znacznikami czasu, powody odrzucenia, dzienniki usterek i odniesienia do mediów — jeden dokument gotowy dla klientów i audytorów." },
+      { "question": "Jak licencjonowane jest QualityModule?", "answer": "Oferujemy ceny korporacyjne oparte na licencjach — nie SaaS na użytkownika. Skontaktuj się z naszym zespołem sprzedaży w sprawie indywidualnej wyceny na podstawie wielkości zespołu i potrzeb wdrożenia." }
+    ]
+  },
+  "footer": {
+    "description": "Stworzone dla zespołów terenowych, gdzie pominięta inspekcja ma realne konsekwencje.",
+    "product": { "title": "Produkt", "links": { "features": "Funkcje", "howItWorks": "Jak to działa", "impact": "Wpływ", "faq": "FAQ" } },
+    "legal": { "title": "Prawne", "links": { "privacy": "Polityka prywatności", "terms": "Regulamin" } },
+    "copyright": "Wszelkie prawa zastrzeżone.",
+    "tagline": "Stworzone dla branż, gdzie jakość nie jest opcjonalna."
+  }
+}

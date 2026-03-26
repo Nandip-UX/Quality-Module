@@ -52,8 +52,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           <span className="text-primary-light">total control.</span>
         </h2>
         <p className="text-stone-400 text-sm md:text-base max-w-2xl mx-auto text-center">
-          From checklist creation to final PDF export — a structured workflow
-          that ensures every inspection is verified, approved, and documented.
+          Three roles. Each one accountable for their part. Nothing advances until it's verified.
         </p>
       </div>
 

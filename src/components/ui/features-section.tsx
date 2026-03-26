@@ -1,52 +1,15 @@
 "use client";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { FileText, AlertOctagon, GitBranch, LayoutTemplate } from "lucide-react";
-
-const features = [
-  {
-    icon: FileText,
-    title: "PDF Export & Full Audit Trail",
-    description:
-      "Export any completed checklist as a structured PDF — includes all fields, snag conversions, sign-offs, and a full role-based audit log. Every action timestamped and traceable.",
-    visual: "pdf",
-    span: "sm:col-span-3",
-    corner: "sm:rounded-tl-xl",
-  },
-  {
-    icon: AlertOctagon,
-    title: "Snag-to-Checklist Workflow",
-    description:
-      "Approvers can raise a snag directly inside a checklist. Assign, resolve, or reopen with a single tap — keeping defects linked to their source inspection.",
-    visual: "snag",
-    span: "sm:col-span-2",
-    corner: "sm:rounded-tr-xl",
-  },
-  {
-    icon: GitBranch,
-    title: "Rule-Based Checklists",
-    description:
-      "Define conditional rules at creation time. Tasks auto-assign based on trade, zone, or VisiLean Takt & Gantt schedule — no manual delegation needed.",
-    visual: "rules",
-    span: "sm:col-span-2",
-    corner: "sm:rounded-bl-xl",
-  },
-  {
-    icon: LayoutTemplate,
-    title: "Template Library",
-    description:
-      "Build reusable checklist templates with custom fields, trades, and approval chains. Deploy instantly across any project or site without starting from scratch.",
-    visual: "template",
-    span: "sm:col-span-3",
-    corner: "sm:rounded-br-xl",
-  },
-];
+import { useLanguage } from "@/i18n/context";
 
 function VisualPDF() {
+  const { t } = useLanguage();
   return (
     <div className="relative mt-6 h-36 overflow-hidden pl-6">
       <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent z-10" />
       <div className="flex flex-col gap-2">
-        {["Site Inspection — Block A", "Electrical Sign-off", "Concrete Pour Check"].map((label, i) => (
+        {t.features.visual.pdfLabels.map((label, i) => (
           <div key={i} className="flex items-center gap-3 rounded-lg border border-stone-200 bg-stone-50 px-4 py-2.5">
             <div className="w-6 h-6 rounded bg-primary/10 flex items-center justify-center flex-shrink-0">
               <FileText className="w-3 h-3 text-primary" />
@@ -61,17 +24,15 @@ function VisualPDF() {
 }
 
 function VisualSnag() {
+  const { t } = useLanguage();
+  const indexColors = ["text-red-500 bg-red-50", "text-green-600 bg-green-50", "text-amber-600 bg-amber-50"];
   return (
     <div className="mt-6 flex flex-col gap-2 px-2">
-      {[
-        { label: "Ceiling crack — Level 3", status: "Open", color: "text-red-500 bg-red-50" },
-        { label: "Door misaligned — Block B", status: "Resolved", color: "text-green-600 bg-green-50" },
-        { label: "Tile gap — Bathroom 2", status: "Reopened", color: "text-amber-600 bg-amber-50" },
-      ].map((s, i) => (
+      {t.features.visual.snagItems.map((s, i) => (
         <div key={i} className="flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2">
           <AlertOctagon className="w-3.5 h-3.5 text-stone-400 flex-shrink-0" />
           <span className="text-xs text-stone-600 truncate flex-1">{s.label}</span>
-          <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${s.color}`}>{s.status}</span>
+          <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${indexColors[i]}`}>{s.status}</span>
         </div>
       ))}
     </div>
@@ -79,13 +40,10 @@ function VisualSnag() {
 }
 
 function VisualRules() {
+  const { t } = useLanguage();
   return (
     <div className="mt-4 flex flex-col gap-2">
-      {[
-        { trigger: "Zone: Block A", action: "Assign → Civil Team" },
-        { trigger: "Trade: Electrical", action: "Link → Gantt Task #42" },
-        { trigger: "Stage: Handover", action: "Require L2 Approval" },
-      ].map((r, i) => (
+      {t.features.visual.rulesItems.map((r, i) => (
         <div key={i} className="flex items-center gap-2 text-xs">
           <span className="bg-primary/10 text-primary font-medium px-2 py-1 rounded">{r.trigger}</span>
           <span className="text-stone-400">→</span>
@@ -97,14 +55,15 @@ function VisualRules() {
 }
 
 function VisualTemplate() {
+  const { t } = useLanguage();
   return (
     <div className="relative mt-6 h-36 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent z-10" />
       <div className="grid grid-cols-3 gap-2">
-        {["Structural Inspection", "MEP Checklist", "Handover QC", "Safety Audit", "Concrete Pour", "Fire Safety"].map((t, i) => (
+        {t.features.visual.templateItems.map((name, i) => (
           <div key={i} className="flex flex-col gap-1 rounded-lg border border-stone-200 bg-stone-50 p-3">
             <LayoutTemplate className="w-4 h-4 text-primary" />
-            <span className="text-[10px] font-medium text-stone-600 leading-tight">{t}</span>
+            <span className="text-[10px] font-medium text-stone-600 leading-tight">{name}</span>
           </div>
         ))}
       </div>
@@ -113,20 +72,30 @@ function VisualTemplate() {
 }
 
 export function FeaturesSection() {
+  const { t } = useLanguage();
+  const f = t.features;
+
+  const features = [
+    { icon: FileText,       title: f.pdf.title,      description: f.pdf.description,      visual: "pdf",      span: "sm:col-span-3", corner: "sm:rounded-tl-xl" },
+    { icon: AlertOctagon,   title: f.snag.title,     description: f.snag.description,     visual: "snag",     span: "sm:col-span-2", corner: "sm:rounded-tr-xl" },
+    { icon: GitBranch,      title: f.rules.title,    description: f.rules.description,    visual: "rules",    span: "sm:col-span-2", corner: "sm:rounded-bl-xl" },
+    { icon: LayoutTemplate, title: f.template.title, description: f.template.description, visual: "template", span: "sm:col-span-3", corner: "sm:rounded-br-xl" },
+  ];
+
   return (
     <section id="features" className="py-24 md:py-32 bg-white">
       <div className="max-w-5xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
           <span className="inline-block text-sm font-bold uppercase tracking-widest text-primary mb-4">
-            Platform Capabilities
+            {f.label}
           </span>
           <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight text-stone-900 mb-4">
-            Everything your team needs{" "}
-            <span className="text-primary">in one place.</span>
+            {f.heading1}{" "}
+            <span className="text-primary">{f.heading2}</span>
           </h2>
           <p className="text-stone-500 text-sm md:text-base max-w-2xl mx-auto">
-            From template creation to PDF export — QualityModule covers the full inspection lifecycle with structured workflows, snag tracking, and rule-driven automation.
+            {f.subtext}
           </p>
         </div>
 

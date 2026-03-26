@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Probléma",
+    "howItWorks": "Hogyan működik",
+    "features": "Funkciók",
+    "impact": "Hatás",
+    "faq": "GYIK",
+    "requestDemo": "Demó kérése"
+  },
+  "banner": {
+    "text": "A PDF audit export most elérhető — küldjön ügyfeleinek aláírt ellenőrzési jelentést egyetlen kattintással.",
+    "cta": "Demó foglalása"
+  },
+  "hero": {
+    "badge": "Építőipar és gyártás számára fejlesztve",
+    "headline1": "Nulla ellenőrizetlen",
+    "headline2": "vizsgálat.",
+    "subtext": "Kötelező bizonyítékok. Többszintű jóváhagyás. Teljes auditnyomvonal. Fejlesztve",
+    "typewriter": ["építőipari csapatoknak.", "gyártási csapatoknak.", "QC vezetőknek.", "helyszíni ellenőröknek."],
+    "cta": "Demó kérése"
+  },
+  "quote": {
+    "text": "Olyan iparágakban, ahol egyetlen kihagyott ellenőrzés többe kerülhet, mint az egész projekt — a felelősség nem lehet utólagos gondolat."
+  },
+  "problem": {
+    "label": "A probléma",
+    "heading": "A minőségi hibák többe kerülnek, ",
+    "headingHighlight": "mint pénz.",
+    "subtext": "A költség nem csak pénzügyi — strukturális, jogi és reputációs is.",
+    "items": [
+      { "title": "Papíralapú ellenőrzőlisták", "description": "Nincsenek időbélyegek. Nincs felelős. Nincs nyomon követhetőség. A bizonyítékok eltűnnek, amint iktatják őket.", "stat": "73%", "statLabel": "a helyszíni hibák nem kerülnek rögzítésre" },
+      { "title": "Építési hibák", "description": "Nem ellenőrzött anyagok vagy igazítás jogi kockázatot teremtenek — és a legrosszabb esetben strukturális összeomlást.", "stat": "2.4x", "statLabel": "nagyobb kockázat digitális QC nélkül" },
+      { "title": "Gyártási hibák", "description": "Egyetlen nem ellenőrzött tétel. Nincs nyom. Nulla felelősség. A visszahívások pontosan így kezdődnek.", "stat": "$4.2M", "statLabel": "átl. költség minőségi hibánként" },
+      { "title": "Reaktív minőség", "description": "A hibák bekövetkezés utáni javítása 5x többe kerül. A megelőzésnek a munka befejezése előtt kell megtörténnie.", "stat": "5x", "statLabel": "drágább utólag javítani" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Létrehozó", "roleLabel": "Létrehozó", "description": "felépíti az ellenőrzőlistát, konfigurálja a jóváhagyási láncokat, kiosztja a szerepeket és aktiválja.", "points": ["Építés az alapoktól vagy sablonokból", "L1 → L2 → L3 jóváhagyási lánc konfigurálása", "Kitöltők és jóváhagyók kijelölése, majd aktiválás"] },
+    "filler": { "title": "Kitöltés és beküldés", "roleLabel": "Kitöltő", "description": "megnyitja a hozzárendelt ellenőrzőlistákat, kitölti az egyes elemeket bizonyítékokkal és benyújtja jóváhagyásra.", "points": ["Ellenőrzőlista elemek kitöltése fényképpel, GPS-sel és jegyzetekkel", "Állapot követése: Piszkozat, Folyamatban, Jóváhagyva, Elutasítva", "Válaszok beküldése weben vagy mobilalkalmazáson"] },
+    "approver": { "title": "Jóváhagyás és elutasítás", "roleLabel": "Jóváhagyó", "description": "áttekinti a beküldéseket, jóváhagyja vagy elutasítja indoklással, és eltéréseket jelent.", "points": ["Jóváhagyás aláírással vagy elutasítás jegyzetekkel", "Kisebb eltérések jelzése teljes elutasítás nélkül", "Többszintű jóváhagyás időbélyeges auditnyomvonallal"] }
+  },
+  "features": {
+    "label": "Platform képességek",
+    "heading1": "Az első vizsgálattól",
+    "heading2": "a végső jóváhagyásig.",
+    "subtext": "Sablontól az auditnyomvonalig — a vizsgálati életciklus minden lépése nyomon követve, érvényesítve és exportra készen.",
+    "pdf": { "title": "PDF export és teljes auditnyomvonal", "description": "Exportáljon bármely ellenőrzőlistát strukturált PDF-ként — minden válasz, jóváhagyás, eltérésnapló és időbélyeges auditnyomvonal egyetlen dokumentumban." },
+    "snag": { "title": "Eltérés-ellenőrzőlista munkafolyamat", "description": "Jelentse, rendelje hozzá és oldja meg a hibákat az ellenőrzőlista elhagyása nélkül. Minden eltérés az eredeti vizsgálathoz kapcsolódik." },
+    "rules": { "title": "Szabályalapú ellenőrzőlisták", "description": "Állítson be szabályokat a létrehozáskor. A feladatok automatikusan hozzárendelődnek szakma, zóna vagy ütemterv szerint — nincs kézi delegálás, nincsenek kihagyott hozzárendelések." },
+    "template": { "title": "Sablonkönyvtár", "description": "Építse meg egyszer, telepítse mindenhol. Újrafelhasználható sablonok egyéni mezőkkel és jóváhagyási láncokkal — másodpercek alatt bármely telephelyen indíthatók." },
+    "visual": {
+      "pdfLabels": ["Helyszíni vizsgálat — A blokk", "Elektromos jóváhagyás", "Betonöntés-ellenőrzés"],
+      "snagItems": [{ "label": "Mennyezeti repedés — 3. szint", "status": "Nyitott" }, { "label": "Ajtó elcsúszva — B blokk", "status": "Megoldva" }, { "label": "Csemperés — 2. fürdőszoba", "status": "Újranyitva" }],
+      "rulesItems": [{ "trigger": "Zóna: A blokk", "action": "Hozzárendelés → Építési csapat" }, { "trigger": "Szakma: Elektromos", "action": "Összekapcsolás → Gantt feladat #42" }, { "trigger": "Fázis: Átadás", "action": "L2 jóváhagyás szükséges" }],
+      "templateItems": ["Szerkezeti vizsgálat", "MEP ellenőrzőlista", "Átadási QC", "Biztonsági audit", "Betonöntés", "Tűzbiztonság"]
+    }
+  },
+  "impact": {
+    "label": "Mérhető hatás",
+    "heading1": "Eredmények, amelyeket a csapatok",
+    "heading2": "ténylegesen mérnek.",
+    "stats": [{ "label": "Helyszíni hibák csökkentése" }, { "label": "Gyorsabb vizsgálati ciklusok" }, { "label": "Csapatfelelősség" }, { "label": "Kihagyott ellenőrzőlisták" }]
+  },
+  "demo": {
+    "title": "Demó foglalása",
+    "description": "Tekintse meg a QualityModule-t működés közben. Adja meg adatait, és élő bemutatót szervezünk csapata számára. Powered by VisiLean.",
+    "success": { "title": "Üzenet elküldve!", "text": "Csapatunk 1 munkanapon belül felveszi Önnel a kapcsolatot." },
+    "form": {
+      "name": "Név", "namePlaceholder": "Az Ön neve", "nameRequired": "A név megadása kötelező",
+      "email": "E-mail", "emailPlaceholder": "on@ceg.hu", "emailRequired": "Az e-mail megadása kötelező", "emailInvalid": "Adjon meg érvényes e-mail címet",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "A telefonszám megadása kötelező",
+      "message": "Üzenet", "messagePlaceholder": "Írja le csapatát, telephelyeit és jelenlegi vizsgálati folyamatát...", "messageRequired": "Az üzenet megadása kötelező",
+      "submit": "Demó kérése"
+    }
+  },
+  "faq": {
+    "title": "Kérdések, megválaszolva.",
+    "subtitle": "GYIK",
+    "categories": { "creator": "Létrehozó", "filler": "Kitöltő", "approver": "Jóváhagyó" },
+    "creator": [
+      { "question": "Mit irányít a Létrehozó szerepkör?", "answer": "A Létrehozó (QC vezető / Felügyelő) ellenőrzőlistákat épít az alapoktól vagy sablonokból, konfigurálja az L1→L2→L3 jóváhagyási láncokat, kijelöli a kitöltőket és jóváhagyókat, beállítja a szakmákat és feladatcímkéket, és aktiválja az ellenőrzőlistát — a kijelölt csapat azonnal értesítést kap." },
+      { "question": "Használhatjuk a saját ellenőrzőlista sablonjainkat?", "answer": "Természetesen. Hozzon létre ellenőrzőlistákat az alapoktól vagy importálja meglévőit. Konfiguráljon egyéni mezőket, szakmákat, feladatokat és jóváhagyási láncokat a pontos munkafolyamatnak megfelelően. A sablonok projektek és telephelyek között újrafelhasználhatók." },
+      { "question": "Hogyan rendelem hozzá a szerepeket és jóváhagyási szinteket?", "answer": "Az ellenőrzőlista létrehozásakor válassza ki a csapattagokat a Kitöltő és Jóváhagyó szerepekhez. Konfiguráljon legfeljebb 3 jóváhagyási szintet — minden szintnek kifejezetten jóvá kell hagynia, mielőtt az ellenőrzőlista továbblép a következőre." },
+      { "question": "Mely iparágak használják a QualityModule-t?", "answer": "Elsősorban az építőipar és a gyártás, de bármely iparág, amelyben helyszíni vizsgálatok vannak — infrastruktúra, energetika, olaj és gáz, gyógyszeripar — profitál a strukturált minőségi munkafolyamatokból." }
+    ],
+    "filler": [
+      { "question": "Milyen bizonyítékok szükségesek a beküldésekhez?", "answer": "Minden beküldés fényképet, GPS-helymeghatározást és részletes jegyzeteket igényel. A rendszer nem fogad el beküldéseket ezen bizonyítékok nélkül — nulla kivétel. Ez teljes nyomon követhetőséget biztosít minden ellenőrzőlista-elemhez." },
+      { "question": "Működik a QualityModule offline mobilon?", "answer": "Igen. A mobilalkalmazás nehéz terep körülményekre és korlátozott kapcsolódásra lett tervezve. Gyűjthet bizonyítékokat és tölthet ki ellenőrzőlistákat offline — minden automatikusan szinkronizálódik, amikor a kapcsolat helyreáll." },
+      { "question": "Dolgozhat több kitöltő ugyanazon az ellenőrzőlistán?", "answer": "Minden ellenőrzőlista-elem egyetlen kitöltőhöz van rendelve az egyértelmű felelősség érdekében. Ugyanakkor az ellenőrzőlista különböző elemei különböző csapattagokhoz rendelhetők szakma vagy feladat alapján." },
+      { "question": "Mi történik az ellenőrzőlista beküldése után?", "answer": "Beküldés után az ellenőrzőlista a jóváhagyási sorba kerül. A kijelölt L1 jóváhagyó azonnal értesítést kap. A jóváhagyási állapotot valós időben követheti a kitöltői irányítópultjáról." }
+    ],
+    "approver": [
+      { "question": "Hogyan akadályozza meg a hibákat a többszintű jóváhagyás?", "answer": "Legfeljebb 3 jóváhagyási szintet konfigurálhat (L1, L2, L3). Minden szintnek kifejezetten jóvá kell hagynia vagy el kell utasítania, mielőtt az ellenőrzőlista továbblép. Minden művelet időbélyeggel és a jóváhagyó azonosításával van ellátva — teljes auditnyomvonalat építve." },
+      { "question": "Hogyan működik az eltérések nyomon követése?", "answer": "A jóváhagyók eltéréseket jelenthetnek — kisebb problémákat, amelyek nem indokolják a teljes elutasítást. Minden eltérés leírással, támogató médiával és megoldási állapottal van nyomon követve. Az eltérések lehetővé teszik a problémák megjelölését a teljes munkafolyamat blokkolása nélkül." },
+      { "question": "Mit tartalmaz a PDF audit export?", "answer": "Teljes ellenőrzőlista minden válasszal, a teljes L1/L2/L3 jóváhagyási lánc időbélyegekkel, elutasítási indokok, eltérésnaplók és médiareferenciák — egyetlen dokumentum, amely kész az ügyfelek és auditorok számára." },
+      { "question": "Hogyan van licencelve a QualityModule?", "answer": "Licencalapú vállalati árképzést kínálunk — nem felhasználónkénti SaaS-t. Vegye fel a kapcsolatot értékesítési csapatunkkal egyedi ajánlatért csapatmérete és telepítési igényei alapján." }
+    ]
+  },
+  "footer": {
+    "description": "Helyszíni csapatok számára fejlesztve, ahol egy kihagyott vizsgálatnak valós következményei vannak.",
+    "product": { "title": "Termék", "links": { "features": "Funkciók", "howItWorks": "Hogyan működik", "impact": "Hatás", "faq": "GYIK" } },
+    "legal": { "title": "Jogi", "links": { "privacy": "Adatvédelmi szabályzat", "terms": "Általános szerződési feltételek" } },
+    "copyright": "Minden jog fenntartva.",
+    "tagline": "Olyan iparágak számára fejlesztve, ahol a minőség nem opcionális."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "Hur det fungerar",
+    "features": "Funktioner",
+    "impact": "Effekt",
+    "faq": "FAQ",
+    "requestDemo": "Begär demo"
+  },
+  "banner": {
+    "text": "PDF-revisionsexport är nu tillgänglig — skicka kunder en signerad inspektionsrapport med ett klick.",
+    "cta": "Boka en demo"
+  },
+  "hero": {
+    "badge": "Byggt för bygg och tillverkning",
+    "headline1": "Noll okontrollerade",
+    "headline2": "inspektioner.",
+    "subtext": "Obligatoriska bevis. Flernivågodkännande. Komplett revisionsspår. Byggt för",
+    "typewriter": ["byggteam.", "tillverkningsteam.", "QC-chefer.", "fältinspektörer."],
+    "cta": "Begär en demo"
+  },
+  "quote": {
+    "text": "I branscher där en missad kontroll kan kosta mer än hela projektet — kan ansvar inte vara en eftertanke."
+  },
+  "problem": {
+    "label": "Problemet",
+    "heading": "Kvalitetsbrister kostar ",
+    "headingHighlight": "mer än pengar.",
+    "subtext": "Kostnaden är inte bara ekonomisk — den är strukturell, juridisk och ryktesmässig.",
+    "items": [
+      { "title": "Papperschecklistor", "description": "Inga tidsstämplar. Inget ägarskap. Ingen spårbarhet. Bevis försvinner i det ögonblick de arkiveras.", "stat": "73%", "statLabel": "av fältfel förblir oregistrerade" },
+      { "title": "Byggfel", "description": "Overifierade material eller justering skapar juridisk exponering — och i värsta fall strukturellt haveri.", "stat": "2.4x", "statLabel": "högre risk utan digital QC" },
+      { "title": "Tillverkningsdefekter", "description": "En okontrollerad batch. Inget spår. Noll ansvar. Återkallelser börjar exakt så här.", "stat": "$4.2M", "statLabel": "genomsn. kostnad per kvalitetsbrist" },
+      { "title": "Reaktiv kvalitet", "description": "Att åtgärda brister efter att de inträffat kostar 5 gånger mer. Förebyggande måste ske innan arbetet är klart.", "stat": "5x", "statLabel": "dyrare att åtgärda i efterhand" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Skapare", "roleLabel": "Skapare", "description": "bygger checklistan, konfigurerar godkännandekedjor, tilldelar roller och aktiverar.", "points": ["Bygg från grunden eller från mallar", "Konfigurera L1 → L2 → L3 godkännandekedja", "Tilldela ifyllare och godkännare, sedan aktivera"] },
+    "filler": { "title": "Fyll i och skicka", "roleLabel": "Ifyllare", "description": "öppnar tilldelade checklistor, fyller i varje punkt med bevis och skickar för godkännande.", "points": ["Fyll i checklistpunkter med foto, GPS och anteckningar", "Spåra status: Utkast, Pågående, Godkänd, Avvisad", "Skicka svar via webb eller mobilapp"] },
+    "approver": { "title": "Godkänn och avvisa", "roleLabel": "Godkännare", "description": "granskar inlämningar, godkänner eller avvisar med motivering och rapporterar avvikelser.", "points": ["Godkänn med signatur eller avvisa med anteckningar", "Rapportera mindre avvikelser utan fullständig avvisning", "Flernivågodkännande med tidsstämplat revisionsspår"] }
+  },
+  "features": {
+    "label": "Plattformsfunktioner",
+    "heading1": "Från första inspektion",
+    "heading2": "till slutgiltigt godkännande.",
+    "subtext": "Från mall till revisionsspår — varje steg i inspektionscykeln spårad, tillämpad och redo att exportera.",
+    "pdf": { "title": "PDF-export och komplett revisionsspår", "description": "Exportera valfri checklista som strukturerad PDF — alla svar, godkännanden, avvikelseloggar och ett tidsstämplat revisionsspår i ett dokument." },
+    "snag": { "title": "Avvikelse-till-checklista-arbetsflöde", "description": "Rapportera, tilldela och lös avvikelser utan att lämna checklistan. Varje avvikelse förblir kopplad till inspektionen den kom ifrån." },
+    "rules": { "title": "Regelbaserade checklistor", "description": "Ställ in regler vid skapande. Uppgifter autotilldelas efter yrkesgrupp, zon eller schema — ingen manuell delegering, inga missade tilldelningar." },
+    "template": { "title": "Mallbibliotek", "description": "Bygg en gång, distribuera överallt. Återanvändbara mallar med anpassade fält och godkännandekedjor — redo att lansera på valfri arbetsplats inom sekunder." },
+    "visual": {
+      "pdfLabels": ["Platsinspektion — Block A", "Elektriskt godkännande", "Betonggjutningskontroll"],
+      "snagItems": [{ "label": "Takspricka — Nivå 3", "status": "Öppen" }, { "label": "Dörr feljusterad — Block B", "status": "Löst" }, { "label": "Kakelmellanrum — Badrum 2", "status": "Återöppnad" }],
+      "rulesItems": [{ "trigger": "Zon: Block A", "action": "Tilldela → Byggteam" }, { "trigger": "Yrkesgrupp: El", "action": "Länka → Gantt-uppgift #42" }, { "trigger": "Fas: Överlämning", "action": "Kräv L2-godkännande" }],
+      "templateItems": ["Strukturinspektion", "MEP-checklista", "Överlämnings-QC", "Säkerhetsrevision", "Betonggjutning", "Brandsäkerhet"]
+    }
+  },
+  "impact": {
+    "label": "Mätbar effekt",
+    "heading1": "Resultat som team",
+    "heading2": "faktiskt mäter.",
+    "stats": [{ "label": "Minskning av fältfel" }, { "label": "Snabbare inspektionscykler" }, { "label": "Teamansvar" }, { "label": "Missade checklistor" }]
+  },
+  "demo": {
+    "title": "Boka en demo",
+    "description": "Se QualityModule i aktion. Fyll i dina uppgifter så ordnar vi en livedemonstration för ditt team. Powered by VisiLean.",
+    "success": { "title": "Meddelande skickat!", "text": "Vårt team kontaktar dig inom 1 arbetsdag." },
+    "form": {
+      "name": "Namn", "namePlaceholder": "Ditt namn", "nameRequired": "Namn krävs",
+      "email": "E-post", "emailPlaceholder": "du@foretag.se", "emailRequired": "E-post krävs", "emailInvalid": "Ange en giltig e-postadress",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefonnummer krävs",
+      "message": "Meddelande", "messagePlaceholder": "Beskriv ditt team, arbetsplatser och nuvarande inspektionsprocess...", "messageRequired": "Meddelande krävs",
+      "submit": "Begär en demo"
+    }
+  },
+  "faq": {
+    "title": "Frågor, besvarade.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Skapare", "filler": "Ifyllare", "approver": "Godkännare" },
+    "creator": [
+      { "question": "Vad styr Skapar-rollen?", "answer": "Skaparen (QC-chef / Arbetsledare) bygger checklistor från grunden eller från mallar, konfigurerar L1→L2→L3-godkännandekedjor, tilldelar ifyllare och godkännare, ställer in yrkesgrupper och uppgiftstaggar och aktiverar checklistan — det tilldelade teamet meddelas omedelbart." },
+      { "question": "Kan vi använda våra egna checklistmallar?", "answer": "Absolut. Bygg checklistor från grunden eller importera befintliga. Konfigurera anpassade fält, yrkesgrupper, uppgifter och godkännandekedjor för att matcha ert exakta arbetsflöde. Mallar kan återanvändas mellan projekt och arbetsplatser." },
+      { "question": "Hur tilldelar jag roller och godkännandenivåer?", "answer": "Under skapandet av checklistan väljer du teammedlemmar för rollerna Ifyllare och Godkännare. Du konfigurerar upp till 3 godkännandenivåer — varje nivå måste uttryckligen godkänna innan checklistan går vidare till nästa." },
+      { "question": "Vilka branscher använder QualityModule?", "answer": "Främst bygg och tillverkning, men alla branscher med fältinspektioner — infrastruktur, energi, olja och gas, läkemedel — drar nytta av strukturerade kvalitetsarbetsflöden." }
+    ],
+    "filler": [
+      { "question": "Vilka bevis krävs för inlämningar?", "answer": "Varje inlämning kräver ett foto, GPS-position och detaljerade anteckningar. Systemet accepterar inte inlämningar utan dessa bevis — inga undantag. Detta säkerställer fullständig spårbarhet för varje checklistpunkt." },
+      { "question": "Fungerar QualityModule offline på mobilen?", "answer": "Ja. Mobilappen är utformad för krävande fältförhållanden med begränsad uppkoppling. Du kan samla bevis och fylla i checklistor offline — allt synkroniseras automatiskt när anslutningen återställs." },
+      { "question": "Kan flera ifyllare arbeta på samma checklista?", "answer": "Varje checklistpunkt tilldelas en enda ifyllare för tydligt ansvar. Däremot kan olika punkter inom samma checklista tilldelas olika teammedlemmar baserat på yrkesgrupp eller uppgift." },
+      { "question": "Vad händer efter att jag skickat in en checklista?", "answer": "Efter inlämning flyttas checklistan till godkännandekön. Den tilldelade L1-godkännaren meddelas omedelbart. Du kan spåra godkännandestatus i realtid från din ifyllar-instrumentpanel." }
+    ],
+    "approver": [
+      { "question": "Hur förhindrar flernivågodkännande fel?", "answer": "Du konfigurerar upp till 3 godkännandenivåer (L1, L2, L3). Varje nivå måste uttryckligen godkänna eller avvisa innan checklistan går vidare. Varje åtgärd tidsstämplas med godkännarens identitet — och bygger ett komplett revisionsspår." },
+      { "question": "Hur fungerar avvikelsespårning?", "answer": "Godkännare kan rapportera avvikelser — mindre problem som inte motiverar fullständig avvisning. Varje avvikelse spåras med beskrivning, stödjande media och lösningsstatus. Avvikelser låter dig markera problem utan att blockera hela arbetsflödet." },
+      { "question": "Vad ingår i PDF-revisionsexporten?", "answer": "Komplett checklista med alla svar, hela L1/L2/L3-godkännandekedjan med tidsstämplar, avvisningsskäl, avvikelseloggar och mediareferenser — ett enda dokument redo för kunder och revisorer." },
+      { "question": "Hur licensieras QualityModule?", "answer": "Vi erbjuder licensbaserad företagsprissättning — inte per-användare SaaS. Kontakta vårt säljteam för en anpassad offert baserad på er teamstorlek och driftsättningsbehov." }
+    ]
+  },
+  "footer": {
+    "description": "Byggt för fältteam där en missad inspektion har verkliga konsekvenser.",
+    "product": { "title": "Produkt", "links": { "features": "Funktioner", "howItWorks": "Hur det fungerar", "impact": "Effekt", "faq": "FAQ" } },
+    "legal": { "title": "Juridiskt", "links": { "privacy": "Integritetspolicy", "terms": "Villkor" } },
+    "copyright": "Alla rättigheter förbehållna.",
+    "tagline": "Byggt för branscher där kvalitet inte är valfritt."
+  }
+}

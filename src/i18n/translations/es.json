@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problema",
+    "howItWorks": "Cómo funciona",
+    "features": "Funcionalidades",
+    "impact": "Impacto",
+    "faq": "FAQ",
+    "requestDemo": "Solicitar demo"
+  },
+  "banner": {
+    "text": "La exportación PDF de auditoría ya está disponible — envíe a sus clientes un informe de inspección firmado con un clic.",
+    "cta": "Reservar una demo"
+  },
+  "hero": {
+    "badge": "Diseñado para construcción y manufactura",
+    "headline1": "Cero inspecciones",
+    "headline2": "sin verificar.",
+    "subtext": "Evidencia obligatoria. Aprobación multinivel. Pista de auditoría completa. Diseñado para",
+    "typewriter": ["equipos de construcción.", "equipos de manufactura.", "responsables de QC.", "inspectores de campo."],
+    "cta": "Solicitar una demo"
+  },
+  "quote": {
+    "text": "En industrias donde un control omitido puede costar más que el proyecto entero — la responsabilidad no puede ser una ocurrencia tardía."
+  },
+  "problem": {
+    "label": "El problema",
+    "heading": "Los fallos de calidad cuestan ",
+    "headingHighlight": "más que dinero.",
+    "subtext": "El coste no es solo financiero — es estructural, legal y reputacional.",
+    "items": [
+      { "title": "Checklists en papel", "description": "Sin marcas de tiempo. Sin responsable. Sin trazabilidad. La evidencia desaparece en el momento en que se archiva.", "stat": "73%", "statLabel": "de errores de campo no registrados" },
+      { "title": "Fallos de construcción", "description": "Materiales o alineaciones no verificados crean exposición legal — y en los peores casos, fallo estructural.", "stat": "2.4x", "statLabel": "mayor riesgo sin QC digital" },
+      { "title": "Defectos de fabricación", "description": "Un lote sin verificar. Sin rastro. Cero responsabilidad. Las retiradas de producto empiezan exactamente así.", "stat": "$4.2M", "statLabel": "coste medio por fallo de calidad" },
+      { "title": "Calidad reactiva", "description": "Corregir fallos después de que ocurran cuesta 5 veces más. La prevención debe ocurrir antes de que termine el trabajo.", "stat": "5x", "statLabel": "más caro corregir después" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Creador", "roleLabel": "Creador", "description": "construye la checklist, configura las cadenas de aprobación, asigna roles y activa.", "points": ["Crear desde cero o con plantillas", "Configurar cadena de aprobación L1 → L2 → L3", "Asignar completadores y aprobadores, luego activar"] },
+    "filler": { "title": "Completar y enviar", "roleLabel": "Completador", "description": "abre las checklists asignadas, completa cada elemento con evidencia y envía para aprobación.", "points": ["Completar elementos con foto, GPS y notas", "Seguir estado: Borrador, En progreso, Aprobado, Rechazado", "Enviar respuestas por web o aplicación móvil"] },
+    "approver": { "title": "Aprobar y rechazar", "roleLabel": "Aprobador", "description": "revisa las entregas, aprueba o rechaza con motivo, y registra incidencias para problemas.", "points": ["Aprobar con firma o rechazar con notas", "Registrar incidencias menores sin rechazo completo", "Aprobación multinivel con pista de auditoría con marca de tiempo"] }
+  },
+  "features": {
+    "label": "Capacidades de la plataforma",
+    "heading1": "Desde la primera inspección",
+    "heading2": "hasta la aprobación final.",
+    "subtext": "De la plantilla a la pista de auditoría — cada paso del ciclo de inspección rastreado, aplicado y listo para exportar.",
+    "pdf": { "title": "Exportación PDF y pista de auditoría completa", "description": "Exporte cualquier checklist como PDF estructurado — todas las respuestas, aprobaciones, registros de incidencias y una pista de auditoría con marca de tiempo en un solo documento." },
+    "snag": { "title": "Flujo incidencia-a-checklist", "description": "Registre, asigne y resuelva defectos sin salir de la checklist. Cada incidencia permanece vinculada a la inspección de origen." },
+    "rules": { "title": "Checklists basadas en reglas", "description": "Defina reglas al crear. Las tareas se autoasignan por oficio, zona u horario — sin delegación manual, sin asignaciones perdidas." },
+    "template": { "title": "Biblioteca de plantillas", "description": "Crear una vez, desplegar en todas partes. Plantillas reutilizables con campos personalizados y cadenas de aprobación — listas para lanzar en cualquier obra en segundos." },
+    "visual": {
+      "pdfLabels": ["Inspección de obra — Bloque A", "Aprobación eléctrica", "Control de vertido de hormigón"],
+      "snagItems": [{ "label": "Grieta en techo — Nivel 3", "status": "Abierto" }, { "label": "Puerta desalineada — Bloque B", "status": "Resuelto" }, { "label": "Junta de baldosa — Baño 2", "status": "Reabierto" }],
+      "rulesItems": [{ "trigger": "Zona: Bloque A", "action": "Asignar → Equipo civil" }, { "trigger": "Oficio: Eléctrico", "action": "Vincular → Tarea Gantt #42" }, { "trigger": "Fase: Entrega", "action": "Requerir aprobación L2" }],
+      "templateItems": ["Inspección estructural", "Checklist MEP", "QC de entrega", "Auditoría de seguridad", "Vertido de hormigón", "Seguridad contra incendios"]
+    }
+  },
+  "impact": {
+    "label": "Impacto medible",
+    "heading1": "Resultados que los equipos",
+    "heading2": "realmente miden.",
+    "stats": [{ "label": "Reducción de errores de campo" }, { "label": "Ciclos de inspección más rápidos" }, { "label": "Responsabilidad del equipo" }, { "label": "Checklists omitidas" }]
+  },
+  "demo": {
+    "title": "Reservar una demo",
+    "description": "Vea QualityModule en acción. Complete sus datos y organizaremos una demostración en vivo para su equipo. Powered by VisiLean.",
+    "success": { "title": "¡Mensaje enviado!", "text": "Nuestro equipo se pondrá en contacto en un día laborable." },
+    "form": {
+      "name": "Nombre", "namePlaceholder": "Su nombre", "nameRequired": "El nombre es obligatorio",
+      "email": "Correo electrónico", "emailPlaceholder": "usted@empresa.com", "emailRequired": "El correo electrónico es obligatorio", "emailInvalid": "Introduzca una dirección de correo electrónico válida",
+      "phone": "Teléfono", "phonePlaceholder": "00000 00000", "phoneRequired": "El número de teléfono es obligatorio",
+      "message": "Mensaje", "messagePlaceholder": "Describa su equipo, ubicaciones de obra y su proceso de inspección actual...", "messageRequired": "El mensaje es obligatorio",
+      "submit": "Solicitar una demo"
+    }
+  },
+  "faq": {
+    "title": "Preguntas, respondidas.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Creador", "filler": "Completador", "approver": "Aprobador" },
+    "creator": [
+      { "question": "¿Qué controla el rol de Creador?", "answer": "El Creador (Responsable QC / Supervisor) construye checklists desde cero o con plantillas, configura cadenas de aprobación L1→L2→L3, asigna completadores y aprobadores, define oficios y etiquetas de tareas, y activa la checklist — el equipo asignado es notificado instantáneamente." },
+      { "question": "¿Podemos usar nuestras propias plantillas de checklist?", "answer": "Por supuesto. Cree checklists desde cero o importe las existentes. Configure campos personalizados, oficios, tareas y cadenas de aprobación adaptados a su flujo de trabajo. Las plantillas se pueden reutilizar entre proyectos y obras." },
+      { "question": "¿Cómo asigno roles y niveles de aprobación?", "answer": "Durante la creación de la checklist, seleccione miembros del equipo para los roles de Completador y Aprobador. Configure hasta 3 niveles de aprobación — cada nivel debe aprobar explícitamente antes de que la checklist avance al siguiente." },
+      { "question": "¿Qué industrias usan QualityModule?", "answer": "Principalmente construcción y manufactura, pero cualquier industria con inspecciones de campo — infraestructura, energía, petróleo y gas, farmacéutica — se beneficia de flujos de trabajo de calidad estructurados." }
+    ],
+    "filler": [
+      { "question": "¿Qué evidencia se requiere para las entregas?", "answer": "Cada entrega exige una foto, ubicación GPS y notas detalladas. El sistema no acepta entregas sin esta evidencia — sin excepciones. Esto garantiza la trazabilidad completa de cada elemento de la checklist." },
+      { "question": "¿Funciona QualityModule sin conexión en móvil?", "answer": "Sí. La aplicación móvil está diseñada para condiciones de campo difíciles con conectividad limitada. Puede capturar evidencia y completar checklists sin conexión — todo se sincroniza automáticamente cuando se restablece la conexión." },
+      { "question": "¿Pueden varios completadores trabajar en la misma checklist?", "answer": "Cada elemento de checklist se asigna a un único completador para una responsabilidad clara. Sin embargo, diferentes elementos dentro de la misma checklist pueden asignarse a diferentes miembros del equipo según su oficio o tarea." },
+      { "question": "¿Qué sucede después de enviar una checklist?", "answer": "Una vez enviada, la checklist pasa a la cola de aprobación. El aprobador L1 asignado es notificado al instante. Puede seguir el estado de aprobación en tiempo real desde su panel de completador." }
+    ],
+    "approver": [
+      { "question": "¿Cómo previene errores la aprobación multinivel?", "answer": "Se configuran hasta 3 niveles de aprobación (L1, L2, L3). Cada nivel debe aprobar o rechazar explícitamente antes de que la checklist avance. Cada acción se registra con marca de tiempo e identidad del aprobador — creando una pista de auditoría completa." },
+      { "question": "¿Cómo funciona el seguimiento de incidencias?", "answer": "Los aprobadores pueden registrar incidencias — problemas menores que no justifican un rechazo completo. Cada incidencia se rastrea con descripción, medios de soporte y estado de resolución. Las incidencias permiten señalar problemas sin bloquear todo el flujo de trabajo." },
+      { "question": "¿Qué incluye la exportación PDF de auditoría?", "answer": "La checklist completa con todas las respuestas, la cadena de aprobación L1/L2/L3 completa con marcas de tiempo, motivos de rechazo, registros de incidencias y referencias de medios — un único documento listo para clientes y auditores." },
+      { "question": "¿Cómo se licencia QualityModule?", "answer": "Ofrecemos precios empresariales basados en licencias — no SaaS por usuario. Contacte con nuestro equipo de ventas para un presupuesto personalizado según el tamaño de su equipo y necesidades de implementación." }
+    ]
+  },
+  "footer": {
+    "description": "Diseñado para equipos de campo donde una inspección omitida tiene consecuencias reales.",
+    "product": { "title": "Producto", "links": { "features": "Funcionalidades", "howItWorks": "Cómo funciona", "impact": "Impacto", "faq": "FAQ" } },
+    "legal": { "title": "Legal", "links": { "privacy": "Política de privacidad", "terms": "Términos y condiciones" } },
+    "copyright": "Todos los derechos reservados.",
+    "tagline": "Diseñado para industrias donde la calidad no es opcional."
+  }
+}

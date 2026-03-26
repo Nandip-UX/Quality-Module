@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problema",
+    "howItWorks": "Cum funcționează",
+    "features": "Funcționalități",
+    "impact": "Impact",
+    "faq": "FAQ",
+    "requestDemo": "Solicită demo"
+  },
+  "banner": {
+    "text": "Exportul PDF de audit este acum disponibil — trimiteți clienților un raport de inspecție semnat cu un singur clic.",
+    "cta": "Programează un demo"
+  },
+  "hero": {
+    "badge": "Creat pentru construcții și producție",
+    "headline1": "Zero inspecții",
+    "headline2": "neverificate.",
+    "subtext": "Dovezi obligatorii. Aprobare multinivel. Pistă de audit completă. Creat pentru",
+    "typewriter": ["echipe de construcții.", "echipe de producție.", "manageri QC.", "inspectori de teren."],
+    "cta": "Solicită un demo"
+  },
+  "quote": {
+    "text": "În industriile în care o verificare ratată poate costa mai mult decât întregul proiect — responsabilitatea nu poate fi o gândire ulterioară."
+  },
+  "problem": {
+    "label": "Problema",
+    "heading": "Eșecurile de calitate costă ",
+    "headingHighlight": "mai mult decât bani.",
+    "subtext": "Costul nu este doar financiar — este structural, juridic și reputațional.",
+    "items": [
+      { "title": "Liste de verificare pe hârtie", "description": "Fără marcaje temporale. Fără responsabil. Fără trasabilitate. Dovezile dispar în momentul în care sunt arhivate.", "stat": "73%", "statLabel": "din erorile de teren rămân neînregistrate" },
+      { "title": "Eșecuri de construcție", "description": "Materialele sau alinierea neverificate creează expunere juridică — și în cele mai grave cazuri, eșec structural.", "stat": "2.4x", "statLabel": "risc mai mare fără QC digital" },
+      { "title": "Defecte de fabricație", "description": "Un lot neverificat. Fără urmă. Zero responsabilitate. Retragerile de pe piață încep exact așa.", "stat": "$4.2M", "statLabel": "cost mediu pe eșec de calitate" },
+      { "title": "Calitate reactivă", "description": "Repararea eșecurilor după ce au loc costă de 5 ori mai mult. Prevenția trebuie să aibă loc înainte de finalizarea lucrării.", "stat": "5x", "statLabel": "mai scump de reparat ulterior" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Creator", "roleLabel": "Creator", "description": "construiește lista de verificare, configurează lanțurile de aprobare, atribuie roluri și activează.", "points": ["Construire de la zero sau din șabloane", "Configurare lanț de aprobare L1 → L2 → L3", "Atribuire completatori și aprobatori, apoi activare"] },
+    "filler": { "title": "Completare și trimitere", "roleLabel": "Completator", "description": "deschide listele de verificare atribuite, completează fiecare element cu dovezi și trimite pentru aprobare.", "points": ["Completare elemente cu fotografie, GPS și note", "Urmărire status: Ciornă, În progres, Aprobat, Respins", "Trimitere răspunsuri prin web sau aplicație mobilă"] },
+    "approver": { "title": "Aprobare și respingere", "roleLabel": "Aprobator", "description": "examinează trimiterile, aprobă sau respinge cu motivare și raportează neconformitățile.", "points": ["Aprobare cu semnătură sau respingere cu note", "Raportare neconformități minore fără respingere completă", "Aprobare multinivel cu pistă de audit cu marcaj temporal"] }
+  },
+  "features": {
+    "label": "Capacitățile platformei",
+    "heading1": "De la prima inspecție",
+    "heading2": "până la aprobarea finală.",
+    "subtext": "De la șablon la pista de audit — fiecare pas al ciclului de inspecție urmărit, aplicat și gata de export.",
+    "pdf": { "title": "Export PDF și pistă de audit completă", "description": "Exportați orice listă de verificare ca PDF structurat — toate răspunsurile, aprobările, jurnalele de neconformități și o pistă de audit cu marcaj temporal într-un singur document." },
+    "snag": { "title": "Flux de lucru neconformitate-la-listă de verificare", "description": "Raportați, atribuiți și rezolvați defecte fără a părăsi lista de verificare. Fiecare neconformitate rămâne legată de inspecția din care provine." },
+    "rules": { "title": "Liste de verificare bazate pe reguli", "description": "Stabiliți reguli la creare. Sarcinile se autoatribuie după meserie, zonă sau program — fără delegare manuală, fără atribuiri ratate." },
+    "template": { "title": "Bibliotecă de șabloane", "description": "Construiți o dată, implementați peste tot. Șabloane reutilizabile cu câmpuri personalizate și lanțuri de aprobare — gata de lansare pe orice șantier în câteva secunde." },
+    "visual": {
+      "pdfLabels": ["Inspecție de șantier — Bloc A", "Aprobare electrică", "Control turnare beton"],
+      "snagItems": [{ "label": "Fisură în tavan — Nivel 3", "status": "Deschis" }, { "label": "Ușă nealiniată — Bloc B", "status": "Rezolvat" }, { "label": "Rost faianță — Baie 2", "status": "Redeschis" }],
+      "rulesItems": [{ "trigger": "Zonă: Bloc A", "action": "Atribuire → Echipa civilă" }, { "trigger": "Meserie: Electrică", "action": "Legare → Sarcină Gantt #42" }, { "trigger": "Fază: Predare", "action": "Necesită aprobare L2" }],
+      "templateItems": ["Inspecție structurală", "Listă de verificare MEP", "QC de predare", "Audit de securitate", "Turnare beton", "Securitate la incendiu"]
+    }
+  },
+  "impact": {
+    "label": "Impact măsurabil",
+    "heading1": "Rezultate pe care echipele",
+    "heading2": "le măsoară cu adevărat.",
+    "stats": [{ "label": "Reducerea erorilor de teren" }, { "label": "Cicluri de inspecție mai rapide" }, { "label": "Responsabilitatea echipei" }, { "label": "Liste de verificare ratate" }]
+  },
+  "demo": {
+    "title": "Programează un demo",
+    "description": "Vedeți QualityModule în acțiune. Completați datele dumneavoastră și vom organiza o demonstrație live pentru echipa dumneavoastră. Powered by VisiLean.",
+    "success": { "title": "Mesaj trimis!", "text": "Echipa noastră vă va contacta în termen de 1 zi lucrătoare." },
+    "form": {
+      "name": "Nume", "namePlaceholder": "Numele dumneavoastră", "nameRequired": "Numele este obligatoriu",
+      "email": "E-mail", "emailPlaceholder": "dvs@companie.ro", "emailRequired": "E-mailul este obligatoriu", "emailInvalid": "Introduceți o adresă de e-mail validă",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Numărul de telefon este obligatoriu",
+      "message": "Mesaj", "messagePlaceholder": "Descrieți echipa, locațiile șantierelor și procesul actual de inspecție...", "messageRequired": "Mesajul este obligatoriu",
+      "submit": "Solicită un demo"
+    }
+  },
+  "faq": {
+    "title": "Întrebări, răspunse.",
+    "subtitle": "FAQ",
+    "categories": { "creator": "Creator", "filler": "Completator", "approver": "Aprobator" },
+    "creator": [
+      { "question": "Ce controlează rolul de Creator?", "answer": "Creatorul (Manager QC / Supervizor) construiește liste de verificare de la zero sau din șabloane, configurează lanțuri de aprobare L1→L2→L3, atribuie completatori și aprobatori, stabilește meserii și etichete de sarcini și activează lista de verificare — echipa atribuită este notificată instantaneu." },
+      { "question": "Putem folosi propriile noastre șabloane de liste de verificare?", "answer": "Absolut. Construiți liste de verificare de la zero sau importați-le pe cele existente. Configurați câmpuri personalizate, meserii, sarcini și lanțuri de aprobare pentru a se potrivi exact cu fluxul dumneavoastră de lucru. Șabloanele pot fi reutilizate între proiecte și șantiere." },
+      { "question": "Cum atribui roluri și niveluri de aprobare?", "answer": "În timpul creării listei de verificare, selectați membrii echipei pentru rolurile de Completator și Aprobator. Configurați până la 3 niveluri de aprobare — fiecare nivel trebuie să aprobe explicit înainte ca lista de verificare să avanseze la următorul." },
+      { "question": "Ce industrii folosesc QualityModule?", "answer": "În principal construcții și producție, dar orice industrie cu inspecții de teren — infrastructură, energie, petrol și gaze, farmaceutică — beneficiază de fluxuri de lucru de calitate structurate." }
+    ],
+    "filler": [
+      { "question": "Ce dovezi sunt necesare pentru trimiteri?", "answer": "Fiecare trimitere necesită o fotografie, localizare GPS și note detaliate. Sistemul nu acceptă trimiteri fără aceste dovezi — zero excepții. Aceasta asigură trasabilitatea completă pentru fiecare element al listei de verificare." },
+      { "question": "Funcționează QualityModule offline pe mobil?", "answer": "Da. Aplicația mobilă este concepută pentru condiții dure de teren cu conectivitate limitată. Puteți colecta dovezi și completa liste de verificare offline — totul se sincronizează automat când conexiunea este restabilită." },
+      { "question": "Pot mai mulți completatori lucra la aceeași listă de verificare?", "answer": "Fiecare element al listei de verificare este atribuit unui singur completator pentru responsabilitate clară. Cu toate acestea, elementele diferite din aceeași listă de verificare pot fi atribuite diferitilor membri ai echipei în funcție de meserie sau sarcină." },
+      { "question": "Ce se întâmplă după trimiterea unei liste de verificare?", "answer": "După trimitere, lista de verificare se mută în coada de aprobare. Aprobatorul L1 atribuit este notificat instantaneu. Puteți urmări statusul aprobării în timp real din tabloul de bord al completatorului." }
+    ],
+    "approver": [
+      { "question": "Cum previne aprobarea multinivel erorile?", "answer": "Configurați până la 3 niveluri de aprobare (L1, L2, L3). Fiecare nivel trebuie să aprobe sau să respingă explicit înainte ca lista de verificare să avanseze. Fiecare acțiune primește marcaj temporal cu identitatea aprobatorului — construind o pistă de audit completă." },
+      { "question": "Cum funcționează urmărirea neconformităților?", "answer": "Aprobatorii pot raporta neconformități — probleme minore care nu justifică respingerea completă. Fiecare neconformitate este urmărită cu descriere, media suport și status de rezolvare. Neconformitățile vă permit să semnalizați probleme fără a bloca întregul flux de lucru." },
+      { "question": "Ce include exportul PDF de audit?", "answer": "Lista de verificare completă cu toate răspunsurile, lanțul complet de aprobare L1/L2/L3 cu marcaje temporale, motive de respingere, jurnale de neconformități și referințe media — un singur document gata pentru clienți și auditori." },
+      { "question": "Cum este licențiat QualityModule?", "answer": "Oferim prețuri enterprise bazate pe licență — nu SaaS per utilizator. Contactați echipa noastră de vânzări pentru o ofertă personalizată bazată pe dimensiunea echipei și nevoile de implementare." }
+    ]
+  },
+  "footer": {
+    "description": "Creat pentru echipe de teren unde o inspecție ratată are consecințe reale.",
+    "product": { "title": "Produs", "links": { "features": "Funcționalități", "howItWorks": "Cum funcționează", "impact": "Impact", "faq": "FAQ" } },
+    "legal": { "title": "Legal", "links": { "privacy": "Politica de confidențialitate", "terms": "Termeni și condiții" } },
+    "copyright": "Toate drepturile rezervate.",
+    "tagline": "Creat pentru industrii în care calitatea nu este opțională."
+  }
+}

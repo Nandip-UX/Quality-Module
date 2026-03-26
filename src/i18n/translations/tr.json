@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "problem": "Problem",
+    "howItWorks": "Nasıl Çalışır",
+    "features": "Özellikler",
+    "impact": "Etki",
+    "faq": "SSS",
+    "requestDemo": "Demo Talep Et"
+  },
+  "banner": {
+    "text": "PDF denetim dışa aktarımı artık kullanılabilir — müşterilere imzalı denetim raporu tek tıkla gönderin.",
+    "cta": "Demo Ayırtın"
+  },
+  "hero": {
+    "badge": "İnşaat ve üretim için tasarlandı",
+    "headline1": "Sıfır kontrolsüz",
+    "headline2": "denetim.",
+    "subtext": "Zorunlu kanıt. Çok seviyeli onay. Eksiksiz denetim izi. Şunlar için tasarlandı:",
+    "typewriter": ["inşaat ekipleri.", "üretim ekipleri.", "QC yöneticileri.", "saha denetçileri."],
+    "cta": "Demo Talep Et"
+  },
+  "quote": {
+    "text": "Bir kaçırılan kontrolün tüm projeden daha pahalıya mal olabileceği sektörlerde — hesap verebilirlik sonradan düşünülen bir şey olamaz."
+  },
+  "problem": {
+    "label": "Problem",
+    "heading": "Kalite başarısızlıkları ",
+    "headingHighlight": "paradan fazlasına mal olur.",
+    "subtext": "Maliyet sadece finansal değil — yapısal, hukuki ve itibar kaynaklıdır.",
+    "items": [
+      { "title": "Kağıt kontrol listeleri", "description": "Zaman damgası yok. Sahiplik yok. İzlenebilirlik yok. Kanıtlar dosyalandığı an kaybolur.", "stat": "73%", "statLabel": "saha hataları kayıt dışı kalır" },
+      { "title": "İnşaat arızaları", "description": "Doğrulanmamış malzeme veya hizalama hukuki risk oluşturur — ve en kötü durumlarda yapısal çökme.", "stat": "2.4x", "statLabel": "dijital QC olmadan daha yüksek risk" },
+      { "title": "Üretim kusurları", "description": "Bir kontrolsüz parti. İz yok. Sıfır hesap verebilirlik. Geri çağırmalar tam olarak böyle başlar.", "stat": "$4.2M", "statLabel": "kalite başarısızlığı başına ort. maliyet" },
+      { "title": "Reaktif kalite", "description": "Arızaları olduktan sonra düzeltmek 5 kat daha pahalıdır. Önleme, iş tamamlanmadan gerçekleşmelidir.", "stat": "5x", "statLabel": "sonradan düzeltmek daha pahalı" }
+    ]
+  },
+  "timeline": {
+    "creator": { "title": "Oluşturucu", "roleLabel": "Oluşturucu", "description": "kontrol listesini oluşturur, onay zincirlerini yapılandırır, rolleri atar ve etkinleştirir.", "points": ["Sıfırdan veya şablonlardan oluşturun", "L1 → L2 → L3 onay zinciri yapılandırın", "Doldurucuları ve onaylayıcıları atayın, ardından etkinleştirin"] },
+    "filler": { "title": "Doldur ve Gönder", "roleLabel": "Doldurucu", "description": "atanan kontrol listelerini açar, her öğeyi kanıtla doldurur ve onaya gönderir.", "points": ["Kontrol listesi öğelerini fotoğraf, GPS ve notlarla doldurun", "Durumu izleyin: Taslak, Devam Ediyor, Onaylandı, Reddedildi", "Yanıtları web veya mobil uygulama üzerinden gönderin"] },
+    "approver": { "title": "Onayla ve Reddet", "roleLabel": "Onaylayıcı", "description": "gönderileri inceler, onaylar veya gerekçeyle reddeder ve sorunlar için uygunsuzluk bildirir.", "points": ["İmza ile onaylayın veya notlarla reddedin", "Tam red olmadan küçük uygunsuzlukları bildirin", "Zaman damgalı denetim iziyle çok seviyeli onay"] }
+  },
+  "features": {
+    "label": "Platform yetenekleri",
+    "heading1": "İlk denetimden",
+    "heading2": "son onaya kadar.",
+    "subtext": "Şablondan denetim izine — denetim yaşam döngüsünün her adımı izlenir, uygulanır ve dışa aktarıma hazırdır.",
+    "pdf": { "title": "PDF dışa aktarım ve tam denetim izi", "description": "Herhangi bir kontrol listesini yapılandırılmış PDF olarak dışa aktarın — tüm yanıtlar, onaylar, uygunsuzluk günlükleri ve zaman damgalı denetim izi tek belgede." },
+    "snag": { "title": "Uygunsuzluktan kontrol listesine iş akışı", "description": "Kontrol listesinden ayrılmadan kusurları bildirin, atayın ve çözün. Her uygunsuzluk kaynak denetime bağlı kalır." },
+    "rules": { "title": "Kural tabanlı kontrol listeleri", "description": "Oluşturma sırasında kurallar belirleyin. Görevler mesleğe, bölgeye veya programa göre otomatik atanır — manuel delegasyon yok, kaçırılan atama yok." },
+    "template": { "title": "Şablon kütüphanesi", "description": "Bir kez oluşturun, her yerde dağıtın. Özel alanlar ve onay zincirleri ile yeniden kullanılabilir şablonlar — herhangi bir şantiyede saniyeler içinde başlatmaya hazır." },
+    "visual": {
+      "pdfLabels": ["Saha denetimi — Blok A", "Elektrik onayı", "Beton döküm kontrolü"],
+      "snagItems": [{ "label": "Tavan çatlağı — Seviye 3", "status": "Açık" }, { "label": "Kapı hizasız — Blok B", "status": "Çözüldü" }, { "label": "Fayans boşluğu — Banyo 2", "status": "Yeniden açıldı" }],
+      "rulesItems": [{ "trigger": "Bölge: Blok A", "action": "Ata → İnşaat Ekibi" }, { "trigger": "Meslek: Elektrik", "action": "Bağla → Gantt Görevi #42" }, { "trigger": "Aşama: Teslim", "action": "L2 Onayı Gerekli" }],
+      "templateItems": ["Yapısal denetim", "MEP kontrol listesi", "Teslim QC", "Güvenlik denetimi", "Beton döküm", "Yangın güvenliği"]
+    }
+  },
+  "impact": {
+    "label": "Ölçülebilir etki",
+    "heading1": "Ekiplerin gerçekten",
+    "heading2": "ölçtüğü sonuçlar.",
+    "stats": [{ "label": "Saha hatalarında azalma" }, { "label": "Daha hızlı denetim döngüleri" }, { "label": "Ekip hesap verebilirliği" }, { "label": "Kaçırılan kontrol listeleri" }]
+  },
+  "demo": {
+    "title": "Demo Ayırtın",
+    "description": "QualityModule'ü çalışırken görün. Bilgilerinizi doldurun ve ekibiniz için canlı bir gösteri ayarlayalım. Powered by VisiLean.",
+    "success": { "title": "Mesaj gönderildi!", "text": "Ekibimiz 1 iş günü içinde sizinle iletişime geçecektir." },
+    "form": {
+      "name": "İsim", "namePlaceholder": "Adınız", "nameRequired": "İsim gereklidir",
+      "email": "E-posta", "emailPlaceholder": "siz@sirket.com", "emailRequired": "E-posta gereklidir", "emailInvalid": "Geçerli bir e-posta adresi girin",
+      "phone": "Telefon", "phonePlaceholder": "00000 00000", "phoneRequired": "Telefon numarası gereklidir",
+      "message": "Mesaj", "messagePlaceholder": "Ekibinizi, şantiye konumlarını ve mevcut denetim sürecinizi açıklayın...", "messageRequired": "Mesaj gereklidir",
+      "submit": "Demo Talep Et"
+    }
+  },
+  "faq": {
+    "title": "Sorular, yanıtlandı.",
+    "subtitle": "SSS",
+    "categories": { "creator": "Oluşturucu", "filler": "Doldurucu", "approver": "Onaylayıcı" },
+    "creator": [
+      { "question": "Oluşturucu rolü neyi kontrol eder?", "answer": "Oluşturucu (QC Yöneticisi / Süpervizör) kontrol listelerini sıfırdan veya şablonlardan oluşturur, L1→L2→L3 onay zincirlerini yapılandırır, doldurucuları ve onaylayıcıları atar, meslekleri ve görev etiketlerini belirler ve kontrol listesini etkinleştirir — atanan ekip anında bilgilendirilir." },
+      { "question": "Kendi kontrol listesi şablonlarımızı kullanabilir miyiz?", "answer": "Kesinlikle. Kontrol listelerini sıfırdan oluşturun veya mevcut olanları içe aktarın. Özel alanları, meslekleri, görevleri ve onay zincirlerini tam iş akışınıza uyacak şekilde yapılandırın. Şablonlar projeler ve şantiyeler arasında yeniden kullanılabilir." },
+      { "question": "Rolleri ve onay seviyelerini nasıl atarım?", "answer": "Kontrol listesi oluşturma sırasında Doldurucu ve Onaylayıcı rolleri için ekip üyelerini seçersiniz. 3'e kadar onay seviyesi yapılandırırsınız — her seviye, kontrol listesi bir sonrakine geçmeden önce açıkça onaylamalıdır." },
+      { "question": "Hangi sektörler QualityModule kullanıyor?", "answer": "Öncelikle inşaat ve üretim, ancak saha denetimleri olan herhangi bir sektör — altyapı, enerji, petrol ve gaz, ilaç — yapılandırılmış kalite iş akışlarından faydalanır." }
+    ],
+    "filler": [
+      { "question": "Gönderimler için hangi kanıtlar gereklidir?", "answer": "Her gönderi fotoğraf, GPS konumu ve ayrıntılı notlar gerektirir. Sistem bu kanıtlar olmadan gönderileri kabul etmez — sıfır istisna. Bu, her kontrol listesi öğesi için tam izlenebilirlik sağlar." },
+      { "question": "QualityModule mobilde çevrimdışı çalışır mı?", "answer": "Evet. Mobil uygulama, sınırlı bağlantıya sahip zorlu saha koşulları için tasarlanmıştır. Kanıtları toplayabilir ve kontrol listelerini çevrimdışı doldurabilirsiniz — bağlantı yeniden sağlandığında her şey otomatik olarak senkronize olur." },
+      { "question": "Birden fazla doldurucu aynı kontrol listesinde çalışabilir mi?", "answer": "Her kontrol listesi öğesi, net hesap verebilirlik için tek bir doldurucuya atanır. Ancak aynı kontrol listesindeki farklı öğeler, meslek veya göreve göre farklı ekip üyelerine atanabilir." },
+      { "question": "Bir kontrol listesini gönderdikten sonra ne olur?", "answer": "Gönderildikten sonra kontrol listesi onay kuyruğuna taşınır. Atanan L1 onaylayıcı anında bilgilendirilir. Onay durumunu doldurucu kontrol panelinizden gerçek zamanlı olarak takip edebilirsiniz." }
+    ],
+    "approver": [
+      { "question": "Çok seviyeli onay hataları nasıl önler?", "answer": "3'e kadar onay seviyesi yapılandırırsınız (L1, L2, L3). Her seviye, kontrol listesi ilerlemeden önce açıkça onaylamalı veya reddetmelidir. Her eylem, onaylayıcının kimliğiyle zaman damgası alır — eksiksiz bir denetim izi oluşturur." },
+      { "question": "Uygunsuzluk takibi nasıl çalışır?", "answer": "Onaylayıcılar uygunsuzluk bildirebilir — tam reddi gerektirmeyen küçük sorunlar. Her uygunsuzluk açıklama, destekleyici medya ve çözüm durumuyla izlenir. Uygunsuzluklar, tüm iş akışını engellemeden sorunları işaretlemenize olanak tanır." },
+      { "question": "PDF denetim dışa aktarımı neleri içerir?", "answer": "Tüm yanıtlarla birlikte tam kontrol listesi, zaman damgalı L1/L2/L3 onay zinciri, ret nedenleri, uygunsuzluk günlükleri ve medya referansları — müşteriler ve denetçiler için hazır tek belge." },
+      { "question": "QualityModule nasıl lisanslanır?", "answer": "Lisans tabanlı kurumsal fiyatlandırma sunuyoruz — kullanıcı başına SaaS değil. Ekip büyüklüğünüz ve dağıtım ihtiyaçlarınıza göre özel bir teklif için satış ekibimizle iletişime geçin." }
+    ]
+  },
+  "footer": {
+    "description": "Kaçırılan bir denetimin gerçek sonuçları olan saha ekipleri için tasarlandı.",
+    "product": { "title": "Ürün", "links": { "features": "Özellikler", "howItWorks": "Nasıl Çalışır", "impact": "Etki", "faq": "SSS" } },
+    "legal": { "title": "Yasal", "links": { "privacy": "Gizlilik Politikası", "terms": "Şartlar ve Koşullar" } },
+    "copyright": "Tüm hakları saklıdır.",
+    "tagline": "Kalitenin opsiyonel olmadığı sektörler için tasarlandı."
+  }
+}
