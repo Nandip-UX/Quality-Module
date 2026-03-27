@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "So funktioniert es",
+    "heading1": "Drei Schritte zur",
+    "heading2": "vollständigen Kontrolle.",
+    "subtext": "Drei Rollen. Jede einzelne verantwortlich für ihren Teil. Nichts geht weiter, bis es überprüft ist.",
     "creator": { "title": "Ersteller", "roleLabel": "Ersteller", "description": "erstellt die Checkliste, konfiguriert Freigabeketten, weist Rollen zu und aktiviert.", "points": ["Von Grund auf oder aus Vorlagen erstellen", "L1 → L2 → L3 Freigabekette konfigurieren", "Ausfüller & Genehmiger zuweisen, dann aktivieren"] },
     "filler": { "title": "Ausfüllen & Einreichen", "roleLabel": "Ausfüller", "description": "öffnet zugewiesene Checklisten, füllt jeden Punkt mit Nachweisen aus und reicht zur Genehmigung ein.", "points": ["Checklisten-Punkte mit Foto, GPS & Notizen ausfüllen", "Status verfolgen: Entwurf, In Bearbeitung, Genehmigt, Abgelehnt", "Antworten über Web oder Mobile-App einreichen"] },
     "approver": { "title": "Genehmigen & Ablehnen", "roleLabel": "Genehmiger", "description": "prüft Einreichungen, zeichnet ab oder lehnt mit Begründung ab und erstellt Mängelanzeigen bei Problemen.", "points": ["Mit Unterschrift genehmigen oder mit Notizen ablehnen", "Mängelanzeigen für kleinere Probleme ohne vollständige Ablehnung erstellen", "Mehrstufige Freigabe mit zeitgestempeltem Audit-Trail"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Entwickelt für Feldteams, bei denen eine versäumte Inspektion echte Konsequenzen hat.",
-    "product": { "title": "Produkt", "links": { "features": "Funktionen", "howItWorks": "So funktioniert's", "impact": "Wirkung", "faq": "FAQ" } },
+    "product": { "title": "Produkt", "links": { "problem": "Problem", "features": "Funktionen", "howItWorks": "So funktioniert's", "impact": "Wirkung", "faq": "FAQ" } },
     "legal": { "title": "Rechtliches", "links": { "privacy": "Datenschutzrichtlinie", "terms": "Allgemeine Geschäftsbedingungen" } },
     "copyright": "Alle Rechte vorbehalten.",
     "tagline": "Entwickelt für Branchen, in denen Qualität nicht optional ist."

@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Cum funcționează",
+    "heading1": "Trei pași către",
+    "heading2": "control total.",
+    "subtext": "Trei roluri. Fiecare responsabil pentru partea sa. Nimic nu avansează până nu este verificat.",
     "creator": { "title": "Creator", "roleLabel": "Creator", "description": "construiește lista de verificare, configurează lanțurile de aprobare, atribuie roluri și activează.", "points": ["Construire de la zero sau din șabloane", "Configurare lanț de aprobare L1 → L2 → L3", "Atribuire completatori și aprobatori, apoi activare"] },
     "filler": { "title": "Completare și trimitere", "roleLabel": "Completator", "description": "deschide listele de verificare atribuite, completează fiecare element cu dovezi și trimite pentru aprobare.", "points": ["Completare elemente cu fotografie, GPS și note", "Urmărire status: Ciornă, În progres, Aprobat, Respins", "Trimitere răspunsuri prin web sau aplicație mobilă"] },
     "approver": { "title": "Aprobare și respingere", "roleLabel": "Aprobator", "description": "examinează trimiterile, aprobă sau respinge cu motivare și raportează neconformitățile.", "points": ["Aprobare cu semnătură sau respingere cu note", "Raportare neconformități minore fără respingere completă", "Aprobare multinivel cu pistă de audit cu marcaj temporal"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Creat pentru echipe de teren unde o inspecție ratată are consecințe reale.",
-    "product": { "title": "Produs", "links": { "features": "Funcționalități", "howItWorks": "Cum funcționează", "impact": "Impact", "faq": "FAQ" } },
+    "product": { "title": "Produs", "links": { "problem": "Problem", "features": "Funcționalități", "howItWorks": "Cum funcționează", "impact": "Impact", "faq": "FAQ" } },
     "legal": { "title": "Legal", "links": { "privacy": "Politica de confidențialitate", "terms": "Termeni și condiții" } },
     "copyright": "Toate drepturile rezervate.",
     "tagline": "Creat pentru industrii în care calitatea nu este opțională."

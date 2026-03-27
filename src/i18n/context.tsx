@@ -43,6 +43,7 @@ export type Translations = {
     items: { title: string; description: string; stat: string; statLabel: string }[];
   };
   timeline: {
+    label: string; heading1: string; heading2: string; subtext: string;
     creator: { title: string; description: string; roleLabel: string; points: string[] };
     filler:  { title: string; description: string; roleLabel: string; points: string[] };
     approver:{ title: string; description: string; roleLabel: string; points: string[] };
@@ -84,7 +85,7 @@ export type Translations = {
   };
   footer: {
     description: string;
-    product: { title: string; links: { features: string; howItWorks: string; impact: string; faq: string } };
+    product: { title: string; links: { problem: string; features: string; howItWorks: string; impact: string; faq: string } };
     legal:   { title: string; links: { privacy: string; terms: string } };
     copyright: string; tagline: string;
   };

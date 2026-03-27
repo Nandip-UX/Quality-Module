@@ -283,6 +283,7 @@ export const QualityModuleFooter = () => {
     {
       title: t.footer.product.title,
       links: [
+        { label: t.footer.product.links.problem,    href: "#problem" },
         { label: t.footer.product.links.features,   href: "#features" },
         { label: t.footer.product.links.howItWorks, href: "#how-it-works" },
         { label: t.footer.product.links.impact,     href: "#impact" },
@@ -292,8 +293,8 @@ export const QualityModuleFooter = () => {
     {
       title: t.footer.legal.title,
       links: [
-        { label: t.footer.legal.links.privacy, href: "#" },
-        { label: t.footer.legal.links.terms,   href: "#" },
+        { label: t.footer.legal.links.privacy, href: "/privacy" },
+        { label: t.footer.legal.links.terms,   href: "/terms" },
       ],
     },
   ];

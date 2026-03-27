@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Come funziona",
+    "heading1": "Tre passi verso il",
+    "heading2": "controllo totale.",
+    "subtext": "Tre ruoli. Ognuno responsabile della propria parte. Nulla avanza finché non è verificato.",
     "creator": { "title": "Creatore", "roleLabel": "Creatore", "description": "costruisce la checklist, configura le catene di approvazione, assegna i ruoli e attiva.", "points": ["Creare da zero o da modelli", "Configurare la catena di approvazione L1 → L2 → L3", "Assegnare compilatori e approvatori, quindi attivare"] },
     "filler": { "title": "Compilare e inviare", "roleLabel": "Compilatore", "description": "apre le checklist assegnate, compila ogni elemento con evidenze e invia per l'approvazione.", "points": ["Compilare gli elementi con foto, GPS e note", "Monitorare lo stato: Bozza, In corso, Approvato, Rifiutato", "Inviare le risposte tramite web o app mobile"] },
     "approver": { "title": "Approvare e rifiutare", "roleLabel": "Approvatore", "description": "esamina le sottomissioni, approva o rifiuta con motivazione e segnala le non conformità.", "points": ["Approvare con firma o rifiutare con note", "Segnalare problemi minori senza rifiuto completo", "Approvazione multilivello con traccia di audit con timestamp"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Progettato per team sul campo dove un'ispezione mancata ha conseguenze reali.",
-    "product": { "title": "Prodotto", "links": { "features": "Funzionalità", "howItWorks": "Come funziona", "impact": "Impatto", "faq": "FAQ" } },
+    "product": { "title": "Prodotto", "links": { "problem": "Problem", "features": "Funzionalità", "howItWorks": "Come funziona", "impact": "Impatto", "faq": "FAQ" } },
     "legal": { "title": "Legale", "links": { "privacy": "Informativa sulla privacy", "terms": "Termini e condizioni" } },
     "copyright": "Tutti i diritti riservati.",
     "tagline": "Progettato per industrie dove la qualità non è opzionale."

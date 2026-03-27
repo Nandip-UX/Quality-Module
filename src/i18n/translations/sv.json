@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Hur det fungerar",
+    "heading1": "Tre steg till",
+    "heading2": "total kontroll.",
+    "subtext": "Tre roller. Var och en ansvarig för sin del. Inget går vidare förrän det är verifierat.",
     "creator": { "title": "Skapare", "roleLabel": "Skapare", "description": "bygger checklistan, konfigurerar godkännandekedjor, tilldelar roller och aktiverar.", "points": ["Bygg från grunden eller från mallar", "Konfigurera L1 → L2 → L3 godkännandekedja", "Tilldela ifyllare och godkännare, sedan aktivera"] },
     "filler": { "title": "Fyll i och skicka", "roleLabel": "Ifyllare", "description": "öppnar tilldelade checklistor, fyller i varje punkt med bevis och skickar för godkännande.", "points": ["Fyll i checklistpunkter med foto, GPS och anteckningar", "Spåra status: Utkast, Pågående, Godkänd, Avvisad", "Skicka svar via webb eller mobilapp"] },
     "approver": { "title": "Godkänn och avvisa", "roleLabel": "Godkännare", "description": "granskar inlämningar, godkänner eller avvisar med motivering och rapporterar avvikelser.", "points": ["Godkänn med signatur eller avvisa med anteckningar", "Rapportera mindre avvikelser utan fullständig avvisning", "Flernivågodkännande med tidsstämplat revisionsspår"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Byggt för fältteam där en missad inspektion har verkliga konsekvenser.",
-    "product": { "title": "Produkt", "links": { "features": "Funktioner", "howItWorks": "Hur det fungerar", "impact": "Effekt", "faq": "FAQ" } },
+    "product": { "title": "Produkt", "links": { "problem": "Problem", "features": "Funktioner", "howItWorks": "Hur det fungerar", "impact": "Effekt", "faq": "FAQ" } },
     "legal": { "title": "Juridiskt", "links": { "privacy": "Integritetspolicy", "terms": "Villkor" } },
     "copyright": "Alla rättigheter förbehållna.",
     "tagline": "Byggt för branscher där kvalitet inte är valfritt."

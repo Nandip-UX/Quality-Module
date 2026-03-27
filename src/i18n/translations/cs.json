@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Jak to funguje",
+    "heading1": "Tři kroky k",
+    "heading2": "úplné kontrole.",
+    "subtext": "Tři role. Každá zodpovědná za svou část. Nic nepostoupí, dokud to není ověřeno.",
     "creator": { "title": "Tvůrce", "roleLabel": "Tvůrce", "description": "vytváří kontrolní seznam, konfiguruje schvalovací řetězce, přiděluje role a aktivuje.", "points": ["Vytvořit od nuly nebo ze šablon", "Konfigurovat schvalovací řetězec L1 → L2 → L3", "Přidělit vyplňovatele a schvalovatele, poté aktivovat"] },
     "filler": { "title": "Vyplnit a odeslat", "roleLabel": "Vyplňovatel", "description": "otevírá přidělené kontrolní seznamy, vyplňuje každou položku důkazy a odesílá ke schválení.", "points": ["Vyplnit položky kontrolního seznamu fotografií, GPS a poznámkami", "Sledovat stav: Koncept, Probíhá, Schváleno, Zamítnuto", "Odesílat odpovědi přes web nebo mobilní aplikaci"] },
     "approver": { "title": "Schválit a zamítnout", "roleLabel": "Schvalovatel", "description": "kontroluje odeslání, schvaluje nebo zamítá s odůvodněním a hlásí neshody.", "points": ["Schválit podpisem nebo zamítnout s poznámkami", "Hlásit drobné neshody bez úplného zamítnutí", "Víceúrovňové schvalování s auditní stopou s časovými razítky"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Vytvořeno pro terénní týmy, kde opomenutá inspekce má skutečné důsledky.",
-    "product": { "title": "Produkt", "links": { "features": "Funkce", "howItWorks": "Jak to funguje", "impact": "Dopad", "faq": "FAQ" } },
+    "product": { "title": "Produkt", "links": { "problem": "Problem", "features": "Funkce", "howItWorks": "Jak to funguje", "impact": "Dopad", "faq": "FAQ" } },
     "legal": { "title": "Právní", "links": { "privacy": "Zásady ochrany osobních údajů", "terms": "Obchodní podmínky" } },
     "copyright": "Všechna práva vyhrazena.",
     "tagline": "Vytvořeno pro odvětví, kde kvalita není volitelná."

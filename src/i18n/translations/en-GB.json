@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "How It Works",
+    "heading1": "Three steps to",
+    "heading2": "total control.",
+    "subtext": "Three roles. Each one accountable for their part. Nothing advances until it's verified.",
     "creator": { "title": "Creator", "roleLabel": "Creator", "description": "builds the checklist, configures approval chains, assigns roles, and activates.", "points": ["Build from scratch or templates", "Configure L1 → L2 → L3 approval chain", "Assign Fillers & Approvers, then activate"] },
     "filler": { "title": "Fill & Submit", "roleLabel": "Filler", "description": "opens assigned checklists, fills each item with evidence, and submits for approval.", "points": ["Fill checklist items with photo, GPS & notes", "Track status: Draft, In Progress, Approved, Rejected", "Submit responses on web or mobile app"] },
     "approver": { "title": "Approve & Reject", "roleLabel": "Approver", "description": "reviews submissions, signs off or rejects with reason, and raises snags for issues.", "points": ["Approve with signature or reject with notes", "Raise snags for minor issues without full rejection", "Multi-level sign-off with timestamped audit trail"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Built for field teams where a missed inspection has real consequences.",
-    "product": { "title": "Product", "links": { "features": "Features", "howItWorks": "How It Works", "impact": "Impact", "faq": "FAQ" } },
+    "product": { "title": "Product", "links": { "problem": "Problem", "features": "Features", "howItWorks": "How It Works", "impact": "Impact", "faq": "FAQ" } },
     "legal": { "title": "Legal", "links": { "privacy": "Privacy Policy", "terms": "Terms & Conditions" } },
     "copyright": "All rights reserved.",
     "tagline": "Built for industries where quality isn't optional."

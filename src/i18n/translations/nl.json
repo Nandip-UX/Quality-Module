@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Hoe het werkt",
+    "heading1": "Drie stappen naar",
+    "heading2": "totale controle.",
+    "subtext": "Drie rollen. Elk verantwoordelijk voor hun deel. Niets gaat verder tot het is geverifieerd.",
     "creator": { "title": "Opsteller", "roleLabel": "Opsteller", "description": "bouwt de checklist, configureert goedkeuringsketens, wijst rollen toe en activeert.", "points": ["Vanaf nul of uit sjablonen opbouwen", "L1 → L2 → L3 goedkeuringsketen configureren", "Invullers & goedkeurders toewijzen, dan activeren"] },
     "filler": { "title": "Invullen & indienen", "roleLabel": "Invuller", "description": "opent toegewezen checklists, vult elk item in met bewijs en dient in ter goedkeuring.", "points": ["Checklistitems invullen met foto, GPS & notities", "Status volgen: Concept, In uitvoering, Goedgekeurd, Afgewezen", "Antwoorden indienen via web of mobiele app"] },
     "approver": { "title": "Goedkeuren & afwijzen", "roleLabel": "Goedkeurder", "description": "beoordeelt inzendingen, keurt goed of wijst af met reden, en registreert gebreken bij problemen.", "points": ["Goedkeuren met handtekening of afwijzen met notities", "Gebreken melden voor kleine problemen zonder volledige afwijzing", "Meervoudige goedkeuring met getijdstempeld auditspoor"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Gebouwd voor veldteams waar een gemiste inspectie echte gevolgen heeft.",
-    "product": { "title": "Product", "links": { "features": "Functies", "howItWorks": "Hoe het werkt", "impact": "Impact", "faq": "FAQ" } },
+    "product": { "title": "Product", "links": { "problem": "Problem", "features": "Functies", "howItWorks": "Hoe het werkt", "impact": "Impact", "faq": "FAQ" } },
     "legal": { "title": "Juridisch", "links": { "privacy": "Privacybeleid", "terms": "Algemene voorwaarden" } },
     "copyright": "Alle rechten voorbehouden.",
     "tagline": "Gebouwd voor sectoren waar kwaliteit niet optioneel is."

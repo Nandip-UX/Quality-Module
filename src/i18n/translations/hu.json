@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Hogyan működik",
+    "heading1": "Három lépés a",
+    "heading2": "teljes kontrollhoz.",
+    "subtext": "Három szerep. Mindegyik felelős a maga részéért. Semmi sem halad tovább, amíg nincs ellenőrizve.",
     "creator": { "title": "Létrehozó", "roleLabel": "Létrehozó", "description": "felépíti az ellenőrzőlistát, konfigurálja a jóváhagyási láncokat, kiosztja a szerepeket és aktiválja.", "points": ["Építés az alapoktól vagy sablonokból", "L1 → L2 → L3 jóváhagyási lánc konfigurálása", "Kitöltők és jóváhagyók kijelölése, majd aktiválás"] },
     "filler": { "title": "Kitöltés és beküldés", "roleLabel": "Kitöltő", "description": "megnyitja a hozzárendelt ellenőrzőlistákat, kitölti az egyes elemeket bizonyítékokkal és benyújtja jóváhagyásra.", "points": ["Ellenőrzőlista elemek kitöltése fényképpel, GPS-sel és jegyzetekkel", "Állapot követése: Piszkozat, Folyamatban, Jóváhagyva, Elutasítva", "Válaszok beküldése weben vagy mobilalkalmazáson"] },
     "approver": { "title": "Jóváhagyás és elutasítás", "roleLabel": "Jóváhagyó", "description": "áttekinti a beküldéseket, jóváhagyja vagy elutasítja indoklással, és eltéréseket jelent.", "points": ["Jóváhagyás aláírással vagy elutasítás jegyzetekkel", "Kisebb eltérések jelzése teljes elutasítás nélkül", "Többszintű jóváhagyás időbélyeges auditnyomvonallal"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Helyszíni csapatok számára fejlesztve, ahol egy kihagyott vizsgálatnak valós következményei vannak.",
-    "product": { "title": "Termék", "links": { "features": "Funkciók", "howItWorks": "Hogyan működik", "impact": "Hatás", "faq": "GYIK" } },
+    "product": { "title": "Termék", "links": { "problem": "Problem", "features": "Funkciók", "howItWorks": "Hogyan működik", "impact": "Hatás", "faq": "GYIK" } },
     "legal": { "title": "Jogi", "links": { "privacy": "Adatvédelmi szabályzat", "terms": "Általános szerződési feltételek" } },
     "copyright": "Minden jog fenntartva.",
     "tagline": "Olyan iparágak számára fejlesztve, ahol a minőség nem opcionális."

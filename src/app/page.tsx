@@ -368,7 +368,7 @@ function ProblemSection() {
 
         <AnimatedContainer
           delay={0.4}
-          className="grid grid-cols-1 divide-x divide-y divide-dashed border border-dashed divide-stone-200 border-stone-200 sm:grid-cols-2"
+          className="grid grid-cols-1 divide-x divide-y divide-dashed border border-dashed divide-stone-200 border-stone-200 sm:grid-cols-2 rounded-xl overflow-hidden"
         >
           {problems.map((feature, i) => (
             <FeatureCard key={i} feature={feature} />

@@ -6,12 +6,12 @@ import { useLanguage } from "@/i18n/context";
 
 function VisualPDF() {
   return (
-    <div className="relative mt-4 -mx-6">
-      <div className="absolute inset-x-0 top-0 h-10 bg-gradient-to-b from-white to-transparent z-10 pointer-events-none" />
+    <div className="relative -mt-4 -mx-4">
+      <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none" />
       <Image
-        src="/PDF.png"
-        alt="PDF Audit Report preview"
-        width={900}
+        src="/PDF Export.png"
+        alt="PDF export preview"
+        width={800}
         height={600}
         className="w-full h-auto object-cover object-top"
         draggable={false}
@@ -21,49 +21,48 @@ function VisualPDF() {
 }
 
 function VisualSnag() {
-  const { t } = useLanguage();
-  const indexColors = ["text-red-500 bg-red-50", "text-green-600 bg-green-50", "text-amber-600 bg-amber-50"];
   return (
-    <div className="mt-6 flex flex-col gap-2 px-2">
-      {t.features.visual.snagItems.map((s, i) => (
-        <div key={i} className="flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-2">
-          <AlertOctagon className="w-3.5 h-3.5 text-stone-400 flex-shrink-0" />
-          <span className="text-xs text-stone-600 truncate flex-1">{s.label}</span>
-          <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${indexColors[i]}`}>{s.status}</span>
-        </div>
-      ))}
+    <div className="relative mt-4 -mx-4">
+      <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none" />
+      <Image
+        src="/Checklist Snag.png"
+        alt="Snag workflow preview"
+        width={600}
+        height={800}
+        className="w-full h-auto object-cover object-top"
+        draggable={false}
+      />
     </div>
   );
 }
 
 function VisualRules() {
-  const { t } = useLanguage();
   return (
-    <div className="mt-4 flex flex-col gap-2">
-      {t.features.visual.rulesItems.map((r, i) => (
-        <div key={i} className="flex items-center gap-2 text-xs">
-          <span className="bg-primary/10 text-primary font-medium px-2 py-1 rounded">{r.trigger}</span>
-          <span className="text-stone-400">→</span>
-          <span className="bg-stone-100 text-stone-600 px-2 py-1 rounded">{r.action}</span>
-        </div>
-      ))}
+    <div className="relative mt-4 -mx-4">
+      <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent z-10 pointer-events-none" />
+      <Image
+        src="/E Rule Based.png"
+        alt="Rule based checklist preview"
+        width={600}
+        height={400}
+        className="w-full h-auto object-cover object-top"
+        draggable={false}
+      />
     </div>
   );
 }
 
 function VisualTemplate() {
-  const { t } = useLanguage();
   return (
-    <div className="relative mt-6 h-36 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent z-10" />
-      <div className="grid grid-cols-3 gap-2">
-        {t.features.visual.templateItems.map((name, i) => (
-          <div key={i} className="flex flex-col gap-1 rounded-lg border border-stone-200 bg-stone-50 p-3">
-            <LayoutTemplate className="w-4 h-4 text-primary" />
-            <span className="text-[10px] font-medium text-stone-600 leading-tight">{name}</span>
-          </div>
-        ))}
-      </div>
+    <div className="relative -mt-1 -mx-4 -mb-6">
+      <Image
+        src="/Option 5.png"
+        alt="Template library preview"
+        width={800}
+        height={500}
+        className="w-full h-auto object-cover object-top"
+        draggable={false}
+      />
     </div>
   );
 }
@@ -109,13 +108,13 @@ export function FeaturesSection() {
               </div>
               <p className="text-stone-500 text-sm max-w-sm">{features[0].description}</p>
             </CardHeader>
-            <CardContent className="px-6 pb-0 overflow-hidden">
+            <CardContent className="px-6 pb-0 pt-0 overflow-hidden">
               <VisualPDF />
             </CardContent>
           </Card>
 
           {/* Card 2 — Snag (narrow) */}
-          <Card className="overflow-hidden sm:col-span-2 sm:rounded-none sm:rounded-tr-xl border-stone-200">
+          <Card className="overflow-hidden sm:col-span-2 sm:rounded-none sm:rounded-tr-xl border-stone-200 flex flex-col">
             <CardHeader className="pb-0">
               <div className="flex items-center gap-2.5 mb-2">
                 <div className="w-8 h-8 rounded-lg bg-red-50 flex items-center justify-center">
@@ -125,7 +124,7 @@ export function FeaturesSection() {
               </div>
               <p className="text-stone-500 text-sm">{features[1].description}</p>
             </CardHeader>
-            <CardContent className="px-4 pb-4">
+            <CardContent className="px-4 pb-0 mt-auto">
               <VisualSnag />
             </CardContent>
           </Card>
@@ -143,7 +142,7 @@ export function FeaturesSection() {
           </Card>
 
           {/* Card 4 — Template (wide) */}
-          <Card className="overflow-hidden sm:col-span-3 sm:rounded-none sm:rounded-br-xl border-stone-200">
+          <Card className="overflow-hidden sm:col-span-3 sm:rounded-none sm:rounded-br-xl border-stone-200 flex flex-col">
             <CardHeader className="pb-0">
               <div className="flex items-center gap-2.5 mb-2">
                 <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center">
@@ -153,7 +152,7 @@ export function FeaturesSection() {
               </div>
               <p className="text-stone-500 text-sm max-w-sm">{features[3].description}</p>
             </CardHeader>
-            <CardContent className="px-6 pb-0">
+            <CardContent className="px-6 pb-0 pt-0 mt-auto">
               <VisualTemplate />
             </CardContent>
           </Card>

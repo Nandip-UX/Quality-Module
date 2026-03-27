@@ -5,6 +5,7 @@ import {
   motion,
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { useLanguage } from "@/i18n/context";
 
 interface TimelineEntry {
   title: string;
@@ -12,6 +13,7 @@ interface TimelineEntry {
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
+  const { t } = useLanguage();
   const ref = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
 
@@ -44,15 +46,15 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <div className="text-center mb-4">
           <span className="inline-block text-sm font-bold uppercase tracking-widest text-primary-light mb-4">
-            How It Works
+            {t.timeline.label}
           </span>
         </div>
         <h2 className="font-display text-3xl md:text-5xl mb-4 text-white max-w-5xl mx-auto text-center font-bold tracking-tight">
-          Three steps to{" "}
-          <span className="text-primary-light">total control.</span>
+          {t.timeline.heading1}{" "}
+          <span className="text-primary-light">{t.timeline.heading2}</span>
         </h2>
         <p className="text-stone-400 text-sm md:text-base max-w-2xl mx-auto text-center">
-          Three roles. Each one accountable for their part. Nothing advances until it's verified.
+          {t.timeline.subtext}
         </p>
       </div>
 

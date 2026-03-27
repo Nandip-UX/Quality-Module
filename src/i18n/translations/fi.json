@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Miten se toimii",
+    "heading1": "Kolme askelta",
+    "heading2": "täydelliseen hallintaan.",
+    "subtext": "Kolme roolia. Jokainen vastuussa omasta osastaan. Mikään ei etene ennen kuin se on varmistettu.",
     "creator": { "title": "Luoja", "roleLabel": "Luoja", "description": "rakentaa tarkistuslistan, määrittää hyväksyntäketjut, jakaa roolit ja aktivoi.", "points": ["Rakenna tyhjästä tai malleista", "Määritä L1 → L2 → L3 hyväksyntäketju", "Nimeä täyttäjät ja hyväksyjät, sitten aktivoi"] },
     "filler": { "title": "Täytä ja lähetä", "roleLabel": "Täyttäjä", "description": "avaa nimetyt tarkistuslistat, täyttää jokaisen kohdan todisteilla ja lähettää hyväksyttäväksi.", "points": ["Täytä tarkistuslistan kohdat valokuvalla, GPS:llä ja muistiinpanoilla", "Seuraa tilaa: Luonnos, Käynnissä, Hyväksytty, Hylätty", "Lähetä vastaukset verkon tai mobiilisovelluksen kautta"] },
     "approver": { "title": "Hyväksy ja hylkää", "roleLabel": "Hyväksyjä", "description": "tarkistaa lähetykset, hyväksyy tai hylkää perustellusti ja kirjaa poikkeamat.", "points": ["Hyväksy allekirjoituksella tai hylkää muistiinpanoilla", "Kirjaa pieniä poikkeamia ilman täydellistä hylkäystä", "Monitasoinen hyväksyntä aikaleimatulla tarkastuspolulla"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Rakennettu kenttätiimeille, joissa unohtunut tarkastus aiheuttaa todellisia seurauksia.",
-    "product": { "title": "Tuote", "links": { "features": "Ominaisuudet", "howItWorks": "Miten se toimii", "impact": "Vaikutus", "faq": "UKK" } },
+    "product": { "title": "Tuote", "links": { "problem": "Problem", "features": "Ominaisuudet", "howItWorks": "Miten se toimii", "impact": "Vaikutus", "faq": "UKK" } },
     "legal": { "title": "Oikeudellinen", "links": { "privacy": "Tietosuojakäytäntö", "terms": "Käyttöehdot" } },
     "copyright": "Kaikki oikeudet pidätetään.",
     "tagline": "Rakennettu aloille, joilla laatu ei ole valinnaista."

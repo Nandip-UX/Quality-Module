@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Comment ça marche",
+    "heading1": "Trois étapes vers le",
+    "heading2": "contrôle total.",
+    "subtext": "Trois rôles. Chacun responsable de sa partie. Rien n'avance sans vérification.",
     "creator": { "title": "Créateur", "roleLabel": "Créateur", "description": "construit la checklist, configure les chaînes d'approbation, attribue les rôles et active.", "points": ["Créer à partir de zéro ou de modèles", "Configurer la chaîne d'approbation L1 → L2 → L3", "Attribuer les remplisseurs et approbateurs, puis activer"] },
     "filler": { "title": "Remplir et soumettre", "roleLabel": "Remplisseur", "description": "ouvre les checklists attribuées, remplit chaque élément avec des preuves et soumet pour approbation.", "points": ["Remplir les éléments avec photo, GPS et notes", "Suivre le statut : Brouillon, En cours, Approuvé, Rejeté", "Soumettre les réponses sur le web ou l'application mobile"] },
     "approver": { "title": "Approuver et rejeter", "roleLabel": "Approbateur", "description": "examine les soumissions, approuve ou rejette avec motif, et signale les problèmes.", "points": ["Approuver avec signature ou rejeter avec notes", "Signaler des problèmes mineurs sans rejet complet", "Approbation multiniveau avec piste d'audit horodatée"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Conçu pour les équipes terrain où une inspection manquée a de vraies conséquences.",
-    "product": { "title": "Produit", "links": { "features": "Fonctionnalités", "howItWorks": "Comment ça marche", "impact": "Impact", "faq": "FAQ" } },
+    "product": { "title": "Produit", "links": { "problem": "Problem", "features": "Fonctionnalités", "howItWorks": "Comment ça marche", "impact": "Impact", "faq": "FAQ" } },
     "legal": { "title": "Mentions légales", "links": { "privacy": "Politique de confidentialité", "terms": "Conditions générales" } },
     "copyright": "Tous droits réservés.",
     "tagline": "Conçu pour les industries où la qualité n'est pas optionnelle."

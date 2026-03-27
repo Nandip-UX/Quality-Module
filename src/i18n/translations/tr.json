@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Nasıl Çalışır",
+    "heading1": "Tam kontrole",
+    "heading2": "üç adım.",
+    "subtext": "Üç rol. Her biri kendi bölümünden sorumlu. Doğrulanmadan hiçbir şey ilerlemez.",
     "creator": { "title": "Oluşturucu", "roleLabel": "Oluşturucu", "description": "kontrol listesini oluşturur, onay zincirlerini yapılandırır, rolleri atar ve etkinleştirir.", "points": ["Sıfırdan veya şablonlardan oluşturun", "L1 → L2 → L3 onay zinciri yapılandırın", "Doldurucuları ve onaylayıcıları atayın, ardından etkinleştirin"] },
     "filler": { "title": "Doldur ve Gönder", "roleLabel": "Doldurucu", "description": "atanan kontrol listelerini açar, her öğeyi kanıtla doldurur ve onaya gönderir.", "points": ["Kontrol listesi öğelerini fotoğraf, GPS ve notlarla doldurun", "Durumu izleyin: Taslak, Devam Ediyor, Onaylandı, Reddedildi", "Yanıtları web veya mobil uygulama üzerinden gönderin"] },
     "approver": { "title": "Onayla ve Reddet", "roleLabel": "Onaylayıcı", "description": "gönderileri inceler, onaylar veya gerekçeyle reddeder ve sorunlar için uygunsuzluk bildirir.", "points": ["İmza ile onaylayın veya notlarla reddedin", "Tam red olmadan küçük uygunsuzlukları bildirin", "Zaman damgalı denetim iziyle çok seviyeli onay"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Kaçırılan bir denetimin gerçek sonuçları olan saha ekipleri için tasarlandı.",
-    "product": { "title": "Ürün", "links": { "features": "Özellikler", "howItWorks": "Nasıl Çalışır", "impact": "Etki", "faq": "SSS" } },
+    "product": { "title": "Ürün", "links": { "problem": "Problem", "features": "Özellikler", "howItWorks": "Nasıl Çalışır", "impact": "Etki", "faq": "SSS" } },
     "legal": { "title": "Yasal", "links": { "privacy": "Gizlilik Politikası", "terms": "Şartlar ve Koşullar" } },
     "copyright": "Tüm hakları saklıdır.",
     "tagline": "Kalitenin opsiyonel olmadığı sektörler için tasarlandı."

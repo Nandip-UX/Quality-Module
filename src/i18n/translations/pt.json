@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Como funciona",
+    "heading1": "Três passos para o",
+    "heading2": "controlo total.",
+    "subtext": "Três funções. Cada uma responsável pela sua parte. Nada avança até ser verificado.",
     "creator": { "title": "Criador", "roleLabel": "Criador", "description": "constrói a checklist, configura cadeias de aprovação, atribui funções e ativa.", "points": ["Criar de raiz ou a partir de modelos", "Configurar cadeia de aprovação L1 → L2 → L3", "Atribuir preenchedores e aprovadores, depois ativar"] },
     "filler": { "title": "Preencher e submeter", "roleLabel": "Preenchedor", "description": "abre checklists atribuídas, preenche cada item com evidências e submete para aprovação.", "points": ["Preencher itens com foto, GPS e notas", "Acompanhar estado: Rascunho, Em progresso, Aprovado, Rejeitado", "Submeter respostas via web ou aplicação móvel"] },
     "approver": { "title": "Aprovar e rejeitar", "roleLabel": "Aprovador", "description": "revê submissões, aprova ou rejeita com motivo e regista não conformidades para problemas.", "points": ["Aprovar com assinatura ou rejeitar com notas", "Registar não conformidades menores sem rejeição total", "Aprovação multinível com trilha de auditoria com carimbo temporal"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Concebido para equipas de campo onde uma inspeção falhada tem consequências reais.",
-    "product": { "title": "Produto", "links": { "features": "Funcionalidades", "howItWorks": "Como funciona", "impact": "Impacto", "faq": "FAQ" } },
+    "product": { "title": "Produto", "links": { "problem": "Problem", "features": "Funcionalidades", "howItWorks": "Como funciona", "impact": "Impacto", "faq": "FAQ" } },
     "legal": { "title": "Legal", "links": { "privacy": "Política de privacidade", "terms": "Termos e condições" } },
     "copyright": "Todos os direitos reservados.",
     "tagline": "Concebido para indústrias onde a qualidade não é opcional."

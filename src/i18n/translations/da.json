@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Sådan fungerer det",
+    "heading1": "Tre trin til",
+    "heading2": "total kontrol.",
+    "subtext": "Tre roller. Hver enkelt ansvarlig for sin del. Intet går videre, før det er verificeret.",
     "creator": { "title": "Opretter", "roleLabel": "Opretter", "description": "bygger checklisten, konfigurerer godkendelseskæder, tildeler roller og aktiverer.", "points": ["Byg fra bunden eller fra skabeloner", "Konfigurer L1 → L2 → L3 godkendelseskæde", "Tildel udfyldere og godkendere, derefter aktiver"] },
     "filler": { "title": "Udfyld og indsend", "roleLabel": "Udfylder", "description": "åbner tildelte checklister, udfylder hvert punkt med dokumentation og indsender til godkendelse.", "points": ["Udfyld checklistpunkter med foto, GPS og noter", "Spor status: Kladde, I gang, Godkendt, Afvist", "Indsend svar via web eller mobilapp"] },
     "approver": { "title": "Godkend og afvis", "roleLabel": "Godkender", "description": "gennemgår indleveringer, godkender eller afviser med begrundelse og registrerer afvigelser.", "points": ["Godkend med underskrift eller afvis med noter", "Registrer mindre afvigelser uden fuld afvisning", "Flerniveaugodkendelse med tidsstemplet revisionsspor"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Bygget til felthold, hvor en overset inspektion har reelle konsekvenser.",
-    "product": { "title": "Produkt", "links": { "features": "Funktioner", "howItWorks": "Sådan fungerer det", "impact": "Effekt", "faq": "FAQ" } },
+    "product": { "title": "Produkt", "links": { "problem": "Problem", "features": "Funktioner", "howItWorks": "Sådan fungerer det", "impact": "Effekt", "faq": "FAQ" } },
     "legal": { "title": "Juridisk", "links": { "privacy": "Privatlivspolitik", "terms": "Vilkår og betingelser" } },
     "copyright": "Alle rettigheder forbeholdes.",
     "tagline": "Bygget til brancher, hvor kvalitet ikke er valgfrit."

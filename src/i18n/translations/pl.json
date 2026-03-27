@@ -35,6 +35,10 @@
     ]
   },
   "timeline": {
+    "label": "Jak to działa",
+    "heading1": "Trzy kroki do",
+    "heading2": "pełnej kontroli.",
+    "subtext": "Trzy role. Każda odpowiedzialna za swoją część. Nic nie postępuje, dopóki nie zostanie zweryfikowane.",
     "creator": { "title": "Twórca", "roleLabel": "Twórca", "description": "tworzy listę kontrolną, konfiguruje łańcuchy zatwierdzeń, przypisuje role i aktywuje.", "points": ["Tworzenie od zera lub z szablonów", "Konfiguracja łańcucha zatwierdzania L1 → L2 → L3", "Przypisanie wypełniających i zatwierdzających, następnie aktywacja"] },
     "filler": { "title": "Wypełnij i prześlij", "roleLabel": "Wypełniający", "description": "otwiera przypisane listy kontrolne, wypełnia każdy punkt dowodami i przesyła do zatwierdzenia.", "points": ["Wypełnianie punktów ze zdjęciem, GPS i notatkami", "Śledzenie statusu: Szkic, W trakcie, Zatwierdzone, Odrzucone", "Przesyłanie odpowiedzi przez stronę lub aplikację mobilną"] },
     "approver": { "title": "Zatwierdź i odrzuć", "roleLabel": "Zatwierdzający", "description": "sprawdza przesyłki, zatwierdza lub odrzuca z uzasadnieniem i zgłasza usterki.", "points": ["Zatwierdzanie podpisem lub odrzucanie z notatkami", "Zgłaszanie drobnych usterek bez pełnego odrzucenia", "Wielopoziomowe zatwierdzanie ze ścieżką audytu ze znacznikami czasu"] }
@@ -98,7 +102,7 @@
   },
   "footer": {
     "description": "Stworzone dla zespołów terenowych, gdzie pominięta inspekcja ma realne konsekwencje.",
-    "product": { "title": "Produkt", "links": { "features": "Funkcje", "howItWorks": "Jak to działa", "impact": "Wpływ", "faq": "FAQ" } },
+    "product": { "title": "Produkt", "links": { "problem": "Problem", "features": "Funkcje", "howItWorks": "Jak to działa", "impact": "Wpływ", "faq": "FAQ" } },
     "legal": { "title": "Prawne", "links": { "privacy": "Polityka prywatności", "terms": "Regulamin" } },
     "copyright": "Wszelkie prawa zastrzeżone.",
     "tagline": "Stworzone dla branż, gdzie jakość nie jest opcjonalna."
